@@ -59,7 +59,7 @@ Posts an update whenever someone donates or receives troops.
 
 <summary>Clan Games Log</summary>
 
-It posts a leaderboard at the beginning of the Clan Games and then keeps updating it throughout the week.&#x20;
+It posts a leaderboard at the Clan Games's beginning and then updates it throughout the week.&#x20;
 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Clan Games` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG` &#x20;
 
@@ -113,3 +113,4 @@ Posts an Embed for each war and keeps updating it throughout the war and at the 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `War Log` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG` &#x20;
 
 </details>
+
