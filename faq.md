@@ -20,20 +20,20 @@ It is a security feature of the bot to ensure you are a Leader or Co-Leader in t
 
 Due to the API limitation, the bot cannot see who's currently online or who was online in the clan. We determine an approximate last-seen time based on the following points
 
-* [x] Player name change
-* [x] Troops donated or received
+* [x] Player name changed
+* [x] Troops donated
 * [x] Trophies gained in the Legend league
 * [x] Versus trophies gained
-* [x] Clan change (join/leave)
-* [x] Multiplayer attack win
-* [x] War preference change
-* [x] Clan capital gold contribution or loot
+* [x] Clan changed (Joined/Left)
+* [x] Multiplayer attack won
+* [x] War preference changed
+* [x] Clan capital gold contributed or looted
 * [x] Clan games points scored
 * [x] Obstacle removed
 * [x] Resources (gold/elixir/dark) looted
 * [x] Super Troops boosted
 * [x] Goblin stars earned
-* [x] War attack (CWL/Regular/Friendly)
+* [x] Wttacked in war (CWL/Regular/Friendly)
 * [x] Artilleries, Monolith, Walls, Builder huts, Inferno towers, Mortars, Xbows, Spell towers, and Scattershots destroyed
 
 ### What is activity score?
