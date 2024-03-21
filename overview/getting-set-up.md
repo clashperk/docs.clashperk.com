@@ -77,18 +77,20 @@ Clan Feed is a feature that automatically posts in-game events in a channel.&#x2
 * [x] War preference change
 * [x] Player name change
 * [x] Capital league change&#x20;
-* [x] Clan war league change
+* [x] Clan War League change
 * [x] Clan level up
 
 </details>
 
 <details>
 
-<summary>Join/Leave Log</summary>
+<summary>Join/Leave and Flag Alert Log</summary>
 
-Keeps a log of new member joining and leaving.
+Keeps a log of new members joining and leaving. Also, it notifies you when a flagged or banned player joins your clan.
 
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Join/Leave Log` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG` &#x20;
+<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Join/Leave Log` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`  \
+\
+After executing the command, you'll be asked to select a role for the flag notification.&#x20;
 
 </details>
 
