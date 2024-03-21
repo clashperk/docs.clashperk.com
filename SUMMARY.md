@@ -17,4 +17,5 @@
 ## Others
 
 * [Bot Manager](others/bot-manager.md)
+* [Roster Manager](others/roster-manager.md)
 * [Autocomplete](others/autocomplete.md)
