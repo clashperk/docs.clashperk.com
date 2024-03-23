@@ -1,7 +1,7 @@
 ---
 description: >-
-  All administrative commands require Manage Server permission or the Bot
-  Manager role.
+  The Roster Manager role allows anyone to manage Rosters in the server without
+  having any admin permissions.
 ---
 
 # Roster Manager

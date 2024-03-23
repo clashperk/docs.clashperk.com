@@ -1,7 +1,7 @@
 ---
 description: >-
-  All administrative commands require Manage Server permission or the Bot
-  Manager role.
+  The bot manager role allows anyone to use all the bot's administrative
+  commands without any admin permissions.
 ---
 
 # Bot Manager
