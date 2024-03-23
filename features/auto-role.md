@@ -54,6 +54,6 @@ The role will be given to the verified players.
 
 <mark style="color:blue;">**/autorole family**</mark> `[VERIFIED_ROLE]` &#x20;
 
-[^1]: One or multiple clans can be sleected.
+[^1]: One or multiple clans can be selected.
 
 [^2]: If enabled, roles will be given to verified players only.
