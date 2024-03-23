@@ -12,17 +12,9 @@ Imagine a bot with a personality that resonates uniquely with your community —
 
 With this feature, you can effortlessly tailor your bot's appearance to suit your server's theme or add a flair that sets it apart.
 
-A step-by-step guide and video guide are available below!
-
 ***
 
-### Video Guide
-
-{% embed url="https://cdn.discordapp.com/attachments/609273140102692864/1128787840701047016/personalized_bot.mp4" fullWidth="false" %}
-
-***
-
-### Step-by-Step Guide
+### How to create a bot?
 
 <figure><img src="../.gitbook/assets/Step 1.png" alt=""><figcaption><p>Step 1</p></figcaption></figure>
 
