@@ -4,13 +4,17 @@ description: Build your own Discord bot!
 
 # Bot Personalizer
 
-### Introducing Our Discord Bot Personalization Feature!
-
-Elevate your Discord server experience to new heights with our bot personalization feature. Now, you have the power to customize the identity of your bot like never before.
-
-Imagine a bot with a personality that resonates uniquely with your community — thanks to personalized names and avatars.
+Now, you have the power to customize the identity of your bot.
 
 With this feature, you can effortlessly tailor your bot's appearance to suit your server's theme or add a flair that sets it apart.
+
+## Caution
+
+The custom bot requires a bot token that you need to retrieve from the Discord Developer Portal. This token is a highly sensitive credential and you must not share it with anyone.
+
+With this token, anyone would be able to take control of the bot and could do serious damage to your server.
+
+If you suspect the token has been compromised, reset it immediately.
 
 ***
 
