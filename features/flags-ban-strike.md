@@ -9,7 +9,7 @@ description: >-
 
 ## Ban
 
-When a player receives a banned flag, it usually means they have violated the platform's terms of service or community guidelines to such an extent that they are no longer allowed in the clan or family. This could be due to severe misconduct, cheating, harassment, or other serious offenses.
+When a player receives a banned flag, it usually means they have violated the clan terms of service or community guidelines to such an extent that they are no longer allowed in the clan or family. This could be due to severe misconduct, cheating, harassment, or other serious offenses.
 
 <mark style="color:blue;">**/flag create**</mark> `[BAN]` `[PLAYER]` `[...REASON]`&#x20;
 
