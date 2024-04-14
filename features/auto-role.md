@@ -32,15 +32,23 @@ Roles will be given based on the Leagues
 
 ***
 
-## Family Roles <mark style="color:yellow;">\[NEW]</mark>
+## Family Roles
 
-The role will be given if they are in the family (any clans that are linked to the server)
+The role will be given if they are in the family. <mark style="color:yellow;">(any account within the family)</mark>
 
 <mark style="color:blue;">**/autorole family**</mark> `[FAMILY_ROLE]` &#x20;
 
 ***
 
-## Guest Role <mark style="color:yellow;">\[NEW]</mark>
+## Exclusive Family Roles
+
+The role will be given if they are in the family. <mark style="color:yellow;">(all accounts are in the family)</mark>
+
+<mark style="color:blue;">**/autorole family**</mark> `[EXCLUSIVE_FAMILY_ROLE]` &#x20;
+
+***
+
+## Guest Role
 
 The role will be given if they are not in the family.
 
@@ -48,7 +56,7 @@ The role will be given if they are not in the family.
 
 ***
 
-## Verified Role <mark style="color:yellow;">\[NEW]</mark>
+## Verified Role
 
 The role will be given to the verified players.
 
