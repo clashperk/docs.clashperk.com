@@ -24,8 +24,8 @@ Due to the API limitation, the bot cannot see who's currently online or who was 
 * [x] Troops donated
 * [x] Trophies gained in the Legend league
 * [x] Versus trophies gained
-* [x] Switch clans
-* [x] Multiplayer attack won
+* [x] Switch clans (leave current clan and join another)
+* [x] Multiplayer attacks won
 * [x] War preference changed
 * [x] Clan capital gold contributed or looted
 * [x] Clan games points scored
