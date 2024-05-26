@@ -1,12 +1,12 @@
 ---
 description: >-
-  Automatically add Roles in Discord based on the Roles, Leagues, Town Halls in
-  the Game.
+  Automatically add Roles in Discord based on the in-game Roles, Leagues, Town
+  Halls, etc.
 ---
 
 # Auto Role
 
-## Clan Roles
+### Clan Roles
 
 Roles will be given based on the roles in the Game (Lead/Co/Elder/Member/Everyone)
 
@@ -16,7 +16,7 @@ Roles will be given based on the roles in the Game (Lead/Co/Elder/Member/Everyon
 
 ***
 
-## Town Hall Roles
+### Town Hall Roles
 
 Roles will be given based on the Town Hall levels
 
@@ -24,7 +24,7 @@ Roles will be given based on the Town Hall levels
 
 ***
 
-## League Roles
+### League Roles
 
 Roles will be given based on the Leagues
 
@@ -32,7 +32,7 @@ Roles will be given based on the Leagues
 
 ***
 
-## Family Roles
+### Family Roles
 
 The role will be given if they are in the family. <mark style="color:yellow;">(any account within the family)</mark>
 
@@ -40,7 +40,7 @@ The role will be given if they are in the family. <mark style="color:yellow;">(a
 
 ***
 
-## Exclusive Family Roles
+### Exclusive Family Roles
 
 The role will be given if they are in the family. <mark style="color:yellow;">(all accounts are in the family)</mark>
 
@@ -48,7 +48,7 @@ The role will be given if they are in the family. <mark style="color:yellow;">(a
 
 ***
 
-## Guest Role
+### Guest Role
 
 The role will be given if they are not in the family.
 
@@ -56,11 +56,42 @@ The role will be given if they are not in the family.
 
 ***
 
-## Verified Role
+### Verified Role
 
-The role will be given to the verified players.
+The role will be given to the verified players. <mark style="color:yellow;">(who verified them using the /verify command)</mark>
 
 <mark style="color:blue;">**/autorole family**</mark> `[VERIFIED_ROLE]` &#x20;
+
+***
+
+## Additional Settings
+
+{% tabs %}
+{% tab title="Configure Delays" %}
+If people temporarily leave their home clans for any reason, they lose their roles. To address this issue, a role removal delay can be enabled.\
+Their roles will not be removed immediately but will remain for a specified period.\
+However, if they do not return within this time frame, their roles will be removed.\
+\
+<mark style="color:blue;">**/config**</mark> `role_removal_delays: Off/Duration` &#x20;
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Configure Token Verification" %}
+Token verification can be enabled to ensure that only legitimate users are getting the [#clan-roles](auto-role.md#clan-roles "mention") \
+Verification can be performed using the <mark style="color:blue;">**/verify**</mark> command with an in-game API token. \
+\
+<mark style="color:blue;">**/config**</mark> `verified_only_clan_roles: Yes/No` &#x20;
+{% endtab %}
+{% endtabs %}
+
+{% tabs %}
+{% tab title="Toggle Auto Mode" %}
+Auto Role updates roles whenever changes are detected in the game. This behaviour can be disabled for manual control using the <mark style="color:blue;">/autorole refresh</mark> command.\
+\
+<mark style="color:blue;">**/config**</mark> `auto_update_roles: Yes/No` &#x20;
+{% endtab %}
+{% endtabs %}
 
 [^1]: One or multiple clans can be selected.
 
