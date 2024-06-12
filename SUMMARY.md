@@ -18,5 +18,5 @@
 ## Others
 
 * [Bot Manager](others/bot-manager.md)
-* [Whitelist (Experimental)](others/whitelist-experimental.md)
+* [Whitelist](others/whitelist.md)
 * [Autocomplete](others/autocomplete.md)
