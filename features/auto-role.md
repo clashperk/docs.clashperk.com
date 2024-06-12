@@ -64,13 +64,11 @@ The role will be given to the verified players. <mark style="color:yellow;">(who
 
 ***
 
-## Additional Settings
+## <mark style="color:yellow;">Additional Settings</mark>
 
 {% tabs %}
 {% tab title="Configure Delays" %}
-If people temporarily leave their home clans for any reason, they lose their roles. To address this issue, a role removal delay can be enabled.\
-Their roles will not be removed immediately but will remain for a specified period.\
-However, if they do not return within this time frame, their roles will be removed.\
+<mark style="color:yellow;">If people temporarily leave their home clans for any reason, they lose their roles. To address this issue, a role removal delay can be enabled.</mark>\ <mark style="color:yellow;">Their roles will not be removed immediately but will remain for a specified period.</mark>\ <mark style="color:yellow;">However, if they do not return within this time frame, their roles will be removed.</mark>\
 \
 <mark style="color:blue;">**/config**</mark> `role_removal_delays: Off/Duration` &#x20;
 {% endtab %}
@@ -78,8 +76,7 @@ However, if they do not return within this time frame, their roles will be remov
 
 {% tabs %}
 {% tab title="Configure Token Verification" %}
-Token verification can be enabled to ensure that only legitimate users are getting the [#clan-roles](auto-role.md#clan-roles "mention") \
-Verification can be performed using the <mark style="color:blue;">**/verify**</mark> command with an in-game API token. \
+<mark style="color:yellow;">Token verification can be enabled to ensure that only legitimate users are getting the</mark> [#clan-roles](auto-role.md#clan-roles "mention") \ <mark style="color:yellow;">Verification can be performed using the</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**/verify**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">command with an in-game API token.</mark> \
 \
 <mark style="color:blue;">**/config**</mark> `verified_only_clan_roles: Yes/No` &#x20;
 {% endtab %}
@@ -87,7 +84,7 @@ Verification can be performed using the <mark style="color:blue;">**/verify**</m
 
 {% tabs %}
 {% tab title="Toggle Auto Mode" %}
-Auto Role updates roles whenever changes are detected in the game. This behaviour can be disabled for manual control using the <mark style="color:blue;">/autorole refresh</mark> command.\
+<mark style="color:yellow;">Auto Role updates roles whenever changes are detected in the game. This behaviour can be disabled for manual control using the /autorole refresh command.</mark>\
 \
 <mark style="color:blue;">**/config**</mark> `auto_update_roles: Yes/No` &#x20;
 {% endtab %}
