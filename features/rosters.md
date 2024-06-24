@@ -13,3 +13,12 @@ The feature allows you to set the start and end times for the roster and provide
 User groups can be created for managing roles, and a wide range of restrictions can be set, including the ability for members to select a group, sign up for multiple rosters, or meet specific criteria such as minimum/maximum town hall level or combined hero levels.
 
 The feature also allows for keeping a history of the rosters by closing them instead of deleting or clearing them every month.
+
+
+
+## Creating a Roster
+
+`/roster create [clan] [name] [...options]`
+
+Roster Options
+
