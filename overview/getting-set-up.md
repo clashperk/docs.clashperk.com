@@ -98,12 +98,12 @@ Clan Feed is a feature that automatically posts in-game events in a channel.
 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Clan Feed` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 
-* [x] Town hall upgrade
-* [x] War preference change
-* [x] Player name change
-* [x] Capital league change
-* [x] Clan War League change
-* [x] Clan level up
+* [x] Town Hall Upgrade
+* [x] War Preference Change
+* [x] Player Name Change
+* [x] Capital League Change
+* [x] Clan War League Change
+* [x] Clan Level Up
 
 **Join/Leave Log**
 
