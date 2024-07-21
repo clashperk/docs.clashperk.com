@@ -27,11 +27,11 @@ Allows you to link a clan to a channel. (one clan per channel)
 
 {% tabs %}
 {% tab title="New Log System" %}
-#### Initiate Setup
+**Initiate Setup**
 
 If you don't select a channel it defaults to the current channel
 
-<mark style="color:blue;">**/setup enable**</mark>** **<mark style="color:purple;">**action:**</mark>`Logs / Feed (New)` <mark style="color:purple;">**clan:**</mark>`#CLAN_TAG`<mark style="color:purple;">**channel:**</mark>`#channel`
+<mark style="color:blue;">**/setup enable**</mark>** **<mark style="color:purple;">**action:**</mark> `Logs / Feed (New)` <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`
 
 Clan Logs:
 
@@ -60,25 +60,25 @@ Player Logs:
 * Town Hall Upgrade Log
 * War Preference Log
 
-#### Disable a Log
+**Disable a Log**
 
-<mark style="color:blue;">**/setup disable**</mark>** **<mark style="color:purple;">**action:**</mark>`Logs / Feed (New)` <mark style="color:purple;">**clan:**</mark>`#CLAN_TAG`<mark style="color:purple;">**channel:**</mark>`#channel`
+<mark style="color:blue;">**/setup disable**</mark>** **<mark style="color:purple;">**action:**</mark> `Logs / Feed (New)` <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
 {% endtab %}
 
 {% tab title="Old Log System" %}
-#### Legend Log
+**Legend Log**
 
 Posts daily legend attack summary of the day.
 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Legend Log` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 
-#### Capital Log
+**Capital Log**
 
 Posts Capital Raid and Contribution summary at the end of the Raid.
 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Capital Log` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 
-#### Donation Log
+**Donation Log**
 
 Posts an update whenever someone donates or receives troops.
 
@@ -86,13 +86,13 @@ Posts an update whenever someone donates or receives troops.
 
 * [x] Set the frequency of the donation (**Daily/Weekly/Monthly** or Continuous)
 
-#### Clan Games Log
+**Clan Games Log**
 
 It posts a leaderboard at the Clan Games's beginning and then updates it throughout the week.
 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Clan Games` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 
-#### Clan Feed
+**Clan Feed**
 
 Clan Feed is a feature that automatically posts in-game events in a channel.
 
@@ -105,13 +105,13 @@ Clan Feed is a feature that automatically posts in-game events in a channel.
 * [x] Clan War League change
 * [x] Clan level up
 
-#### Join/Leave Log
+**Join/Leave Log**
 
 Keeps a log of new members joining and leaving.
 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Join/Leave Log` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 
-#### War Log
+**War Log**
 
 Posts an Embed for each war and keeps updating it throughout the war and at the end it posts a list of missed attacks.
 
