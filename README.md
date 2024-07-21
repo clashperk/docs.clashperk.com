@@ -6,9 +6,7 @@ description: >-
 
 # Welcome!
 
-Introducing ClashPerk, your ultimate companion in the virtual battlefield of Clash of Clans! Are you tired of constantly checking your device for clan updates, raid notifications, or war strategies? Look no further, as ClashPerk is here to revolutionize your gaming experience on Discord.
-
-Designed with CoC enthusiasts in mind, ClashPerk is a powerful Discord bot tailored specifically for Clash of Clans players. With its wide array of features and intuitive interface, ClashPerk brings convenience, efficiency, and enhanced coordination to your clan management and gameplay.
+Designed with Clash of Clans enthusiasts in mind, ClashPerk is a powerful Discord bot tailored specifically for Clash of Clans players. With its wide array of features and intuitive interface, ClashPerk brings convenience, efficiency, and enhanced coordination to your clan management and gameplay.
 
 Easy to set up and highly customizable, ClashPerk seamlessly integrates with your Discord server, allowing you to access its features with a few simple commands. No more juggling between different apps or tabs – everything you need for Clash of Clans is right at your fingertips.
 
