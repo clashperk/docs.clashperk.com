@@ -14,6 +14,7 @@
 * [Bot Personalizer](features/bot-personalizer.md)
 * [Flags (Ban/Strike)](features/flags-ban-strike.md)
 * [Auto Role](features/auto-role.md)
+* [Logs](features/logs.md)
 
 ## Others
 

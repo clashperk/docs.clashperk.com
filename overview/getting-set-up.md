@@ -23,6 +23,18 @@ Allows you to link a clan to a channel. (one clan per channel)
 
 </details>
 
+#### Create a Clan Embed
+
+<details>
+
+<summary>Clan Embed</summary>
+
+Clan embed is for showcasing your clans in a public channel.
+
+<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Clan Embed` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
+
+</details>
+
 #### Logs
 
 {% tabs %}
@@ -59,6 +71,10 @@ Player Logs:
 * Name Change Log
 * Town Hall Upgrade Log
 * War Preference Log
+
+{% hint style="info" %}
+You can find more Infos here [logs.md](../features/logs.md "mention")
+{% endhint %}
 
 **Disable a Log**
 
@@ -118,15 +134,3 @@ Posts an Embed for each war and keeps updating it throughout the war and at the 
 <mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `War Log` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 {% endtab %}
 {% endtabs %}
-
-#### Create a Clan Embed
-
-<details>
-
-<summary>Clan Embed</summary>
-
-Clan embed is for showcasing your clans in a public channel.
-
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Clan Embed` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
-
-</details>
