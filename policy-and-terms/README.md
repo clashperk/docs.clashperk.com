@@ -1,6 +1,10 @@
+---
+description: This site hosts our Terms of Service and Privacy Policy
+---
+
 # Welcome!
 
-
+### This site hosts our Terms of Service and Privacy Policy
 
 {% content-ref url="privacy-policy.md" %}
 [privacy-policy.md](privacy-policy.md)
