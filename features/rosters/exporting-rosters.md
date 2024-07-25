@@ -12,7 +12,7 @@ Exports the Rosters to a Google Spreadsheet, allows you to view this on the Web 
 
 ## Sheets
 
-It generates a Sheet for each Roster with an "All members" and a "Missing Members" Sheet.
+It generates a Google Spreadsheet for each Roster with  2 sheets, "All members" and "Missing Members"
 
 ### Roster Sheet
 
