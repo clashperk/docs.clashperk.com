@@ -9,29 +9,29 @@ description: >-
 
 ## Default Groups
 
-* **Confirmed** - Player that is confirmed to play
+* **Confirmed** - The player that is confirmed to play
 * **Substitute** - Player that may be substituted
 
 ## Creating a Group
 
-<mark style="color:blue;">**/roster groups create**</mark>** **<mark style="color:purple;">**name:**</mark>`Name [...Options]`
+<mark style="color:blue;">**/roster groups create**</mark>** **<mark style="color:purple;">**name:**</mark> `Name [...Options]`
 
 * **name** - Set the Name of the Group
 * **group\_role** - Give the Group a Role.
 * **selectable** - Whether to allow Members to select this Group. Sets it to <mark style="color:purple;">Public</mark> or <mark style="color:purple;">Private</mark>. If Private only Roster Managers will be able to move players to that Group.
 
-## Modifiying Groups
+## Modifying Groups
 
-<mark style="color:blue;">**/roster groups modify**</mark>** **<mark style="color:purple;">**group:**</mark>`Group [...Options]`
+<mark style="color:blue;">**/roster groups modify**</mark>** **<mark style="color:purple;">**group:**</mark> `Group [...Options]`
 
 * **group** - Select a Group to modify.
 * **name** - Change the name of the Group.
-* **order** - Change the Order of the Group using a <mark style="color:purple;">number</mark> 1 is the lowest.
+* **order** - Change the order of the Group using the <mark style="color:purple;">number</mark> 1 as the lowest.
 * **group\_role** - Give the Group a Role.
 * **selectable** - Whether to allow Members to select this Group. Sets it to <mark style="color:purple;">Public</mark> or <mark style="color:purple;">Private</mark>. If Private only Roster Managers will be able to move players to that Group.
-* **delete\_role** - Whethere to delete the Role of the Group. To delete set <mark style="color:purple;">True</mark>.
-* **delete\_group** - Whether to deleter the Group. To delete set <mark style="color:purple;">True</mark>**.**
+* **delete\_role** - Where to delete the Role of the Group. To delete set <mark style="color:purple;">True</mark>.
+* **delete\_group** - Whether to delete the Group. To delete set <mark style="color:purple;">True</mark>**.**
 
 {% hint style="info" %}
-See [#getting-all-rosters-and-groups](list-rosters-and-groups.md#getting-all-rosters-and-groups "mention")to list the groups.
+See [#getting-all-rosters-and-groups](list-rosters-and-groups.md#getting-all-rosters-and-groups "mention")to list of the groups.
 {% endhint %}

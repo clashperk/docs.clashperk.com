@@ -4,7 +4,7 @@ description: A detailed explanation how to List Rosters and Groups
 
 # 📒 List Rosters and Groups
 
-<mark style="color:blue;">**/roster list**</mark>** **<mark style="color:purple;">**name:**</mark>`Name`<mark style="color:purple;">**user:**</mark>`User`<mark style="color:purple;">**player\_tag:**</mark>`Tag`<mark style="color:purple;">**clan:**</mark> `Clan`
+<mark style="color:blue;">**/roster list**</mark>** **<mark style="color:purple;">**name:**</mark> `Name` <mark style="color:purple;">**user:**</mark> `User` <mark style="color:purple;">**player\_tag:**</mark> `Tag` <mark style="color:purple;">**clan:**</mark> `Clan`
 
 ### Getting all Rosters and Groups
 

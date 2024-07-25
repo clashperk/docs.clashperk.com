@@ -12,7 +12,7 @@ The following options are available:
 
 View Roster Info, Settings and allows you to Export the roster.
 
-See [exporting-rosters.md](exporting-rosters.md "mention") for more Information!
+See [exporting-rosters.md](exporting-rosters.md "mention") for more information!
 
 </details>
 
@@ -20,7 +20,7 @@ See [exporting-rosters.md](exporting-rosters.md "mention") for more Information!
 
 <summary>Close Roster</summary>
 
-Is like a soft delete. <mark style="color:red;">Recommended</mark> to use Hide Buttons to prevent singups etc.
+Is like a soft delete. <mark style="color:red;">Recommended</mark> to use Hide Buttons to prevent signups etc.
 
 You need to reopen the Roster to make any further changes.
 
@@ -32,7 +32,7 @@ You need to reopen the Roster to make any further changes.
 
 <summary>Hide Buttons</summary>
 
-Hide <mark style="color:green;">signup</mark> and <mark style="color:red;">opt-out</mark> buttons from the message.
+Hide the <mark style="color:green;">signup</mark> and <mark style="color:red;">opt-out</mark> buttons from the message.
 
 </details>
 
@@ -40,7 +40,7 @@ Hide <mark style="color:green;">signup</mark> and <mark style="color:red;">opt-o
 
 <summary>Archive Mode</summary>
 
-Remove action buttons from the message. The Embed will become unchangable.
+Remove action buttons from the message. The Embed will become unchangeable.
 
 </details>
 
@@ -53,7 +53,7 @@ Add a user or player to the roster.
 <img src="../../.gitbook/assets/Add User" alt="" data-size="original">
 
 * You can select an account to add all connected accounts or select which accounts to add
-* <mark style="color:purple;">Bulk Add</mark> takes in any form of in-game ids to bulk add those accounts to the roster
+* <mark style="color:purple;">Bulk Add</mark> takes in any form of in-game IDs to bulk add those accounts to the roster
 * With <mark style="color:red;">Deselect</mark> you can remove accounts from the selection
 
 To apply the changes press <mark style="color:blue;">Confirm</mark>
@@ -92,7 +92,7 @@ Edit roster layout and sorting options.
 
 * **Index** - The index of the player in the roster.
 * **Town Hall Level** - The Town level of the player.
-* **Discord Name** - The Discord displayName of the player.
+* **Discord Name** - The Discord display-name of the player.
 * **Discord Username** - The Discord username of the player.
 * **Discord User ID** - The Discord User ID of the player.
 * **Player Name** - The name of the player.

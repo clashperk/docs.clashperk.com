@@ -8,13 +8,13 @@ description: Ping members in the roster
 
 ### Message
 
-Type here the Message that should be displayed.
+Type here the message that should be displayed.
 
 ### Option
 
 Choose between:
 
-* Unregistered (didn't singup, but in the clan)
+* Unregistered (didn't sign up, but in the clan)
 * Missing (opted-in, but not in the clan)
 * Everyone (all opted-in members)
 

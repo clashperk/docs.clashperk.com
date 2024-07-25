@@ -22,8 +22,8 @@ description: >-
 * **min\_hero\_level** - Minimum combined Hero level need to sign up (<mark style="color:blue;">default</mark>: 0)
 * **roster\_role** - The role the players get when they sign up
 * **sort\_by** - Sort by Player Name, Discord Name, Discord Username, Town Hall Level, Hero Levels, TH + Hero Levels, Clan Name, Signup Time, Trophies (<mark style="color:blue;">default</mark>: SIGNUP\_TIME)
-* **start\_time** - The start time of sign up. Format: YYYY-MM-DD HH:mm (24 Hours) (<mark style="color:blue;">default</mark>: N/A)
-* **end\_time** - The end time of sign up. Format: YYYY-MM-DD HH:mm (24 Hours) (<mark style="color:blue;">default</mark>: N/A)
+* **start\_time** - The start time of sign-up. Format: YYYY-MM-DD HH:mm (24 Hours) (<mark style="color:blue;">default</mark>: N/A)
+* **end\_time** - The end time of sign-up. Format: YYYY-MM-DD HH:mm (24 Hours) (<mark style="color:blue;">default</mark>: N/A)
 * **timezone** - Search timezone by city or country (e.g. London, Singapore, Germany, Stuttgart) (<mark style="color:blue;">default</mark>: UTC)
 * **allow\_group\_selection** -  Whether to allow members to select a <mark style="color:purple;">Public</mark> group (<mark style="color:blue;">default</mark>: True)
 * **allow\_multi\_signup** - Whether to allow a user to sign up for multiple rosters in the same category (<mark style="color:blue;">default</mark>: True)
