@@ -65,6 +65,7 @@ War Logs:
 * CWL Embed Log
 * CWL Missed Attacks Log
 * CWL Lineup Change Log
+* CWL Monthly Summary Log
 
 Player Logs:
 

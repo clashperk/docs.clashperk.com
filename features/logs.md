@@ -4,6 +4,10 @@ description: A detailed explanation of all Logs
 
 # Logs
 
+{% hint style="info" %}
+You can setup these Logs in a Forum Post, Thread or Channel to set them up to your liking! Check out the [Discord ](https://discord.com/invite/ppuppun)for examples!
+{% endhint %}
+
 ## Clan Logs
 
 ### Member Join/Leave Log
@@ -79,6 +83,12 @@ Posts an Embed with the players that missed their attacks. Separates them into 2
 ### CWL Lineup Change Log
 
 Shows who was <mark style="color:green;">added</mark> and <mark style="color:red;">removed</mark> from the Lineup as soon as a change happens.
+
+***
+
+### CWL Monthly Summary Log
+
+Creates a Graphic for the Summary of the CWL placements.
 
 ***
 
