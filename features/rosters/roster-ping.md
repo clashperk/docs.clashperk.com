@@ -19,7 +19,7 @@ Choose between:
 * Everyone (all opted-in members)
 
 {% hint style="warning" %}
-After pressing enter it will ask to Confirm before pinging!
+After submitting the Command it will ask to Confirm before pinging!
 {% endhint %}
 
 ### Group
