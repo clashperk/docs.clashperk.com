@@ -2,6 +2,7 @@
 description: >-
   Autocomplete is a feature that helps you select your clans or accounts while
   executing a command.
+icon: wand-sparkles
 ---
 
 # Autocomplete

@@ -1,5 +1,6 @@
 ---
 description: A detailed explanation of all Logs
+icon: scroll
 ---
 
 # Logs

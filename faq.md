@@ -1,5 +1,6 @@
 ---
 description: Frequently Asked Questions
+icon: circle-info
 ---
 
 # FAQ

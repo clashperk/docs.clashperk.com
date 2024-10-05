@@ -3,9 +3,10 @@ description: >-
   a detailed explanation how to manage Groups. Players will be able to sign up
   with a group. This is used to separat players into different groups in a
   roster. For example Confirmed and Substitute.
+icon: wrench
 ---
 
-# 🔧 Managing Groups
+# Managing Groups
 
 ## Default Groups
 

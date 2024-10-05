@@ -1,5 +1,6 @@
 ---
 description: Build your own Discord bot!
+icon: user-robot-xmarks
 ---
 
 # Bot Personalizer

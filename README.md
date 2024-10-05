@@ -2,6 +2,7 @@
 description: >-
   If you are already here that probably means you'd like to know how things
   work.
+icon: party-horn
 ---
 
 # Welcome!

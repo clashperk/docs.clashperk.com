@@ -1,8 +1,9 @@
 ---
 description: Ping members in the roster
+icon: bell
 ---
 
-# 🔔 Roster Ping
+# Roster Ping
 
 <mark style="color:blue;">**/roster ping**</mark>** **<mark style="color:purple;">**message:**</mark>`Message`<mark style="color:purple;">**ping\_option:**</mark>`Option`<mark style="color:purple;">**group:**</mark>`Group`
 

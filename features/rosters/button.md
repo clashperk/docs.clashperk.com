@@ -1,8 +1,9 @@
 ---
 description: allows you to manage the roster visually
+icon: gear
 ---
 
-# ⚙️ Button
+# Button
 
 The following options are available:
 

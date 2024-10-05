@@ -2,6 +2,7 @@
 description: >-
   The roster management feature provides a comprehensive solution for efficient
   and organized management of CWL/War events.
+icon: memo
 ---
 
 # Rosters

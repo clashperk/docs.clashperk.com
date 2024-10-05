@@ -2,9 +2,10 @@
 description: >-
   detailed explanation of the /roster create, /roster edit, /roster delete and
   /roster clone
+icon: pen
 ---
 
-# ✏️ Create, Edit, Delete and Clone Rosters
+# Create, Edit, Delete and Clone Rosters
 
 ## Creating a Roster
 

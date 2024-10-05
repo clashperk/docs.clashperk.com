@@ -3,6 +3,7 @@ description: >-
   A flag serves as a warning for breaking rules, alerting users to potential
   consequences like bans or strikes. It's a mechanism to maintain order and
   uphold community standards.
+icon: flag
 ---
 
 # Flags (Ban/Strike)

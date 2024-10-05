@@ -1,5 +1,6 @@
 ---
 description: Let's setup the bot!
+icon: lightbulb
 ---
 
 # Getting set up
