@@ -27,3 +27,8 @@
 * [Bot Manager](others/bot-manager.md)
 * [Whitelist](others/whitelist.md)
 * [Autocomplete](others/autocomplete.md)
+
+## Policies
+
+* [Terms of Service](https://clashperk.com/terms)
+* [Privacy Policy](https://clashperk.com/privacy)
