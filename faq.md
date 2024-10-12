@@ -1,6 +1,6 @@
 ---
-description: Frequently Asked Questions
 icon: circle-info
+description: Frequently Asked Questions
 ---
 
 # FAQ
@@ -15,11 +15,11 @@ Make sure that ClashPerk has all the required permissions in your Discord. Run t
 
 ## What is clan verification?
 
-It is a security feature of the bot to ensure you are a Leader or Co-Leader in the clan and you are not trying to abuse the bot by tracking clans you do not own.
+To prevent abuse, the bot verifies that you're a leader or co-leader of the clan. This ensures you're not tracking clans you don't own or adding the same clan to multiple servers.
 
-## How does "Last Seen" work?
+## How does last seen work?
 
-Due to the API limitation, the bot cannot see who's currently online or who was online in the clan. We determine an approximate last-seen time based on the following points
+Due to API limitations, the bot can't directly see who is online or recently active. Instead, we estimate a player's last-seen time based on the following activities. These give us a rough idea of when someone was last active in the clan.
 
 * [x] Player name changed
 * [x] Troops donated
@@ -39,10 +39,12 @@ Due to the API limitation, the bot cannot see who's currently online or who was 
 
 ### What is activity score?
 
-When the bot captures one of these^ activities, the player gains a +1 score or activity. It's the total number of activities seen by the bot.\
-It helps us to determine who are the most active or inactive players.
+Whenever the bot captures an activity (mentioned above), the player gets a +1 score. This score reflects the total number of activities the bot has seen for that player, helping us determine who are the most active or inactive members.
 
 ### How does the clan games scoreboard work?
 
-Clan Games points can not be obtained directly from the API. It is only possible by comparing **Games Champion** achievement.\
-Our system pulls everyone's **Games Champion** achievement at the beginning of Clan Games and compares it every 10-15 minutes.
+Clan Games points can't be directly pulled from the API. Instead, we track the **Games Champion** achievement. At the start of Clan Games, we capture each player's progress, and then compare it every 10-15 minutes. The difference shows how many points they've earned during the event, and this updates the scoreboard.
+
+### **Why is Gold/Elixir Looted 0 for Some Players?**
+
+Once a player hits 2 billion in looted Gold or Elixir, the API stops increasing the count. This is an API limitation that affects players who reach this cap.
