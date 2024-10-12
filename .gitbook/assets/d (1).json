@@ -1,0 +1,1740 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    "/interactions": {
+      "post": {
+        "operationId": "AppController_handleDiscordInteractions",
+        "parameters": [
+          {
+            "name": "X-Signature-Ed25519",
+            "required": true,
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "X-Signature-Timestamp",
+            "required": true,
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "message",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "DISCORD"
+        ]
+      }
+    },
+    "/connect": {
+      "get": {
+        "operationId": "AppController_connect",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "DISCORD"
+        ]
+      }
+    },
+    "/discord-oauth-callback": {
+      "get": {
+        "operationId": "AppController_onCallback",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "DISCORD"
+        ]
+      }
+    },
+    "/auth/login": {
+      "post": {
+        "operationId": "AuthController_login",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "AUTH"
+        ]
+      }
+    },
+    "/auth/status": {
+      "get": {
+        "operationId": "AuthController_getStatus",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "AUTH"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/clans/{clanTag}/capital-raids": {
+      "get": {
+        "operationId": "ClansController_getCapitalRaids",
+        "parameters": [
+          {
+            "name": "clanTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "minimum": 1,
+              "maximum": 60,
+              "default": 5,
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "CLANS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/clans/{clanTag}/capital-contribution": {
+      "get": {
+        "operationId": "ClansController_getCapitalContribution",
+        "parameters": [
+          {
+            "name": "clanTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "season",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "CLANS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/clans/{clanTag}/links": {
+      "get": {
+        "operationId": "ClansController_getLinkedMembers",
+        "parameters": [
+          {
+            "name": "clanTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "CLANS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/clans/{clanTag}/wars/{warId}": {
+      "get": {
+        "operationId": "ClansController_getClanWar",
+        "parameters": [
+          {
+            "name": "clanTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "warId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "CLANS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/clans/{clanTag}/cwl-stats": {
+      "get": {
+        "operationId": "ClansController_getCwlStats",
+        "parameters": [
+          {
+            "name": "clanTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CWLStatsOutput"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "CLANS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/clans/{clanTag}/badges": {
+      "get": {
+        "operationId": "ClansController_getClanBadges",
+        "parameters": [
+          {
+            "name": "clanTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CWLStatsOutput"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "CLANS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/guilds/{guildId}": {
+      "get": {
+        "operationId": "GuildsController_getGuild",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "guildId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GuildOutput"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "GUILDS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/guilds/{guildId}/rosters": {
+      "get": {
+        "operationId": "GuildsController_getGuildRosters",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "guildId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GuildRostersOutput"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "GUILDS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/guilds/{guildId}/members": {
+      "get": {
+        "operationId": "GuildsController_getGuildMembers",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "guildId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "q",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "isPublicBot",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "GUILDS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/guilds/{guildId}/clans/reorder": {
+      "put": {
+        "operationId": "GuildsController_reorderClanCategories",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "guildId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReorderClanCategoriesInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GuildOutput"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "GUILDS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/links/{userIdOrTag}": {
+      "get": {
+        "operationId": "LinksController_getLink",
+        "parameters": [
+          {
+            "name": "userIdOrTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "LINKS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/links/bulk": {
+      "post": {
+        "operationId": "LinksController_getLinks",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BulkLinksInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "LINKS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/links": {
+      "post": {
+        "operationId": "LinksController_createLink",
+        "summary": "",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateLinkInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "LINKS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      },
+      "delete": {
+        "operationId": "LinksController_deleteLink",
+        "summary": "",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeleteLinkInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "LINKS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/players/{playerTag}/wars": {
+      "get": {
+        "operationId": "PlayersController_getWarHistory",
+        "parameters": [
+          {
+            "name": "playerTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "months",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "minimum": 1,
+              "maximum": 12,
+              "default": 12,
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AttackHistoryOutput"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "PLAYERS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/players/{playerTag}/cwl-stats": {
+      "get": {
+        "operationId": "PlayersController_getClanWarLeagueStats",
+        "parameters": [
+          {
+            "name": "playerTag",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "months",
+            "required": true,
+            "in": "query",
+            "schema": {
+              "minimum": 1,
+              "maximum": 12,
+              "default": 12,
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/CWLAttackSummaryOutput"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "PLAYERS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/rosters/{rosterId}": {
+      "get": {
+        "operationId": "RostersController_getRoster",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "rosterId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RostersEntity"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ROSTERS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/rosters/{rosterId}/change-category": {
+      "put": {
+        "operationId": "RostersController_swapCategory",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "rosterId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SwapCategoryBulkInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RostersEntity"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ROSTERS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/rosters/{rosterId}/change-roster": {
+      "put": {
+        "operationId": "RostersController_swapRoster",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "rosterId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SwapRosterBulkInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RostersEntity"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ROSTERS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/rosters/{rosterId}/members": {
+      "delete": {
+        "operationId": "RostersController_removeMembers",
+        "summary": "",
+        "parameters": [
+          {
+            "name": "rosterId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RemoveMembersBulkInput"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RostersEntity"
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ROSTERS"
+        ],
+        "security": [
+          {
+            "bearer": []
+          }
+        ]
+      }
+    },
+    "/tasks/legend-trophy-threshold": {
+      "get": {
+        "operationId": "TasksController_getLegendThresholds",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/tasks/backfill-legend-trophy-threshold": {
+      "post": {
+        "operationId": "TasksController_backfillLegendThresholds",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/tasks/cleanup-clans": {
+      "post": {
+        "operationId": "TasksController_cleanupClans",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/tasks/cleanup-links": {
+      "post": {
+        "operationId": "TasksController_cleanupLinks",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        }
+      }
+    },
+    "/tasks/clan-games-resync": {
+      "post": {
+        "operationId": "TasksController_reSyncClanGamesPoints",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "info": {
+    "title": "Service Backend API",
+    "description": "Public and Private Routes for the Service Backend API",
+    "version": "v1",
+    "contact": {}
+  },
+  "tags": [
+    {
+      "name": "AUTH",
+      "description": ""
+    },
+    {
+      "name": "DISCORD",
+      "description": ""
+    },
+    {
+      "name": "LINKS",
+      "description": ""
+    },
+    {
+      "name": "PLAYERS",
+      "description": ""
+    },
+    {
+      "name": "CLANS",
+      "description": ""
+    },
+    {
+      "name": "GUILDS",
+      "description": ""
+    }
+  ],
+  "servers": [],
+  "components": {
+    "schemas": {
+      "LoginInput": {
+        "type": "object",
+        "properties": {
+          "passkey": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "passkey"
+        ]
+      },
+      "CWLClansOutput": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "tag": {
+            "type": "string"
+          },
+          "leagueId": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "name",
+          "tag",
+          "leagueId"
+        ]
+      },
+      "CWLMemberStatsOutput": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "tag": {
+            "type": "string"
+          },
+          "participated": {
+            "type": "number"
+          },
+          "attacks": {
+            "type": "number"
+          },
+          "stars": {
+            "type": "number"
+          },
+          "newStars": {
+            "type": "number"
+          },
+          "destruction": {
+            "type": "number"
+          },
+          "threeStars": {
+            "type": "number"
+          },
+          "twoStars": {
+            "type": "number"
+          },
+          "oneStar": {
+            "type": "number"
+          },
+          "zeroStars": {
+            "type": "number"
+          },
+          "missedAttacks": {
+            "type": "number"
+          },
+          "defenseStars": {
+            "type": "number"
+          },
+          "defenseDestruction": {
+            "type": "number"
+          },
+          "defenseCount": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "name",
+          "tag",
+          "participated",
+          "attacks",
+          "stars",
+          "newStars",
+          "destruction",
+          "threeStars",
+          "twoStars",
+          "oneStar",
+          "zeroStars",
+          "missedAttacks",
+          "defenseStars",
+          "defenseDestruction",
+          "defenseCount"
+        ]
+      },
+      "CWLStatsOutput": {
+        "type": "object",
+        "properties": {
+          "clans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CWLClansOutput"
+            }
+          },
+          "members": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CWLMemberStatsOutput"
+            }
+          },
+          "rounds": {
+            "type": "array",
+            "items": {
+              "type": "array"
+            }
+          },
+          "wars": {
+            "type": "array",
+            "items": {
+              "required": true,
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            }
+          },
+          "season": {
+            "type": "string"
+          },
+          "warTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "clans",
+          "members",
+          "rounds",
+          "wars",
+          "season",
+          "warTags"
+        ]
+      },
+      "GuildClanOutput": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "tag": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "_id",
+          "name",
+          "tag",
+          "order"
+        ]
+      },
+      "ClanCategoryOutput": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "_id",
+          "name",
+          "order"
+        ]
+      },
+      "ClanCategoryGroupOutput": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          },
+          "clans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GuildClanOutput"
+            }
+          }
+        },
+        "required": [
+          "_id",
+          "name",
+          "order",
+          "clans"
+        ]
+      },
+      "GuildOutput": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "guildId": {
+            "type": "string"
+          },
+          "clans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/GuildClanOutput"
+            }
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ClanCategoryOutput"
+            }
+          },
+          "grouped": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ClanCategoryGroupOutput"
+            }
+          }
+        },
+        "required": [
+          "name",
+          "guildId",
+          "clans",
+          "categories",
+          "grouped"
+        ]
+      },
+      "RostersEntity": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "guildId": {
+            "type": "string"
+          },
+          "maxMembers": {
+            "type": "number"
+          },
+          "minTownHall": {
+            "type": "number"
+          },
+          "maxTownHall": {
+            "type": "number"
+          },
+          "minHeroLevels": {
+            "type": "number"
+          },
+          "roleId": {
+            "type": "string",
+            "nullable": true
+          },
+          "colorCode": {
+            "type": "number"
+          },
+          "clan": {
+            "type": "object",
+            "properties": {
+              "tag": {
+                "required": true,
+                "type": "string"
+              },
+              "name": {
+                "required": true,
+                "type": "string"
+              },
+              "badgeUrl": {
+                "required": true,
+                "type": "string"
+              }
+            }
+          },
+          "members": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "layout": {
+            "type": "string"
+          },
+          "sheetId": {
+            "type": "string"
+          },
+          "closed": {
+            "type": "boolean"
+          },
+          "startTime": {
+            "format": "date-time",
+            "type": "string",
+            "nullable": true
+          },
+          "endTime": {
+            "format": "date-time",
+            "type": "string",
+            "nullable": true
+          },
+          "sortBy": {
+            "type": "string"
+          },
+          "useClanAlias": {
+            "type": "boolean"
+          },
+          "allowUnlinked": {
+            "type": "boolean"
+          },
+          "allowMultiSignup": {
+            "type": "boolean"
+          },
+          "category": {
+            "type": "object"
+          },
+          "allowCategorySelection": {
+            "type": "boolean"
+          },
+          "lastUpdated": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "createdAt": {
+            "format": "date-time",
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "guildId",
+          "clan",
+          "members",
+          "closed",
+          "category",
+          "lastUpdated",
+          "createdAt"
+        ]
+      },
+      "RosterCategoriesEntity": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "guildId": {
+            "type": "string"
+          },
+          "selectable": {
+            "type": "boolean"
+          },
+          "roleId": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "format": "date-time",
+            "type": "string"
+          }
+        },
+        "required": [
+          "displayName",
+          "name",
+          "guildId",
+          "selectable",
+          "createdAt"
+        ]
+      },
+      "GuildRostersOutput": {
+        "type": "object",
+        "properties": {
+          "rosters": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RostersEntity"
+            }
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RosterCategoriesEntity"
+            }
+          }
+        },
+        "required": [
+          "rosters",
+          "categories"
+        ]
+      },
+      "ReorderClansInput": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "_id",
+          "order"
+        ]
+      },
+      "ReorderCategoriesInput": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string"
+          },
+          "order": {
+            "type": "number"
+          },
+          "clans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReorderClansInput"
+            }
+          }
+        },
+        "required": [
+          "_id",
+          "order",
+          "clans"
+        ]
+      },
+      "ReorderClanCategoriesInput": {
+        "type": "object",
+        "properties": {
+          "categories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ReorderCategoriesInput"
+            }
+          }
+        },
+        "required": [
+          "categories"
+        ]
+      },
+      "BulkLinksInput": {
+        "type": "object",
+        "properties": {
+          "input": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "input"
+        ]
+      },
+      "CreateLinkInput": {
+        "type": "object",
+        "properties": {
+          "playerTag": {
+            "type": "string"
+          },
+          "userId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "playerTag",
+          "userId"
+        ]
+      },
+      "DeleteLinkInput": {
+        "type": "object",
+        "properties": {
+          "playerTag": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "playerTag"
+        ]
+      },
+      "AttackRecord": {
+        "type": "object",
+        "properties": {
+          "defender": {
+            "type": "object",
+            "properties": {
+              "tag": {
+                "required": true,
+                "type": "string"
+              },
+              "townhallLevel": {
+                "required": true,
+                "type": "number"
+              },
+              "mapPosition": {
+                "required": true,
+                "type": "number"
+              }
+            }
+          },
+          "stars": {
+            "type": "number"
+          },
+          "defenderTag": {
+            "type": "string"
+          },
+          "destructionPercentage": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "defender",
+          "stars",
+          "defenderTag",
+          "destructionPercentage"
+        ]
+      },
+      "AttackHistoryOutput": {
+        "type": "object",
+        "properties": {
+          "attacks": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AttackRecord"
+            }
+          },
+          "id": {
+            "type": "number"
+          },
+          "warType": {
+            "type": "number"
+          },
+          "startTime": {
+            "type": "string"
+          },
+          "endTime": {
+            "type": "string"
+          },
+          "clan": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "required": true,
+                "type": "string"
+              },
+              "tag": {
+                "required": true,
+                "type": "string"
+              }
+            }
+          },
+          "opponent": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "required": true,
+                "type": "string"
+              },
+              "tag": {
+                "required": true,
+                "type": "string"
+              }
+            }
+          },
+          "attacker": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "required": true,
+                "type": "string"
+              },
+              "tag": {
+                "required": true,
+                "type": "string"
+              },
+              "townhallLevel": {
+                "required": true,
+                "type": "number"
+              },
+              "mapPosition": {
+                "required": true,
+                "type": "number"
+              }
+            }
+          }
+        },
+        "required": [
+          "attacks",
+          "id",
+          "warType",
+          "startTime",
+          "endTime",
+          "clan",
+          "opponent",
+          "attacker"
+        ]
+      },
+      "CWLAttackSummaryOutput": {
+        "type": "object",
+        "properties": {
+          "season": {
+            "type": "string"
+          },
+          "wars": {
+            "type": "number"
+          },
+          "rounds": {
+            "type": "number"
+          },
+          "stars": {
+            "type": "number"
+          },
+          "attacks": {
+            "type": "number"
+          },
+          "missed": {
+            "type": "number"
+          },
+          "destruction": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "season",
+          "wars",
+          "rounds",
+          "stars",
+          "attacks",
+          "missed",
+          "destruction"
+        ]
+      },
+      "SwapCategoryBulkInput": {
+        "type": "object",
+        "properties": {
+          "categoryId": {
+            "type": "string"
+          },
+          "playerTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "categoryId",
+          "playerTags"
+        ]
+      },
+      "SwapRosterBulkInput": {
+        "type": "object",
+        "properties": {
+          "rosterId": {
+            "type": "string"
+          },
+          "categoryId": {
+            "type": "string",
+            "nullable": true
+          },
+          "playerTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "rosterId",
+          "categoryId",
+          "playerTags"
+        ]
+      },
+      "RemoveMembersBulkInput": {
+        "type": "object",
+        "properties": {
+          "playerTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "playerTags"
+        ]
+      }
+    }
+  }
+}
