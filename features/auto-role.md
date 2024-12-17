@@ -1,8 +1,8 @@
 ---
+icon: diagram-nested
 description: >-
   Automatically add Roles in Discord based on the in-game Roles, Leagues, Town
   Halls, etc.
-icon: diagram-nested
 ---
 
 # Auto Role
@@ -65,13 +65,21 @@ The role will be given to the verified players. <mark style="color:yellow;">(who
 
 ***
 
+### Account Linked Role
+
+This role will be given to the linked users.
+
+<mark style="color:blue;">**/autorole family**</mark> `[ACCOUNT_LINKED_ROLE]`
+
+***
+
 ## <mark style="color:yellow;">Additional Settings</mark>
 
 {% tabs %}
 {% tab title="Configure Delays" %}
 <mark style="color:yellow;">If people temporarily leave their home clans for any reason, they lose their roles. To address this issue, a role removal delay can be enabled.</mark>\ <mark style="color:yellow;">Their roles will not be removed immediately but will remain for a specified period.</mark>\ <mark style="color:yellow;">However, if they do not return within this time frame, their roles will be removed.</mark>\
 \
-<mark style="color:blue;">**/config**</mark> `role_removal_delays: Off/Duration`
+<mark style="color:blue;">**/autorole config**</mark> `role_removal_delays: Off/Duration`
 {% endtab %}
 {% endtabs %}
 
@@ -79,7 +87,7 @@ The role will be given to the verified players. <mark style="color:yellow;">(who
 {% tab title="Configure Token Verification" %}
 <mark style="color:yellow;">Token verification can be enabled to ensure that only legitimate users are getting the</mark> [#clan-roles](auto-role.md#clan-roles "mention") \ <mark style="color:yellow;">Verification can be performed using the</mark> <mark style="color:yellow;">**/verify**</mark> <mark style="color:yellow;">command with an in-game API token.</mark>\
 \
-<mark style="color:blue;">**/config**</mark> `verified_only_clan_roles: Yes/No`
+<mark style="color:blue;">**/autorole config**</mark> `verified_only_clan_roles: Yes/No`
 {% endtab %}
 {% endtabs %}
 
@@ -87,7 +95,7 @@ The role will be given to the verified players. <mark style="color:yellow;">(who
 {% tab title="Toggle Auto Mode" %}
 <mark style="color:yellow;">Auto Role updates roles whenever changes are detected in the game. This behaviour can be disabled for manual control using the /autorole refresh command.</mark>\
 \
-<mark style="color:blue;">**/config**</mark> `auto_update_roles: Yes/No`
+<mark style="color:blue;">**/autorole config**</mark> `auto_update_roles: Yes/No`
 {% endtab %}
 {% endtabs %}
 
