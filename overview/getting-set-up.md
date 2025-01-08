@@ -1,6 +1,6 @@
 ---
-description: Let's setup the bot!
 icon: lightbulb
+description: Let's setup the bot!
 ---
 
 # Getting set up
@@ -44,7 +44,7 @@ Clan embed is for showcasing your clans in a public channel.
 
 If you don't select a channel it defaults to the current channel
 
-<mark style="color:blue;">**/setup enable**</mark>** **<mark style="color:purple;">**action:**</mark> `Logs / Feed (New)` <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`
+<mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`
 
 Clan Logs:
 
@@ -80,7 +80,7 @@ You can find more Infos here [logs.md](../features/logs.md "mention")
 
 **Disable a Log**
 
-<mark style="color:blue;">**/setup disable**</mark>** **<mark style="color:purple;">**action:**</mark> `Logs / Feed (New)` <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
+<mark style="color:blue;">**/setup clan-logs**</mark>**&#x20;**<mark style="color:purple;">**action:**</mark> `Disable` <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
 {% endtab %}
 
 {% tab title="Old Log System" %}
