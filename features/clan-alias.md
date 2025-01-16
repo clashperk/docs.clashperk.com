@@ -17,14 +17,20 @@ For a series of clans like Air Hounds, Air Hounds 2, and Air Hounds 3, you could
 
 You can use the following command to refer to Air Hounds directly.
 
-```
+```css
 /clan tag: AH
 ```
 
 Clan aliases are handy for commands like /summary and /export, where you can enter multiple aliases to search for specific clans.
 
-```
+```css
 /summary clans: AH AH2
 ```
 
 Aliases can also be used in rosters and nicknames, making them a powerful tool for efficient clan management.
+
+### Create Alias
+
+```css
+/alias create clan: YOUR_CLAN alias_name: AH
+```
