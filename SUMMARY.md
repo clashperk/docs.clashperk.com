@@ -21,6 +21,7 @@
 * [Flags (Ban/Strike)](features/flags-ban-strike.md)
 * [Auto Role](features/auto-role.md)
 * [Logs](features/logs.md)
+* [Clan Alias](features/clan-alias.md)
 
 ## Others
 
