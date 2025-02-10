@@ -1,11 +1,11 @@
 ---
-description: a detailed explanation how to export rosters to speadsheets.
 icon: file-csv
+description: a detailed explanation how to export rosters to speadsheets.
 ---
 
 # Exporting Rosters
 
-<mark style="color:blue;">**/export rosters**</mark>** **<mark style="color:purple;">**category:**</mark> `WAR or CWL`
+<mark style="color:blue;">**/export rosters**</mark>**&#x20;**<mark style="color:purple;">**category:**</mark> `WAR or CWL`
 
 Category is optional!
 

@@ -1,8 +1,8 @@
 ---
+icon: pen
 description: >-
   detailed explanation of the /roster create, /roster edit, /roster delete and
   /roster clone
-icon: pen
 ---
 
 # Create, Edit, Delete and Clone Rosters
@@ -54,6 +54,6 @@ Completely deletes the roster.
 
 ## Cloning a Roster
 
-<mark style="color:blue;">**/roster clone**</mark>** **<mark style="color:purple;">**roster:**</mark>`Roster`<mark style="color:purple;">**name:**</mark>`Name`
+<mark style="color:blue;">**/roster clone**</mark>**&#x20;**<mark style="color:purple;">**roster:**</mark>`Roster`<mark style="color:purple;">**name:**</mark>`Name`
 
 Clones the Roster settings to a new Roster without importing the Members from the Source Roster.

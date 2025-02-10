@@ -1,8 +1,8 @@
 ---
+icon: memo
 description: >-
   The roster management feature provides a comprehensive solution for efficient
   and organized management of CWL/War events.
-icon: memo
 ---
 
 # Rosters
@@ -19,11 +19,11 @@ The feature also allows for keeping a history of the rosters by closing them ins
 
 To create a roster for CWL, use the following command:
 
-<mark style="color:blue;">**/roster create**</mark>** **<mark style="color:purple;">**clan:**</mark>`clan`<mark style="color:purple;">**name:**</mark>`CWL`<mark style="color:purple;">**allow\_multi\_signup:**</mark>`False`<mark style="color:purple;">**category:**</mark>`CWL`
+<mark style="color:blue;">**/roster create**</mark>**&#x20;**<mark style="color:purple;">**clan:**</mark>`clan`<mark style="color:purple;">**name:**</mark>`CWL`<mark style="color:purple;">**allow\_multi\_signup:**</mark>`False`<mark style="color:purple;">**category:**</mark>`CWL`
 
 This will generate an Embed which can be posted using:
 
-<mark style="color:blue;">**/roster post**</mark>** **<mark style="color:purple;">**roster:**</mark>`CWL`
+<mark style="color:blue;">**/roster post**</mark>**&#x20;**<mark style="color:purple;">**roster:**</mark>`CWL`
 
 <figure><img src="../../.gitbook/assets/Roster Embed" alt=""><figcaption><p>Roster Embed</p></figcaption></figure>
 

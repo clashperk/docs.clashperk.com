@@ -1,9 +1,9 @@
 ---
+icon: wrench
 description: >-
   a detailed explanation how to manage Groups. Players will be able to sign up
   with a group. This is used to separat players into different groups in a
   roster. For example Confirmed and Substitute.
-icon: wrench
 ---
 
 # Managing Groups
@@ -15,7 +15,7 @@ icon: wrench
 
 ## Creating a Group
 
-<mark style="color:blue;">**/roster groups create**</mark>** **<mark style="color:purple;">**name:**</mark> `Name [...Options]`
+<mark style="color:blue;">**/roster groups create**</mark>**&#x20;**<mark style="color:purple;">**name:**</mark> `Name [...Options]`
 
 * **name** - Set the Name of the Group
 * **group\_role** - Give the Group a Role.
@@ -23,7 +23,7 @@ icon: wrench
 
 ## Modifying Groups
 
-<mark style="color:blue;">**/roster groups modify**</mark>** **<mark style="color:purple;">**group:**</mark> `Group [...Options]`
+<mark style="color:blue;">**/roster groups modify**</mark>**&#x20;**<mark style="color:purple;">**group:**</mark> `Group [...Options]`
 
 * **group** - Select a Group to modify.
 * **name** - Change the name of the Group.

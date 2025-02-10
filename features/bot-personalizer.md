@@ -1,6 +1,6 @@
 ---
-description: Build your own Discord bot!
 icon: user-robot-xmarks
+description: Build your own Discord bot!
 ---
 
 # Bot Personalizer
@@ -46,6 +46,8 @@ If you suspect the token has been compromised, reset it immediately.
 <figure><img src="../.gitbook/assets/Step 12.png" alt=""><figcaption><p>Step 12</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Step 13.png" alt=""><figcaption><p>Step 13</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/step6.png" alt=""><figcaption><p>Step 13.5</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Step 14.png" alt=""><figcaption><p>Step 14</p></figcaption></figure>
 
