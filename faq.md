@@ -51,4 +51,4 @@ Once a player hits 2 billion in looted Gold or Elixir, the API stops increasing 
 
 ### Is my API token safe to share?
 
-Yes, your API token cannot be used to steal your account or gain access to any account-related data. It only verifies your identity with third-party services. It also resets periodically and, once used, cannot be used again.
+Yes, your API token cannot be used to steal your account or gain access to any account-related data. It only verifies your identity with third-party services. The token resets periodically and becomes invalid after each use.

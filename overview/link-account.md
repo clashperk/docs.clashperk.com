@@ -39,10 +39,10 @@ You need the API token from the in-game settings to verify an account.
 
 ### Is my API token safe to share?
 
-Yes, your API token cannot be used to steal your account or gain access to any account-related data. It only verifies your identity with third-party services. It also resets periodically and, once used, cannot be used again.
+Yes, your API token cannot be used to steal your account or gain access to any account-related data. It only verifies your identity with third-party services. The token resets periodically and becomes invalid after each use.
 
 ### How do you get your API token?
 
-1. Open Clash of Clans and navigate to **More Settings**
-2. Click on **`Show`** next to **API TOKEN**
+1. Open Clash of Clans and navigate to **Settings > More Settings**
+2. Scroll down to the bottom and click on **`Show`** next to the **API Token**
 3. Click **`Copy`** to copy your API token
