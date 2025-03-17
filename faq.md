@@ -1,6 +1,6 @@
 ---
-icon: circle-info
 description: Frequently Asked Questions
+icon: circle-info
 ---
 
 # FAQ
@@ -48,3 +48,7 @@ Clan Games points can't be directly pulled from the API. Instead, we track the *
 ### **Why is Gold/Elixir Looted 0 for Some Players?**
 
 Once a player hits 2 billion in looted Gold or Elixir, the API stops increasing the count. This is an API limitation that affects players who reach this cap.
+
+### Is my API token safe to share?
+
+Yes, your API token cannot be used to steal your account or gain access to any account-related data. It only verifies your identity with third-party services. It also resets periodically and, once used, cannot be used again.
