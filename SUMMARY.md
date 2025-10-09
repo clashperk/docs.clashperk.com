@@ -31,17 +31,7 @@
 
 ## DEVELOPER
 
-* [ClashPerk API](developer/clashperk-api/README.md)
-  * ```yaml
-    type: builtin:openapi
-    props:
-      models: false
-    dependencies:
-      spec:
-        ref:
-          kind: openapi
-          spec: clashperk-bot-api
-    ```
+* [ClashPerk API](developer/clashperk-api.md)
 
 ## Policies
 
