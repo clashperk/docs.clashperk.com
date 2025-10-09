@@ -29,9 +29,9 @@
 * [Whitelist](others/whitelist.md)
 * [Autocomplete](others/autocomplete.md)
 
-***
+## DEVELOPER
 
-* [ClashPerk API](clashperk-api/README.md)
+* [ClashPerk API](developer/clashperk-api/README.md)
   * ```yaml
     type: builtin:openapi
     props:
