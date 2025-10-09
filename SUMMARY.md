@@ -29,6 +29,20 @@
 * [Whitelist](others/whitelist.md)
 * [Autocomplete](others/autocomplete.md)
 
+***
+
+* [ClashPerk API](clashperk-api/README.md)
+  * ```yaml
+    type: builtin:openapi
+    props:
+      models: true
+    dependencies:
+      spec:
+        ref:
+          kind: openapi
+          spec: clashperk-bot-api
+    ```
+
 ## Policies
 
 * [Terms of Service](https://clashperk.com/terms)
