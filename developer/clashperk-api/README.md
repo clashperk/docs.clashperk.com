@@ -12,3 +12,7 @@ Response **caching is enabled**, with duration varying across different endpoint
 API **access is limited** and reviewed individually. If you'd like to request access, reach out to us on Discord.
 
 By using this API, you agree to fair usage. Access may be revoked for abuse, misuse, or security violations.
+
+#### Swagger
+
+[https://api.clashperk.com/docs](https://api.clashperk.com/docs)
