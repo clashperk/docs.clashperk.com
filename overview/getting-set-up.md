@@ -1,30 +1,38 @@
 ---
-icon: lightbulb
 description: Let's setup the bot!
+icon: lightbulb
 ---
 
 # Getting set up
 
-The following command allows you to quickly add your clan to the server which enables the bot to track the clan.
-
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Server Link` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
-
-#### Set a default clan for a channel
+#### Link a clan to your Discord Server (required)
 
 <details>
 
-<summary>Link Channel</summary>
+<summary>Link to Server</summary>
+
+The following command allows you to quickly add your clan to the server, enabling the bot to track it.
+
+<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Link to Server` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
+
+</details>
+
+#### Set a default clan for a channel (optional)
+
+<details>
+
+<summary>Link to Channel</summary>
 
 Allows you to link a clan to a channel. (one clan per channel)
 
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Channel Link`<mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
+<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Link to Channel`<mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 
 * [x] This link enables you to run commands without entering or selecting a clan tag.
 * [x] You can repeat the process to link the clan in multiple channels.
 
 </details>
 
-#### Create a Clan Embed
+#### Create a Clan Embed (optional)
 
 <details>
 
@@ -36,13 +44,13 @@ Clan embed is for showcasing your clans in a public channel.
 
 </details>
 
-#### Logs
+#### Enable Logs (optional)
 
 {% tabs %}
 {% tab title="New Log System" %}
 **Initiate Setup**
 
-If you don't select a channel it defaults to the current channel
+If you don't select a channel, it defaults to the current channel
 
 <mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`
 
@@ -75,7 +83,7 @@ Player Logs:
 * War Preference Log
 
 {% hint style="info" %}
-You can find more Infos here [logs.md](../features/logs.md "mention")
+You can find more information here [logs.md](../features/logs.md "mention")
 {% endhint %}
 
 **Disable a Log**
