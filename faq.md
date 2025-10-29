@@ -37,18 +37,18 @@ Due to API limitations, the bot can't directly see who is online or recently act
 * [x] Wttacked in war (CWL/Regular/Friendly)
 * [x] Artilleries, Monolith, Walls, Builder huts, Inferno towers, Mortars, Xbows, Spell towers, and Scattershots destroyed
 
-### What is activity score?
+## What is activity score?
 
 Whenever the bot captures an activity (mentioned above), the player gets a +1 score. This score reflects the total number of activities the bot has seen for that player, helping us determine who are the most active or inactive members.
 
-### How does the clan games scoreboard work?
+## How does the clan games scoreboard work?
 
 Clan Games points can't be directly pulled from the API. Instead, we track the **Games Champion** achievement. At the start of Clan Games, we capture each player's progress, and then compare it every 10-15 minutes. The difference shows how many points they've earned during the event, and this updates the scoreboard.
 
-### **Why is Gold/Elixir Looted 0 for Some Players?**
+## **Why is Gold/Elixir Looted 0 for Some Players?**
 
 Once a player hits 2 billion in looted Gold or Elixir, the API stops increasing the count. This is an API limitation that affects players who reach this cap.
 
-### Is my API token safe to share?
+## Is my API token safe to share?
 
 Yes, your API token cannot be used to steal your account or gain access to any account-related data. It only verifies your identity with third-party services. The token resets periodically and becomes invalid after each use.
