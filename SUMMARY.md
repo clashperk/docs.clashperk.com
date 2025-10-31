@@ -48,7 +48,7 @@
 * [Terms of Service](https://clashperk.com/terms)
 * [Privacy Policy](https://clashperk.com/privacy)
 
-## Commands2
+## APP
 
-* [Page](commands2/page/README.md)
-  * [Page 2](commands2/page/page-2.md)
+* [Commands](app/commands/README.md)
+  * [Page 2](app/commands/page-2.md)
