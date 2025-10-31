@@ -1,8 +1,4 @@
----
-icon: slash-forward
----
-
-# attacks
+# /attacks
 
 Displays attack and defense info of clan members.
 

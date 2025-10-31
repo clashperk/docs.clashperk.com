@@ -56,7 +56,7 @@
     * [create](app/commands/alias/create.md)
     * [delete](app/commands/alias/delete.md)
   * [activity](app/commands/activity.md)
-  * [attacks](app/commands/attacks.md)
+  * [/attacks](app/commands/attacks.md)
   * [army](app/commands/army.md)
   * [autorole](app/commands/autorole/README.md)
     * [refresh](app/commands/autorole/refresh.md)
