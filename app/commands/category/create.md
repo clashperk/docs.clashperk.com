@@ -1,8 +1,7 @@
-# /category create
+# create
 
 Create a new clan category.
 
 ## Options
 
-- `category_name`: Name of the clan category.
-
+* `category_name`: Name of the clan category.

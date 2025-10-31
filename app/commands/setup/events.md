@@ -1,8 +1,7 @@
-# /setup events
+# events
 
 Setup automatic events for the server.
 
 ## Options
 
-- `disable`: Disable the events schedular.
-
+* `disable`: Disable the events schedular.

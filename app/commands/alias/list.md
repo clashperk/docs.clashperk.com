@@ -1,6 +1,13 @@
-# /alias list
+# list
 
 List all clan aliases.
 
-_No options_
+{% code title="Usage" %}
+```
+/alias list
+```
+{% endcode %}
 
+{% hint style="info" %}
+No options
+{% endhint %}

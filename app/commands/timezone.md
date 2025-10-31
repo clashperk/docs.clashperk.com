@@ -1,8 +1,7 @@
-# /timezone
+# timezone
 
-Set your timezone offset for /activity command.
+Set your timezone offset for the /activity command.
 
 ## Options
 
-- `location`: Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)
-
+* `location`: Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney)

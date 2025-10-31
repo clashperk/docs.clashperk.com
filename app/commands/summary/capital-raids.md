@@ -1,9 +1,10 @@
-# /summary capital-raids
+# capital raids
 
 Shows information about capital raids.
 
 ## Options
 
-- `clans`: Clan tag or name or alias.
-- `week`: Retrieve data for the specified raid weekend.
-
+| Option  | Description                                   |
+| ------- | --------------------------------------------- |
+| `clans` | Clan tag or name or alias.                    |
+| `week`  | Retrieve data for the specified raid weekend. |

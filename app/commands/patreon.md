@@ -2,5 +2,6 @@
 
 Shows information about the bot's Patreon.
 
-_No options_
-
+{% hint style="info" %}
+No options.
+{% endhint %}

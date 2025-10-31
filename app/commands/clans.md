@@ -1,8 +1,7 @@
-# /clans
+# clans
 
 Show all linked clans.
 
 ## Options
 
-- `category`: Filter clans by category.
-
+* `category`: Filter clans by category.

@@ -1,11 +1,10 @@
-# /caller assign
+# assign
 
 Set a target for a player in the current war.
 
 ## Options
 
-- `defense_target`: The base target # of your opponent.
-- `offense_target`: The base target # of your clan.
-- `notes`: Notes to add to the target.
-- `hours`: The number of hours to set the target for.
-
+* `defense_target`: The base target # of your opponent.
+* `offense_target`: The base target # of your clan.
+* `notes`: Notes to add to the target.
+* `hours`: The number of hours to set the target for.

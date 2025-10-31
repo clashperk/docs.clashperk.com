@@ -1,8 +1,9 @@
-# /category delete
+# delete
 
 Delete a clan category.
 
 ## Options
 
-- `category`: Select a clan category.
-
+| Name       | Description             |
+| ---------- | ----------------------- |
+| `category` | Select a clan category. |

@@ -1,6 +1,7 @@
-# /invite
+# invite
 
 Get the bot invite and support server link.
 
-_No options_
-
+{% hint style="info" %}
+No options
+{% endhint %}

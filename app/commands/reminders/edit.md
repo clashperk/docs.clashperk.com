@@ -1,10 +1,9 @@
-# /reminders edit
+# edit
 
 Edit a reminder by ID (do /reminders list to get the ID)
 
 ## Options
 
-- `type`: Type of the reminder.
-- `id`: Reminder ID (use /reminders list to get the ID)
-- `duration`: Remaining duration to mention members (e.g. 6h, 12h, 1d, 2d)
-
+* `type`: Type of the reminder.
+* `id`: Reminder ID (use /reminders list to get the ID)
+* `duration`: Remaining duration to mention members (e.g. 6h, 12h, 1d, 2d)

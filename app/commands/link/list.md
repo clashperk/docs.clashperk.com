@@ -1,8 +1,7 @@
-# /link list
+# list
 
 List all player links of a clan.
 
 ## Options
 
-- `clan`: Clan tag or name or alias.
-
+* `clan`: Clan tag or name or alias.

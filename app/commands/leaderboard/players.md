@@ -1,9 +1,8 @@
-# /leaderboard players
+# players
 
 Top players leaderboard.
 
 ## Options
 
-- `location`: Location of the leaderboard
-- `season`: Retrieve data for the specified season.
-
+* `location`: Location of the leaderboard
+* `season`: Retrieve data for the specified season.

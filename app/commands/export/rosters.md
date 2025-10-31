@@ -1,8 +1,7 @@
-# /export rosters
+# rosters
 
 Export all rosters.
 
 ## Options
 
-- `category`: Roster category.
-
+* `category`: Roster category.

@@ -1,10 +1,8 @@
-# /members
+# members
 
-Get a clan member list with heroes, trophies, war preferences and much more.
+Export a comprehensive version of clan member stats.
 
 ## Options
 
-- `clan`: Clan tag or name or alias.
-- `user`: Clan by @user mention or ID.
-- `option`: Select an option
-
+* `clans`: Clan tags or aliases to filter clans.
+* `season`: Retrieve data since the specified season.

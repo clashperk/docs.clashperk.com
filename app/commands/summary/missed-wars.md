@@ -1,10 +1,9 @@
-# /summary missed-wars
+# missed wars
 
 Shows a summary of missed wars.
 
 ## Options
 
-- `clans`: Clan tag or name or alias.
-- `war_type`: Regular, CWL or Friendly Wars (defaults to Regular)
-- `season`: Retrieve data since the specified season.
-
+* `clans`: Clan tag or name or alias.
+* `war_type`: Regular, CWL or Friendly Wars (defaults to Regular)
+* `season`: Retrieve data since the specified season.

@@ -1,6 +1,7 @@
-# /category list
+# list
 
 List all clan categories.
 
-_No options_
-
+{% hint style="info" %}
+No options
+{% endhint %}

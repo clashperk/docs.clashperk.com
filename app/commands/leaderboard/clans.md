@@ -1,9 +1,10 @@
-# /leaderboard clans
+# clans
 
 Top clans leaderboard.
 
 ## Options
 
-- `location`: Location of the leaderboard
-- `season`: Retrieve data for the specified season.
-
+| Option     | Description                             |
+| ---------- | --------------------------------------- |
+| `location` | Location of the leaderboard             |
+| `season`   | Retrieve data for the specified season. |

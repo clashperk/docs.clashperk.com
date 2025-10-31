@@ -1,9 +1,10 @@
-# /category edit
+# edit
 
 Edit a clan category.
 
 ## Options
 
-- `category`: Select a clan category.
-- `category_name`: Name of the clan category.
-
+| Option          | Description                |
+| --------------- | -------------------------- |
+| `category`      | Select a clan category.    |
+| `category_name` | Name of the clan category. |

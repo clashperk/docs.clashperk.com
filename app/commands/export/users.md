@@ -1,8 +1,9 @@
-# /export users
+# users
 
 Export Discord members
 
 ## Options
 
-- `role`: Role to filter users.
-
+{% hint style="info" %}
+* `role`: Role to filter users.
+{% endhint %}

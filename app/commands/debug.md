@@ -1,6 +1,7 @@
-# /debug
+# debug
 
 Displays some basic debug information.
 
-_No options_
-
+{% hint style="info" %}
+No options
+{% endhint %}

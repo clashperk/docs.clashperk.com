@@ -1,11 +1,12 @@
-# /link create
+# create
 
-Links a player account/clan to a Discord account.
+Links a player account or clan to a Discord account.
 
 ## Options
 
-- `player_tag`: The player tag to link.
-- `clan_tag`: The default clan tag to link.
-- `user`: User account to link to the tag.
-- `is_default`: Whether to set this as the default account.
-
+| Option       | Description                                 |
+| ------------ | ------------------------------------------- |
+| `player_tag` | The player tag to link.                     |
+| `clan_tag`   | The default clan tag to link.               |
+| `user`       | User account to link to the tag.            |
+| `is_default` | Whether to set this as the default account. |
