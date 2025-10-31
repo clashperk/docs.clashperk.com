@@ -33,9 +33,9 @@
 
 * [ClashPerk API](developer/clashperk-api/README.md)
   * ```yaml
-    type: builtin:openapi
     props:
       models: false
+    type: builtin:openapi
     dependencies:
       spec:
         ref:
@@ -47,3 +47,8 @@
 
 * [Terms of Service](https://clashperk.com/terms)
 * [Privacy Policy](https://clashperk.com/privacy)
+
+## Commands2
+
+* [Page](commands2/page/README.md)
+  * [Page 2](commands2/page/page-2.md)
