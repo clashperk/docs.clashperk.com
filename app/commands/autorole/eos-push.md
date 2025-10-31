@@ -1,9 +1,0 @@
-# /autorole eos-push
-
-Set end of season push roles.
-
-## Options
-
-- `role`: The end of season push role.
-- `clans`: The clans for which to set the end of season push role.
-
