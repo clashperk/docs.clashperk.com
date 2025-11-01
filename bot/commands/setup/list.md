@@ -1,9 +1,10 @@
-# list
+# /setup list
 
 List all enabled features and clans.
 
 ## Options
 
-| Name    | Description               |
-| ------- | ------------------------- |
+| Name | Description |
+|------|-------------|
 | `clans` | Select the clans to list. |
+

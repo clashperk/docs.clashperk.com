@@ -1,9 +1,10 @@
-# rosters
+# /export rosters
 
 Export all rosters.
 
 ## Options
 
-| Name       | Description      |
-| ---------- | ---------------- |
+| Name | Description |
+|------|-------------|
 | `category` | Roster category. |
+

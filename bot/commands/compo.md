@@ -1,10 +1,11 @@
-# compo
+# /compo
 
 Shows Town Hall composition of a clan.
 
 ## Options
 
-| Name   | Description                  |
-| ------ | ---------------------------- |
-| `clan` | Clan tag or name or alias.   |
+| Name | Description |
+|------|-------------|
+| `clan` | Clan tag or name or alias. |
 | `user` | Clan by @user mention or ID. |
+

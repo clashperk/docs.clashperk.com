@@ -1,9 +1,10 @@
-# users
+# /export users
 
 Export Discord members
 
 ## Options
 
-| Name   | Description           |
-| ------ | --------------------- |
+| Name | Description |
+|------|-------------|
 | `role` | Role to filter users. |
+

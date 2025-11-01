@@ -1,10 +1,11 @@
-# clan games
+# /summary clan-games
 
 Shows a summary of clan games scores.
 
 ## Options
 
-| Name     | Description                             |
-| -------- | --------------------------------------- |
+| Name | Description |
+|------|-------------|
 | `season` | Retrieve data for the specified season. |
-| `clans`  | Clan tag or name or alias.              |
+| `clans` | Clan tag or name or alias. |
+

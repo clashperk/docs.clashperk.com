@@ -1,11 +1,12 @@
-# army
+# /army
 
 Parse an army composition link.
 
 ## Options
 
-| Name        | Description                     |
-| ----------- | ------------------------------- |
-| `link`      | Army composition link.          |
+| Name | Description |
+|------|-------------|
+| `link` | Army composition link. |
 | `army_name` | An optional name for this army. |
-| `tips`      | Some tips (type anything)       |
+| `tips` | Some tips (type anything) |
+
