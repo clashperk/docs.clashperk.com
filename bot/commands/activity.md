@@ -1,4 +1,4 @@
-# /activity
+# activity
 
 Shows a graph of hourly-active clan members.
 

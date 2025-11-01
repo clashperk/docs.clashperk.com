@@ -1,6 +1,6 @@
 # timezone
 
-Set your timezone offset for /activity command.
+Set your timezone offset for the /activity command.
 
 ## Options
 

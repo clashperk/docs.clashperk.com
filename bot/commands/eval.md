@@ -1,6 +1,8 @@
 # eval
 
+{% hint style="info" %}
 You can't use it anyway, so why explain?
+{% endhint %}
 
 ## Options
 

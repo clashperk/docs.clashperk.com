@@ -1,4 +1,4 @@
-# clan games
+# /clan-games
 
 Clan games scoreboard of clan members.
 

@@ -7,7 +7,3 @@ Search clans by name.
 | Name   | Description                           |
 | ------ | ------------------------------------- |
 | `name` | Clan name (must be 3 characters long) |
-
-{% hint style="info" %}
-The `name` parameter must be exactly 3 characters.
-{% endhint %}

@@ -2,6 +2,4 @@
 
 Shows information about the bot's status.
 
-{% hint style="info" %}
-No options.
-{% endhint %}
+_No options_

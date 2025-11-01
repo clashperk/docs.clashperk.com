@@ -6,5 +6,5 @@ Displays war line-up of a clan.
 
 | Name   | Description                  |
 | ------ | ---------------------------- |
-| `clan` | Clan tag, name, or alias.    |
+| `clan` | Clan tag or name or alias.   |
 | `user` | Clan by @user mention or ID. |
