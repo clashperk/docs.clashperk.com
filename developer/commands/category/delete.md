@@ -2,13 +2,13 @@
 description: Delete a clan category.
 ---
 
-# /category delete
+# category delete
 
 Delete a clan category.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `category` | Select a clan category. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `category` | Select a clan category. | `String` |
 

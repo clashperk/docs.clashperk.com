@@ -2,16 +2,16 @@
 description: Configure automatic server nickname settings.
 ---
 
-# /nickname config
+# nickname config
 
 Configure automatic server nickname settings.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `family_nickname_format` | Set family nickname format (e.g. {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME}) |
-| `non_family_nickname_format` | Set non-family nickname format (e.g. {NAME} | {TH}) |
-| `change_nicknames` | Whether to update nicknames automatically. |
-| `account_preference_for_naming` | Whether to use the default account or the best account in the family. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `family_nickname_format` | Set family nickname format (e.g. {CLAN} | {ALIAS} | {TH} | {ROLE} | {NAME}) | `String` |
+| `non_family_nickname_format` | Set non-family nickname format (e.g. {NAME} | {TH}) | `String` |
+| `change_nicknames` | Whether to update nicknames automatically. | `Yes`, `No` |
+| `account_preference_for_naming` | Whether to use the default account or the best account in the family. | `Default Account`, `Best Account`, `Default or Best Account` |
 

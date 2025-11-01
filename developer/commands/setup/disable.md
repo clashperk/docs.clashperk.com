@@ -2,15 +2,15 @@
 description: Disable a feature on the server or remove a clan.
 ---
 
-# /setup disable
+# setup disable
 
 Disable a feature on the server or remove a clan.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `action` | Select an option |
-| `clan` | Clan tag or name or alias. |
-| `channel` | Channel to be removed. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `action` | Select an option | `Unlink from Channel`, `Remove Clan`, `Clan Embed` |
+| `clan` | Clan tag or name or alias. | `String` |
+| `channel` | Channel to be removed. | `Channel` |
 

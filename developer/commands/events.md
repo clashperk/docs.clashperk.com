@@ -2,7 +2,7 @@
 description: Shows the next in-game events.
 ---
 
-# /events
+# events
 
 Shows the next in-game events.
 

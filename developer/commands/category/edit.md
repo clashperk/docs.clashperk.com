@@ -2,14 +2,14 @@
 description: Edit a clan category.
 ---
 
-# /category edit
+# category edit
 
 Edit a clan category.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `category` | Select a clan category. |
-| `category_name` | Name of the clan category. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `category` | Select a clan category. | `String` |
+| `category_name` | Name of the clan category. | `String` |
 

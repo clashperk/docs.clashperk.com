@@ -2,7 +2,7 @@
 description: List all auto roles and settings.
 ---
 
-# /autorole list
+# autorole list
 
 List all auto roles and settings.
 

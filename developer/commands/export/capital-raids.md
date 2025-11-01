@@ -2,14 +2,14 @@
 description: Export capital raid attack stats.
 ---
 
-# /export capital-raids
+# export capital-raids
 
 Export capital raid attack stats.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `clans` | Clan tags or aliases to filter clans. |
-| `limit` | Number of raid weekends (Default: 4) |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `clans` | Clan tags or aliases to filter clans. | `String` |
+| `limit` | Number of raid weekends (Default: 4) | `Integer` |
 

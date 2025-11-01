@@ -2,7 +2,7 @@
 description: List all clan aliases.
 ---
 
-# /alias list
+# alias list
 
 List all clan aliases.
 

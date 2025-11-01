@@ -2,7 +2,7 @@
 description: Get the bot invite and support server link.
 ---
 
-# /invite
+# invite
 
 Get the bot invite and support server link.
 

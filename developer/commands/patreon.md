@@ -2,7 +2,7 @@
 description: Shows information about the bot's Patreon.
 ---
 
-# /patreon
+# patreon
 
 Shows information about the bot's Patreon.
 

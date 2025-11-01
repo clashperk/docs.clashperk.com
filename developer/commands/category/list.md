@@ -2,7 +2,7 @@
 description: List all clan categories.
 ---
 
-# /category list
+# category list
 
 List all clan categories.
 

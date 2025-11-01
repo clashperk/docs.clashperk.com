@@ -2,14 +2,14 @@
 description: Displays war line-up of a clan.
 ---
 
-# /lineup
+# lineup
 
 Displays war line-up of a clan.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `clan` | Clan tag or name or alias. |
-| `user` | Clan by @user mention or ID. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `clan` | Clan tag or name or alias. | `String` |
+| `user` | Clan by @user mention or ID. | `User` |
 

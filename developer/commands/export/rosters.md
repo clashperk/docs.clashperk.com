@@ -2,13 +2,13 @@
 description: Export all rosters.
 ---
 
-# /export rosters
+# export rosters
 
 Export all rosters.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `category` | Roster category. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `category` | Roster category. | `CWL`, `WAR`, `E-SPORTS` |
 

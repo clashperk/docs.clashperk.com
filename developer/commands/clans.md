@@ -2,13 +2,13 @@
 description: Show all linked clans.
 ---
 
-# /clans
+# clans
 
 Show all linked clans.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `category` | Filter clans by category. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `category` | Filter clans by category. | `String` |
 

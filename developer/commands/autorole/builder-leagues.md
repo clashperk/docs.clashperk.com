@@ -2,24 +2,24 @@
 description: Set builder base league roles.
 ---
 
-# /autorole builder-leagues
+# autorole builder-leagues
 
 Set builder base league roles.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `wood` | Wood league role. |
-| `clay` | Clay league role. |
-| `stone` | Stone league role. |
-| `copper` | Copper league role. |
-| `brass` | Brass league role. |
-| `iron` | Iron league role. |
-| `steel` | Steel league role. |
-| `titanium` | Titanium league role. |
-| `platinum` | Platinum league role. |
-| `emerald` | Emerald league role. |
-| `ruby` | Ruby league role. |
-| `diamond` | Diamond league role. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `wood` | Wood league role. | `Role` |
+| `clay` | Clay league role. | `Role` |
+| `stone` | Stone league role. | `Role` |
+| `copper` | Copper league role. | `Role` |
+| `brass` | Brass league role. | `Role` |
+| `iron` | Iron league role. | `Role` |
+| `steel` | Steel league role. | `Role` |
+| `titanium` | Titanium league role. | `Role` |
+| `platinum` | Platinum league role. | `Role` |
+| `emerald` | Emerald league role. | `Role` |
+| `ruby` | Ruby league role. | `Role` |
+| `diamond` | Diamond league role. | `Role` |
 

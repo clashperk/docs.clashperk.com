@@ -2,13 +2,13 @@
 description: Search clans by name.
 ---
 
-# /search
+# search
 
 Search clans by name.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `name` | Clan name (must be 3 characters long) |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `name` | Clan name (must be 3 characters long) | `String` |
 

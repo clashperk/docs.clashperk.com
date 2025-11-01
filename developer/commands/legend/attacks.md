@@ -2,15 +2,15 @@
 description: Shows per-day legend attacks for a clan.
 ---
 
-# /legend attacks
+# legend attacks
 
 Shows per-day legend attacks for a clan.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `clans` | Clan tags or aliases to filter clans. |
-| `user` | Player by @user mention or ID. |
-| `day` | The league day. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `clans` | Clan tags or aliases to filter clans. | `String` |
+| `user` | Player by @user mention or ID. | `User` |
+| `day` | The league day. | `Number` |
 

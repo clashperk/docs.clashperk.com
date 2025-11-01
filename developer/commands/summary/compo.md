@@ -2,13 +2,13 @@
 description: Shows a summary of Town Hall composition.
 ---
 
-# /summary compo
+# summary compo
 
 Shows a summary of Town Hall composition.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `clans` | Clan tag or name or alias. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `clans` | Clan tag or name or alias. | `String` |
 

@@ -2,7 +2,7 @@
 description: Displays some basic debug information.
 ---
 
-# /debug
+# debug
 
 Displays some basic debug information.
 

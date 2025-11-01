@@ -2,14 +2,14 @@
 description: Remaining upgrades of a player with upgrading cost.
 ---
 
-# /upgrades
+# upgrades
 
 Remaining upgrades of a player with upgrading cost.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `player` | Player tag or name. |
-| `user` | Player by @user mention or ID. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `player` | Player tag or name. | `String` |
+| `user` | Player by @user mention or ID. | `User` |
 

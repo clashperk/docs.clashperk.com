@@ -2,14 +2,14 @@
 description: Setup buttons for the server.
 ---
 
-# /setup buttons
+# setup buttons
 
 Setup buttons for the server.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `button_type` | Select the button type to setup |
-| `embed_color` | Hex color code for the embed |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `button_type` | Select the button type to setup | `Link Button`, `Role Refresh Button`, `My Rosters Button` |
+| `embed_color` | Hex color code for the embed | `String` |
 

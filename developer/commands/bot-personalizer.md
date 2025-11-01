@@ -2,13 +2,13 @@
 description: Build your own Discord bot!
 ---
 
-# /bot-personalizer
+# bot-personalizer
 
 Build your own Discord bot!
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `opt_out` | Opt-out from the custom bot and delete related services. |
+| Name | Description | Type/Options |
+|------|-------------|--------------|
+| `opt_out` | Opt-out from the custom bot and delete related services. | `Boolean` |
 
