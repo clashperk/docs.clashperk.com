@@ -20,7 +20,8 @@ let summary = "# Summary\n\n";
 // generate per-command markdown
 for (const cmd of commands) {
   const parts = cmd.name.split(" ");
-  const [parent, sub] = parts;
+  const [parent, ...rest] = parts;
+  const sub = rest.join(' ')
 
   const parentDir = path.join(outputDir, toFileName(parent));
   const filePath = sub
