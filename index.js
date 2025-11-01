@@ -2,11 +2,11 @@ import fs from "fs";
 import path from "path";
 
 const commands = JSON.parse(fs.readFileSync("commands.json", "utf8"));
-const outputDir = path.resolve("./docs");
+const outputDir = path.resolve("./bot/commands");
 
-// clean + recreate docs directory
-fs.rmSync(outputDir, { recursive: true, force: true });
-fs.mkdirSync(outputDir, { recursive: true });
+// // clean + recreate docs directory
+// fs.rmSync(outputDir, { recursive: true, force: true });
+// fs.mkdirSync(outputDir, { recursive: true });
 
 // helpers
 const toFileName = (name) =>
@@ -35,7 +35,7 @@ for (const cmd of commands) {
     : `/commands/${toFileName(parent)}`;
 
   // build markdown
-  let md = `---\nslug: "${slug}"\n---\n\n`;
+  let md = ``;
   md += `# /${cmd.name}\n\n`;
   md += `${cmd.description}\n\n`;
 
@@ -48,7 +48,7 @@ for (const cmd of commands) {
     }
     md += `\n`;
   } else {
-    md += `_No options_\n\n`;
+    // md += `_No options_\n\n`;
   }
 
   fs.writeFileSync(filePath, md, "utf8");
