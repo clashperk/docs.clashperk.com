@@ -1,3 +1,7 @@
+---
+description: Shows a summary of seasonal war results.
+---
+
 # /summary war-results
 
 Shows a summary of seasonal war results.

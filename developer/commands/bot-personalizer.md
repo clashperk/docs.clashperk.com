@@ -1,3 +1,7 @@
+---
+description: Build your own Discord bot!
+---
+
 # /bot-personalizer
 
 Build your own Discord bot!

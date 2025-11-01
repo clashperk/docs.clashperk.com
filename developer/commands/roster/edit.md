@@ -1,3 +1,7 @@
+---
+description: Edit a roster
+---
+
 # /roster edit
 
 Edit a roster

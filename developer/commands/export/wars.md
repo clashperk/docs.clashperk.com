@@ -1,3 +1,7 @@
+---
+description: Export War stats to Excel.
+---
+
 # /export wars
 
 Export War stats to Excel.

@@ -1,3 +1,7 @@
+---
+description: CWL roster and town hall distribution.
+---
+
 # /cwl roster
 
 CWL roster and town hall distribution.

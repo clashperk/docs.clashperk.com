@@ -1,3 +1,7 @@
+---
+description: Export participation history (last played wars)
+---
+
 # /export last-wars
 
 Export participation history (last played wars)

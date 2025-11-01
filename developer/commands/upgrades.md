@@ -1,3 +1,7 @@
+---
+description: Remaining upgrades of a player with upgrading cost.
+---
+
 # /upgrades
 
 Remaining upgrades of a player with upgrading cost.

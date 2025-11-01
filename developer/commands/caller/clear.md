@@ -1,3 +1,7 @@
+---
+description: Clear the target for a player in the current war.
+---
+
 # /caller clear
 
 Clear the target for a player in the current war.

@@ -1,3 +1,7 @@
+---
+description: Shows a summary of donations.
+---
+
 # /summary donations
 
 Shows a summary of donations.

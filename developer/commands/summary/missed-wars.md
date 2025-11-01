@@ -1,3 +1,7 @@
+---
+description: Shows a summary of missed wars.
+---
+
 # /summary missed-wars
 
 Shows a summary of missed wars.

@@ -1,3 +1,7 @@
+---
+description: Shows home village and builder base units of a player (with max/min levels)
+---
+
 # /units
 
 Shows home village and builder base units of a player (with max/min levels)

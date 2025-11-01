@@ -1,3 +1,7 @@
+---
+description: Manage automatic Builder Hall roles.
+---
+
 # /autorole builder-hall
 
 Manage automatic Builder Hall roles.

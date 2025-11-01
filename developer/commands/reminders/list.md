@@ -1,3 +1,7 @@
+---
+description: List all war reminders for clan wars, capital raids or clan games.
+---
+
 # /reminders list
 
 List all war reminders for clan wars, capital raids or clan games.

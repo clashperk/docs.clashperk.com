@@ -1,3 +1,7 @@
+---
+description: Shows donations and donations received of clan members.
+---
+
 # /donations
 
 Shows donations and donations received of clan members.

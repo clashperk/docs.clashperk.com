@@ -1,3 +1,7 @@
+---
+description: Redeem or manage a Patreon subscription. (if you wish to support us)
+---
+
 # /redeem
 
 Redeem or manage a Patreon subscription. (if you wish to support us)

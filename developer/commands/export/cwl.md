@@ -1,3 +1,7 @@
+---
+description: Export CWL stats to Excel.
+---
+
 # /export cwl
 
 Export CWL stats to Excel.

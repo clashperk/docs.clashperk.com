@@ -1,3 +1,7 @@
+---
+description: Get a clan member list with heroes, trophies, war preferences and much more.
+---
+
 # /members
 
 Get a clan member list with heroes, trophies, war preferences and much more.

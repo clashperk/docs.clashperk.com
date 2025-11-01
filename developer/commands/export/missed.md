@@ -1,3 +1,7 @@
+---
+description: Export missed attack history.
+---
+
 # /export missed
 
 Export missed attack history.

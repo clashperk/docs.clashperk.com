@@ -1,3 +1,7 @@
+---
+description: Adjust settings related to layout posting and interactions.
+---
+
 # /layout config
 
 Adjust settings related to layout posting and interactions.

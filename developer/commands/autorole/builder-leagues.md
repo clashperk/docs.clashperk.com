@@ -1,3 +1,7 @@
+---
+description: Set builder base league roles.
+---
+
 # /autorole builder-leagues
 
 Set builder base league roles.

@@ -1,3 +1,7 @@
+---
+description: Setup automatic events for the server.
+---
+
 # /setup events
 
 Setup automatic events for the server.

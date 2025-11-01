@@ -1,3 +1,7 @@
+---
+description: List all player flags.
+---
+
 # /flag list
 
 List all player flags.

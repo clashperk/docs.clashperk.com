@@ -1,3 +1,7 @@
+---
+description: Show all linked clans.
+---
+
 # /clans
 
 Show all linked clans.

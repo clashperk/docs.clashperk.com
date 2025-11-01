@@ -1,3 +1,7 @@
+---
+description: Post your village layout to showcase it to the community.
+---
+
 # /layout post
 
 Post your village layout to showcase it to the community.

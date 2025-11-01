@@ -1,3 +1,7 @@
+---
+description: Shows linked accounts and clan of a user.
+---
+
 # /profile
 
 Shows linked accounts and clan of a user.

@@ -1,3 +1,7 @@
+---
+description: Shows Town Hall composition of a clan.
+---
+
 # /compo
 
 Shows Town Hall composition of a clan.

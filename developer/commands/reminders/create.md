@@ -1,3 +1,7 @@
+---
+description: Create reminders for clan wars, capital raids or clan games.
+---
+
 # /reminders create
 
 Create reminders for clan wars, capital raids or clan games.

@@ -1,3 +1,7 @@
+---
+description: Export capital raid attack stats.
+---
+
 # /export capital-raids
 
 Export capital raid attack stats.

@@ -1,3 +1,7 @@
+---
+description: Shows per-day legend attacks for a clan.
+---
+
 # /legend attacks
 
 Shows per-day legend attacks for a clan.

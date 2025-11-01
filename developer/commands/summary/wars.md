@@ -1,3 +1,7 @@
+---
+description: Shows a summary of current wars.
+---
+
 # /summary wars
 
 Shows a summary of current wars.

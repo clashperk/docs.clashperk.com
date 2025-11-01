@@ -1,3 +1,7 @@
+---
+description: Shows the last 10 clan war logs.
+---
+
 # /warlog
 
 Shows the last 10 clan war logs.

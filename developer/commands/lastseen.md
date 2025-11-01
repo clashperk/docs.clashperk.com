@@ -1,3 +1,7 @@
+---
+description: The last seen time and activities of clan members.
+---
+
 # /lastseen
 
 The last seen time and activities of clan members.

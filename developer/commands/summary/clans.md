@@ -1,3 +1,7 @@
+---
+description: Shows a summary of family clans.
+---
+
 # /summary clans
 
 Shows a summary of family clans.

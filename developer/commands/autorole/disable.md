@@ -1,3 +1,7 @@
+---
+description: Disable automatic clan roles.
+---
+
 # /autorole disable
 
 Disable automatic clan roles.

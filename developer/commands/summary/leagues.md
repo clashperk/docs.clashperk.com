@@ -1,3 +1,7 @@
+---
+description: Shows a summary of clan leagues.
+---
+
 # /summary leagues
 
 Shows a summary of clan leagues.

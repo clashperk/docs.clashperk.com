@@ -1,3 +1,7 @@
+---
+description: Export Discord members
+---
+
 # /export users
 
 Export Discord members

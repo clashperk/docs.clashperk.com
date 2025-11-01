@@ -1,3 +1,7 @@
+---
+description: Search clans by name.
+---
+
 # /search
 
 Search clans by name.

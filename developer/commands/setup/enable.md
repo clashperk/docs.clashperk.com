@@ -1,3 +1,7 @@
+---
+description: Enable a feature on the server or add a clan.
+---
+
 # /setup enable
 
 Enable a feature on the server or add a clan.

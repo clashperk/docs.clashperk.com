@@ -1,3 +1,7 @@
+---
+description: Export clan capital weekends.
+---
+
 # /export capital
 
 Export clan capital weekends.

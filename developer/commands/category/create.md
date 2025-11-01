@@ -1,3 +1,7 @@
+---
+description: Create a new clan category.
+---
+
 # /category create
 
 Create a new clan category.

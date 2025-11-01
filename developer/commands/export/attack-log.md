@@ -1,3 +1,7 @@
+---
+description: Export war attack history.
+---
+
 # /export attack-log
 
 Export war attack history.

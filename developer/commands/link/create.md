@@ -1,3 +1,7 @@
+---
+description: Links a player account/clan to a Discord account.
+---
+
 # /link create
 
 Links a player account/clan to a Discord account.

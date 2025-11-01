@@ -1,3 +1,7 @@
+---
+description: Shows a summary of clan games scores.
+---
+
 # /summary clan-games
 
 Shows a summary of clan games scores.

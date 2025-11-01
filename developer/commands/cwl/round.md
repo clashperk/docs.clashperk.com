@@ -1,3 +1,7 @@
+---
+description: CWL summary for the current round.
+---
+
 # /cwl round
 
 CWL summary for the current round.

@@ -1,3 +1,7 @@
+---
+description: Shows attack success rates of clan members.
+---
+
 # /stats attacks
 
 Shows attack success rates of clan members.

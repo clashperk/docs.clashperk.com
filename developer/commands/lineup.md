@@ -1,3 +1,7 @@
+---
+description: Displays war line-up of a clan.
+---
+
 # /lineup
 
 Displays war line-up of a clan.

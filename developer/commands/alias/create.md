@@ -1,3 +1,7 @@
+---
+description: Creates a clan alias (short code or abbreviation) or clan nickname.
+---
+
 # /alias create
 
 Creates a clan alias (short code or abbreviation) or clan nickname.

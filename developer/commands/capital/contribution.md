@@ -1,3 +1,7 @@
+---
+description: Shows clan capital contribution of clan members.
+---
+
 # /capital contribution
 
 Shows clan capital contribution of clan members.

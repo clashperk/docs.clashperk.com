@@ -1,3 +1,7 @@
+---
+description: Shows per-day legend attacks for a player.
+---
+
 # /legend days
 
 Shows per-day legend attacks for a player.

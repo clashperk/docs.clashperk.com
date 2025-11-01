@@ -1,3 +1,7 @@
+---
+description: Delete a player flag.
+---
+
 # /flag delete
 
 Delete a player flag.

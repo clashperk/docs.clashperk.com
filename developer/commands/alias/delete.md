@@ -1,3 +1,7 @@
+---
+description: Deletes a clan alias.
+---
+
 # /alias delete
 
 Deletes a clan alias.

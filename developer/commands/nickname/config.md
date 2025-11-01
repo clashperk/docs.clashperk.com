@@ -1,3 +1,7 @@
+---
+description: Configure automatic server nickname settings.
+---
+
 # /nickname config
 
 Configure automatic server nickname settings.

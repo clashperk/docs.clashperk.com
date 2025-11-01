@@ -1,3 +1,7 @@
+---
+description: Manage automatic roles settings.
+---
+
 # /autorole config
 
 Manage automatic roles settings.

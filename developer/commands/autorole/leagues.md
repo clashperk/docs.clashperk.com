@@ -1,3 +1,7 @@
+---
+description: Manage automatic role management for leagues.
+---
+
 # /autorole leagues
 
 Manage automatic role management for leagues.

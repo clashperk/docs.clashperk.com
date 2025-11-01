@@ -1,3 +1,7 @@
+---
+description: Shows a summary of multiplayer attacks and defenses.
+---
+
 # /summary attacks
 
 Shows a summary of multiplayer attacks and defenses.

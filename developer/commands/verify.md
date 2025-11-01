@@ -1,3 +1,7 @@
+---
+description: Verify and link a player account using an API token.
+---
+
 # /verify
 
 Verify and link a player account using an API token.

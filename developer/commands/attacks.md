@@ -1,3 +1,7 @@
+---
+description: Displays attack and defense info of clan members.
+---
+
 # /attacks
 
 Displays attack and defense info of clan members.

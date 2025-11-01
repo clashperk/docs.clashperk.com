@@ -1,3 +1,7 @@
+---
+description: Search rosters or list all rosters and groups
+---
+
 # /roster list
 
 Search rosters or list all rosters and groups

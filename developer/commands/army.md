@@ -1,3 +1,7 @@
+---
+description: Parse an army composition link.
+---
+
 # /army
 
 Parse an army composition link.

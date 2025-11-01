@@ -1,3 +1,7 @@
+---
+description: Rushed units and rushed % of a player or clan members.
+---
+
 # /rushed
 
 Rushed units and rushed % of a player or clan members.

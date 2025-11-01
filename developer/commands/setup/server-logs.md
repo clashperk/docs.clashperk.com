@@ -1,3 +1,7 @@
+---
+description: Setup automatic logs for the server.
+---
+
 # /setup server-logs
 
 Setup automatic logs for the server.

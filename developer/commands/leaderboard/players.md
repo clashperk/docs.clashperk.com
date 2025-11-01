@@ -1,3 +1,7 @@
+---
+description: Top players leaderboard.
+---
+
 # /leaderboard players
 
 Top players leaderboard.

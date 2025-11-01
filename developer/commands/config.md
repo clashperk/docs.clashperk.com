@@ -1,3 +1,7 @@
+---
+description: Configure server settings.
+---
+
 # /config
 
 Configure server settings.

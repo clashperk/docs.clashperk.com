@@ -1,3 +1,7 @@
+---
+description: Shows a summary of clan activity (last seen).
+---
+
 # /summary activity
 
 Shows a summary of clan activity (last seen).

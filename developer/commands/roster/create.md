@@ -1,3 +1,7 @@
+---
+description: Create a roster
+---
+
 # /roster create
 
 Create a roster

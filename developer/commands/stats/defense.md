@@ -1,3 +1,7 @@
+---
+description: Shows defense failure rates of clan members.
+---
+
 # /stats defense
 
 Shows defense failure rates of clan members.

@@ -1,3 +1,7 @@
+---
+description: Shows information about capital raids.
+---
+
 # /summary capital-raids
 
 Shows information about capital raids.

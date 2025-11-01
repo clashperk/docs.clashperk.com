@@ -1,3 +1,7 @@
+---
+description: You can't use it anyway, so why explain?
+---
+
 # /usage
 
 You can't use it anyway, so why explain?

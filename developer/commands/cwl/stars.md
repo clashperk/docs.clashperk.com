@@ -1,3 +1,7 @@
+---
+description: Shows CWL member ranking by stars.
+---
+
 # /cwl stars
 
 Shows CWL member ranking by stars.

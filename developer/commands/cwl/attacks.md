@@ -1,3 +1,7 @@
+---
+description: Shows an overview of attacks for different CWL rounds.
+---
+
 # /cwl attacks
 
 Shows an overview of attacks for different CWL rounds.

@@ -1,3 +1,7 @@
+---
+description: Modify or delete a group
+---
+
 # /roster groups modify
 
 Modify or delete a group

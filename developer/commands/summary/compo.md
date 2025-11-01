@@ -1,3 +1,7 @@
+---
+description: Shows a summary of Town Hall composition.
+---
+
 # /summary compo
 
 Shows a summary of Town Hall composition.

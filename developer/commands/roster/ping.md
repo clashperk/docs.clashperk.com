@@ -1,3 +1,7 @@
+---
+description: Ping members in the roster
+---
+
 # /roster ping
 
 Ping members in the roster

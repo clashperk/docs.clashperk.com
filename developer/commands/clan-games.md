@@ -1,3 +1,7 @@
+---
+description: Clan games scoreboard of clan members.
+---
+
 # /clan-games
 
 Clan games scoreboard of clan members.

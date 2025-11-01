@@ -1,3 +1,7 @@
+---
+description: Shows a summary of capital contributions.
+---
+
 # /summary capital-contribution
 
 Shows a summary of capital contributions.

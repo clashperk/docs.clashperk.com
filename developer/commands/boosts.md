@@ -1,3 +1,7 @@
+---
+description: Displays active super troops of clan members.
+---
+
 # /boosts
 
 Displays active super troops of clan members.

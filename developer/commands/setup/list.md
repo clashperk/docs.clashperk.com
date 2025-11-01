@@ -1,3 +1,7 @@
+---
+description: List all enabled features and clans.
+---
+
 # /setup list
 
 List all enabled features and clans.

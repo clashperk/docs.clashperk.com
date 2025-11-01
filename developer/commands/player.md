@@ -1,3 +1,7 @@
+---
+description: Player summary and overview.
+---
+
 # /player
 
 Player summary and overview.

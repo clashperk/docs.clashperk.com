@@ -1,3 +1,7 @@
+---
+description: Shows war summary and overview of a clan.
+---
+
 # /war
 
 Shows war summary and overview of a clan.

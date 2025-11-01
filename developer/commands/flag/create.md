@@ -1,3 +1,7 @@
+---
+description: Create a player flag to mark the player as banned or flagged.
+---
+
 # /flag create
 
 Create a player flag to mark the player as banned or flagged.

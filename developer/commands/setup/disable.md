@@ -1,3 +1,7 @@
+---
+description: Disable a feature on the server or remove a clan.
+---
+
 # /setup disable
 
 Disable a feature on the server or remove a clan.

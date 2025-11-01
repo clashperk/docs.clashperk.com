@@ -1,3 +1,7 @@
+---
+description: Export a comprehensive version of clan member stats.
+---
+
 # /export members
 
 Export a comprehensive version of clan member stats.

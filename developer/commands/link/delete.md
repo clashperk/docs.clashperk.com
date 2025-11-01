@@ -1,3 +1,7 @@
+---
+description: Deletes a player account/clan from a Discord account.
+---
+
 # /link delete
 
 Deletes a player account/clan from a Discord account.

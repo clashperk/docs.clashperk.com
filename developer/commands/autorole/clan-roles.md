@@ -1,3 +1,7 @@
+---
+description: Manage automatic role management for clan roles.
+---
+
 # /autorole clan-roles
 
 Manage automatic role management for clan roles.

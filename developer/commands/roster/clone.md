@@ -1,3 +1,7 @@
+---
+description: Clone a roster to create a new one
+---
+
 # /roster clone
 
 Clone a roster to create a new one

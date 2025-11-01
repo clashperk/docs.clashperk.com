@@ -1,3 +1,7 @@
+---
+description: Export comprehensive seasonal stats of clan members.
+---
+
 # /export season
 
 Export comprehensive seasonal stats of clan members.

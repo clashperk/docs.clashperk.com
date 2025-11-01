@@ -1,3 +1,7 @@
+---
+description: Refresh roles manually.
+---
+
 # /autorole refresh
 
 Refresh roles manually.

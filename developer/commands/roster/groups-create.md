@@ -1,3 +1,7 @@
+---
+description: Create a group
+---
+
 # /roster groups create
 
 Create a group

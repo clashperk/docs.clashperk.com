@@ -1,3 +1,7 @@
+---
+description: Shows an overview of all CWL rounds and group standings.
+---
+
 # /cwl stats
 
 Shows an overview of all CWL rounds and group standings.

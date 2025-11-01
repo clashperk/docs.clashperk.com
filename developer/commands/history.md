@@ -1,3 +1,7 @@
+---
+description: Clan Games, Capital Raids, Donations, and CWL attacks history.
+---
+
 # /history
 
 Clan Games, Capital Raids, Donations, and CWL attacks history.

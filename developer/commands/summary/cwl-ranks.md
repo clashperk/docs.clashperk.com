@@ -1,3 +1,7 @@
+---
+description: Shows a summary of CWL ranks.
+---
+
 # /summary cwl-ranks
 
 Shows a summary of CWL ranks.

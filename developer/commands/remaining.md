@@ -1,3 +1,7 @@
+---
+description: Shows remaining or missed war hits of a clan.
+---
+
 # /remaining
 
 Shows remaining or missed war hits of a clan.

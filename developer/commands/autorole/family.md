@@ -1,3 +1,7 @@
+---
+description: Set family roles.
+---
+
 # /autorole family
 
 Set family roles.

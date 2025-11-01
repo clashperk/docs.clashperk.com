@@ -1,3 +1,7 @@
+---
+description: Shows legend leaderboard.
+---
+
 # /legend leaderboard
 
 Shows legend leaderboard.

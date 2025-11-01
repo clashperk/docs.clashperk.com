@@ -1,3 +1,7 @@
+---
+description: Set a target for a player in the current war.
+---
+
 # /caller assign
 
 Set a target for a player in the current war.

@@ -1,3 +1,7 @@
+---
+description: Set your timezone offset for /activity command.
+---
+
 # /timezone
 
 Set your timezone offset for /activity command.

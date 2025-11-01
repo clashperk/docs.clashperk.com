@@ -1,3 +1,7 @@
+---
+description: Shows a summary of trophies.
+---
+
 # /summary trophies
 
 Shows a summary of trophies.

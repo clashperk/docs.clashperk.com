@@ -1,3 +1,7 @@
+---
+description: Shows a graph of hourly-active clan members.
+---
+
 # /activity
 
 Shows a graph of hourly-active clan members.

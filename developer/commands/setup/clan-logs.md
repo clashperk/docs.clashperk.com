@@ -1,3 +1,7 @@
+---
+description: Setup automatic logs for the clan.
+---
+
 # /setup clan-logs
 
 Setup automatic logs for the clan.

@@ -1,3 +1,7 @@
+---
+description: Edit a reminder by ID (do /reminders list to get the ID)
+---
+
 # /reminders edit
 
 Edit a reminder by ID (do /reminders list to get the ID)

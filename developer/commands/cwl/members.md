@@ -1,3 +1,7 @@
+---
+description: Shows a list of all CWL participants.
+---
+
 # /cwl members
 
 Shows a list of all CWL participants.

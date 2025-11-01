@@ -1,3 +1,7 @@
+---
+description: Edit a clan category.
+---
+
 # /category edit
 
 Edit a clan category.

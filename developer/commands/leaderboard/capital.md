@@ -1,3 +1,7 @@
+---
+description: Top capital leaderboard.
+---
+
 # /leaderboard capital
 
 Top capital leaderboard.

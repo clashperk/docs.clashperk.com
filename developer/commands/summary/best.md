@@ -1,3 +1,7 @@
+---
+description: Shows a summary of best members.
+---
+
 # /summary best
 
 Shows a summary of best members.

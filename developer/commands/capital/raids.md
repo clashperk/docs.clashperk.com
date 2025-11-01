@@ -1,3 +1,7 @@
+---
+description: Shows raid weekend scores of clan members.
+---
+
 # /capital raids
 
 Shows raid weekend scores of clan members.

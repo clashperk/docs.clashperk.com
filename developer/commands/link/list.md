@@ -1,3 +1,7 @@
+---
+description: List all player links of a clan.
+---
+
 # /link list
 
 List all player links of a clan.

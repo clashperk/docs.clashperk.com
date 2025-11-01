@@ -1,3 +1,7 @@
+---
+description: Setup buttons for the server.
+---
+
 # /setup buttons
 
 Setup buttons for the server.

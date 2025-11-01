@@ -1,3 +1,7 @@
+---
+description: Export all rosters.
+---
+
 # /export rosters
 
 Export all rosters.

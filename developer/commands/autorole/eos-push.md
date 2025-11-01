@@ -1,3 +1,7 @@
+---
+description: Set end of season push roles.
+---
+
 # /autorole eos-push
 
 Set end of season push roles.

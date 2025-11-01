@@ -1,3 +1,7 @@
+---
+description: Add or remove users or change their group or roster
+---
+
 # /roster manage
 
 Add or remove users or change their group or roster

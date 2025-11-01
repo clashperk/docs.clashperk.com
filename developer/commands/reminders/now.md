@@ -1,3 +1,7 @@
+---
+description: Create an instant reminder to notify members.
+---
+
 # /reminders now
 
 Create an instant reminder to notify members.

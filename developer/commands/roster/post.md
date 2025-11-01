@@ -1,3 +1,7 @@
+---
+description: Post a roster to signup or view members
+---
+
 # /roster post
 
 Post a roster to signup or view members

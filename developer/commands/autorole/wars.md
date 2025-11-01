@@ -1,3 +1,7 @@
+---
+description: Set automatic war roles.
+---
+
 # /autorole wars
 
 Set automatic war roles.

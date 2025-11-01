@@ -1,3 +1,7 @@
+---
+description: Top clans leaderboard.
+---
+
 # /leaderboard clans
 
 Top clans leaderboard.

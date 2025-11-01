@@ -1,3 +1,7 @@
+---
+description: Shows statistics of legend ranks and trophies.
+---
+
 # /legend stats
 
 Shows statistics of legend ranks and trophies.

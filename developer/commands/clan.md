@@ -1,3 +1,7 @@
+---
+description: Shows comprehensive overview of a clan.
+---
+
 # /clan
 
 Shows comprehensive overview of a clan.

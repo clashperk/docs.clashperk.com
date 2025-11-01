@@ -1,3 +1,7 @@
+---
+description: Manage automatic role management for town hall levels.
+---
+
 # /autorole town-hall
 
 Manage automatic role management for town hall levels.

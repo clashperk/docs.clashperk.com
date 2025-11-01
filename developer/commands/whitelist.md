@@ -1,3 +1,7 @@
+---
+description: Whitelist a role or user to use specific commands.
+---
+
 # /whitelist
 
 Whitelist a role or user to use specific commands.

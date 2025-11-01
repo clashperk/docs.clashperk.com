@@ -1,3 +1,7 @@
+---
+description: Permanently delete a roster.
+---
+
 # /roster delete
 
 Permanently delete a roster.
