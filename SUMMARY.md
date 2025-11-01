@@ -52,7 +52,7 @@
 
 * [Commands](bot/commands/README.md)
   * [alias delete](bot/commands/alias-delete.md)
-  * [/activity](bot/commands/acti.md)
+  * [/activity](bot/commands/activity.md)
   * [alias create](bot/commands/alias-create.md)
   * [army](bot/commands/army.md)
   * [alias list](bot/commands/alias-list.md)
