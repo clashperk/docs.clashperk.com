@@ -10,7 +10,7 @@ Create reminders for clan wars, capital raids or clan games.
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `type` | Type of the reminder. | `Clan Wars`, `Capital Raids`, `Clan Games` |
+| `type` | Type of the reminder. | [`Clan Wars`, `Capital Raids`, `Clan Games`] |
 | `duration` | Remaining duration to mention members (e.g. 6h, 12h, 1d, 2d) | `String` |
 | `clans` | Clan tags or aliases to filter clans. | `String` |
 | `message` | Reminder message for the notification. | `String` |

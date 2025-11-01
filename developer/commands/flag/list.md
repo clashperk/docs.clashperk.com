@@ -10,7 +10,7 @@ List all player flags.
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `flag_type` | The type of the flag (ban or strike) | `Ban`, `Strike` |
+| `flag_type` | The type of the flag (ban or strike) | [`Ban`, `Strike`] |
 | `player` | Show all flags against a player | `String` |
 | `clans` | Clan tags or aliases to filter clans. | `String` |
 

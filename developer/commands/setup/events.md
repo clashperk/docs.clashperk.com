@@ -10,5 +10,5 @@ Setup automatic events for the server.
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `disable` | Disable the events schedular. | `Yes`, `No` |
+| `disable` | Disable the events schedular. | [`Yes`, `No`] |
 

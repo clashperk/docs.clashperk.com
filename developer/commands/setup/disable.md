@@ -10,7 +10,7 @@ Disable a feature on the server or remove a clan.
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `action` | Select an option | `Unlink from Channel`, `Remove Clan`, `Clan Embed` |
+| `action` | Select an option | [`Unlink from Channel`, `Remove Clan`, `Clan Embed`] |
 | `clan` | Clan tag or name or alias. | `String` |
 | `channel` | Channel to be removed. | `Channel` |
 

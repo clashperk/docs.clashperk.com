@@ -10,7 +10,7 @@ Create a player flag to mark the player as banned or flagged.
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `flag_type` | The type of the flag (ban or strike) | `Ban`, `Strike` |
+| `flag_type` | The type of the flag (ban or strike) | [`Ban`, `Strike`] |
 | `player` | The tag of a player to flag. | `String` |
 | `reason` | Reason for the flag. | `String` |
 | `flag_expiry_days` | Flag expiry days (auto deletes the flag) | `Integer` |
