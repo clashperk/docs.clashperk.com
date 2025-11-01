@@ -58,7 +58,7 @@ const getCommands = async () => {
       for (const opt of cmd.options) {
         const choices =
           Array.isArray(opt.choices) && opt.choices.length
-            ? `[${opt.choices.map((c) => `\`${c}\``).join(", ")}]`
+            ? `${opt.choices.map((c) => `\`${c}\``).join(", ")}`
             : "";
         const type = choices || `\`${opt.type}\``;
         const desc = opt.description || "_—_";

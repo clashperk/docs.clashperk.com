@@ -10,5 +10,5 @@ Redeem or manage a Patreon subscription. (if you wish to support us)
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `disable` | Disable subscription for a server (if subscribed) | [`Yes`, `No`] |
+| `disable` | Disable subscription for a server (if subscribed) | `Yes`, `No` |
 

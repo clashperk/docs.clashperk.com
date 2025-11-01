@@ -10,5 +10,5 @@ Export all rosters.
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `category` | Roster category. | [`CWL`, `WAR`, `E-SPORTS`] |
+| `category` | Roster category. | `CWL`, `WAR`, `E-SPORTS` |
 

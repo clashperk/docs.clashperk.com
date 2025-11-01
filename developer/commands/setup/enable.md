@@ -10,7 +10,7 @@ Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Cap
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `action` | Select an option | [`Link to Server`, `Link to Channel`, `Clan Embed`] |
+| `action` | Select an option | `Link to Server`, `Link to Channel`, `Clan Embed` |
 | `clan` | Clan tag or name or alias. | `String` |
 | `category` | Category of the clan. (select from the menu or type your own) | `String` |
 | `channel` | Channel to send updates to (defaults to the current channel) | `Channel` |

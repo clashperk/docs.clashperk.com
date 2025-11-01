@@ -12,7 +12,7 @@ Edit a roster
 |------|-------------|--------------|
 | `roster` | Select a roster to edit | `String` |
 | `name` | Name of the roster | `String` |
-| `category` | Category of the roster | [`CWL`, `WAR`, `E-SPORTS`, `TROPHY`] |
+| `category` | Category of the roster | `CWL`, `WAR`, `E-SPORTS`, `TROPHY` |
 | `clan` | Clan of the roster | `String` |
 | `detach_clan` | Detach clan from the roster | `Boolean` |
 | `allow_unlinked` | Whether to allow unlinked members | `Boolean` |
@@ -22,7 +22,7 @@ Edit a roster
 | `max_town_hall` | Maximum Town Hall level | `Integer` |
 | `min_hero_level` | Minimum combined Hero level | `Integer` |
 | `roster_role` | Roster role | `Role` |
-| `sort_by` | Sorting order of the roster member list | [`Player Name`, `Discord Name`, `Discord Username`, `Town Hall Level`, `Hero Levels`, `TH + Hero Levels`, `Clan Name`, `Signup Time`, `Trophies`, `Leagues`] |
+| `sort_by` | Sorting order of the roster member list | `Player Name`, `Discord Name`, `Discord Username`, `Town Hall Level`, `Hero Levels`, `TH + Hero Levels`, `Clan Name`, `Signup Time`, `Trophies`, `Leagues` |
 | `delete_role` | Whether to delete the roster role | `Boolean` |
 | `start_time` | Roster start time (YYYY-MM-DD HH:mm, in 24 hours format) | `String` |
 | `end_time` | Roster end time (YYYY-MM-DD HH:mm, in 24 hours format) | `String` |

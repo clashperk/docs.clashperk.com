@@ -10,6 +10,6 @@ Delete a reminder by ID (do /reminders list to get the ID)
 
 | Name | Description | Type/Options |
 |------|-------------|--------------|
-| `type` | Type of the reminder. | [`Clan Wars`, `Capital Raids`, `Clan Games`] |
+| `type` | Type of the reminder. | `Clan Wars`, `Capital Raids`, `Clan Games` |
 | `id` | Reminder ID (use /reminders list to get the ID) | `String` |
 

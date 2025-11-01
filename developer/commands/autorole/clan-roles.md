@@ -16,5 +16,5 @@ Manage automatic role management for clan roles.
 | `elder_role` | The Elder role. | `Role` |
 | `member_role` | The Member role (below Elder) | `Role` |
 | `everyone_role` | Clan role for everyone in the clan. | `Role` |
-| `only_verified` | Roles will be given to the verified players only. (API token verification is required) | [`Yes`, `No`] |
+| `only_verified` | Roles will be given to the verified players only. (API token verification is required) | `Yes`, `No` |
 

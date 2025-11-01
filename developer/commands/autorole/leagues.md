@@ -28,5 +28,5 @@ Manage automatic role management for leagues.
 | `5500_5749` | Trophy range 5500 - 5749 role. | `Role` |
 | `5750_5999` | Trophy range 5750 - 5999 role. | `Role` |
 | `6000_8000` | Trophy range 6000 - 8000 role. | `Role` |
-| `allow_non_family_accounts` | Whether to give roles to the members that are not in the family clans. | [`Yes`, `No`] |
+| `allow_non_family_accounts` | Whether to give roles to the members that are not in the family clans. | `Yes`, `No` |
 
