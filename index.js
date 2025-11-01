@@ -48,10 +48,8 @@ for (const cmd of commands) {
       md += `| \`${opt.name}\` | ${opt.description} |\n`;
     }
     md += `\n`;
-  } else {
-    // md += `_No options_\n\n`;
   }
-
+  
   fs.writeFileSync(filePath, md, "utf8");
 
   // add to summary
