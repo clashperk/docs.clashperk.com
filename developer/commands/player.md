@@ -4,7 +4,7 @@ description: Player summary and overview.
 
 # /player
 
-Player summary and overview.
+Shows comprehensive overview of a player (including war attack history)
 
 ## Options
 

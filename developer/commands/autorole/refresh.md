@@ -4,7 +4,7 @@ description: Refresh roles manually.
 
 # /autorole refresh
 
-Refresh roles manually.
+Refresh roles manually. (Use this command if the roles are not updated automatically)
 
 ## Options
 

@@ -4,7 +4,7 @@ description: Disable automatic clan roles.
 
 # /autorole disable
 
-Disable automatic clan roles.
+Disable automatic role management for clan roles, town hall levels, or leagues.
 
 ## Options
 

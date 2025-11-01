@@ -4,7 +4,7 @@ description: Get a clan member list with heroes, trophies, war preferences and m
 
 # /members
 
-Get a clan member list with heroes, trophies, war preferences and much more.
+List clan members sorted by heroes, trophies, war preferences, discord links, clan roles, player tags, attacks, etc.
 
 ## Options
 

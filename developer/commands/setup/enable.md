@@ -4,7 +4,7 @@ description: Enable a feature on the server or add a clan.
 
 # /setup enable
 
-Enable a feature on the server or add a clan.
+Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Capital Log, Clan Feed, Join/Leave Log, Clan Embed, Donation Log) or add a clan or link a clan to a channel.
 
 ## Options
 
