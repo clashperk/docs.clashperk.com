@@ -46,9 +46,10 @@ const getCommands = async () => {
       md += `|------|-------------|\n`;
 
       for (const opt of cmd.options) {
+        const isBoolean = opt.choices.every((item) => ['Yes', 'No'].includes(item))
         const choices =
-          Array.isArray(opt.choices) && opt.choices.length
-            ? `<br/>[${opt.choices.map((c) => `\`${c}\``).join(", ")}]`
+          Array.isArray(opt.choices) && opt.choices.length && !isBoolean
+            ? `<details><summary>View Options</summary>${opt.choices.map((c) => `\`${c}\``).join(", ")}</details>`
             : "";
         const desc = opt.description;
         md += `| \`${opt.name}\` | ${desc}${choices} |\n`;

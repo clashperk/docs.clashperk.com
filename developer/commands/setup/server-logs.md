@@ -10,6 +10,6 @@ Setup automatic logs for the server.
 
 | Name | Description |
 |------|-------------|
-| `log_type` | Select the log type to setup.<br/>[`Flag Alert Log`, `Roster Change Log`, `Maintenance Break Log`, `Welcome Log`] |
-| `disable` | Whether to disable the log.<br/>[`Yes`, `No`] |
+| `log_type` | Select the log type to setup.<details><summary>View Options</summary>`Flag Alert Log`, `Roster Change Log`, `Maintenance Break Log`, `Welcome Log`</details> |
+| `disable` | Whether to disable the log. |
 

@@ -11,7 +11,7 @@ Add or remove users or change their group or roster
 | Name | Description |
 |------|-------------|
 | `roster` | Select a roster to manage |
-| `action` | Select an action to perform<br/>[`Add Players`, `Remove Players`, `Change Roster`, `Change Group`] |
+| `action` | Select an action to perform<details><summary>View Options</summary>`Add Players`, `Remove Players`, `Change Roster`, `Change Group`</details> |
 | `player` | Select a player to manage |
 | `user` | Select a user to manage |
 | `from_clan` | Select a clan to add players from |

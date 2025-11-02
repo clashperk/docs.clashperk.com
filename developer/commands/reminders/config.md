@@ -10,5 +10,5 @@ Create an instant reminder to notify members.
 
 | Name | Description |
 |------|-------------|
-| `reminder_ping_exclusion` | Set reminder ping exclusion settings.<br/>[`Enable`, `Disable`] |
+| `reminder_ping_exclusion` | Set reminder ping exclusion settings.<details><summary>View Options</summary>`Enable`, `Disable`</details> |
 

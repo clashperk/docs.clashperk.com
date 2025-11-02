@@ -10,7 +10,7 @@ Delete a player flag.
 
 | Name | Description |
 |------|-------------|
-| `flag_type` | The type of the flag (ban or strike)<br/>[`Ban`, `Strike`] |
+| `flag_type` | The type of the flag (ban or strike)<details><summary>View Options</summary>`Ban`, `Strike`</details> |
 | `player` | The tag of a player to delete. |
 | `flag_ref` | Flag reference of this player. |
 | `clan` | Clan tag or name or alias. |

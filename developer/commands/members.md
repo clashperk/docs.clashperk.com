@@ -12,5 +12,5 @@ List clan members sorted by heroes, trophies, war preferences, discord links, cl
 |------|-------------|
 | `clan` | Clan tag or name or alias. |
 | `user` | Clan by @user mention or ID. |
-| `option` | Select an option<br/>[`Heroes/War Weight`, `Discord Links`, `War Preferences`, `Player Tags and Roles`, `Trophies and Leagues`, `Last Joining Date`, `Player Progress`, `Attacks & Defenses`, `Clan Overview`] |
+| `option` | Select an option<details><summary>View Options</summary>`Heroes/War Weight`, `Discord Links`, `War Preferences`, `Player Tags and Roles`, `Trophies and Leagues`, `Last Joining Date`, `Player Progress`, `Attacks & Defenses`, `Clan Overview`</details> |
 

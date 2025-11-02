@@ -11,7 +11,7 @@ Shows remaining or missed war hits of a clan.
 | Name | Description |
 |------|-------------|
 | `clan` | Clan tag or name or alias. |
-| `type` | The type of remaining tasks to show.<br/>[`War Attacks`, `Clan Games`, `Capital Raids`, `Legend Attacks`] |
+| `type` | The type of remaining tasks to show.<details><summary>View Options</summary>`War Attacks`, `Clan Games`, `Capital Raids`, `Legend Attacks`</details> |
 | `player` | Remaining attacks of a player. |
 | `user` | Remaining attacks of a linked user. |
 | `war_id` | Search by war ID. |

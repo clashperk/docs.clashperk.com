@@ -10,6 +10,6 @@ Setup buttons for the server.
 
 | Name | Description |
 |------|-------------|
-| `button_type` | Select the button type to setup<br/>[`Link Button`, `Role Refresh Button`, `My Rosters Button`] |
+| `button_type` | Select the button type to setup<details><summary>View Options</summary>`Link Button`, `Role Refresh Button`, `My Rosters Button`</details> |
 | `embed_color` | Hex color code for the embed |
 

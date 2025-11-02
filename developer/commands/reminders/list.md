@@ -10,7 +10,7 @@ List all war reminders for clan wars, capital raids or clan games.
 
 | Name | Description |
 |------|-------------|
-| `type` | Type of the reminder.<br/>[`Clan Wars`, `Capital Raids`, `Clan Games`] |
+| `type` | Type of the reminder.<details><summary>View Options</summary>`Clan Wars`, `Capital Raids`, `Clan Games`</details> |
 | `compact_list` | Show a compact list of the reminders and disable ephemeral. |
 | `clans` | Clan tags or aliases to filter clans. |
 | `channel` | Reminder channel for the notification. |

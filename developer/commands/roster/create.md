@@ -12,7 +12,7 @@ Create a roster
 |------|-------------|
 | `clan` | Clan of the roster |
 | `name` | Name of the roster |
-| `category` | Category of the roster<br/>[`CWL`, `WAR`, `E-SPORTS`, `TROPHY`] |
+| `category` | Category of the roster<details><summary>View Options</summary>`CWL`, `WAR`, `E-SPORTS`, `TROPHY`</details> |
 | `import_members` | Whether to import members from the clan |
 | `allow_unlinked` | Whether to allow unlinked members |
 | `max_members` | Roster size |
@@ -21,7 +21,7 @@ Create a roster
 | `max_town_hall` | Maximum Town Hall level |
 | `min_hero_level` | Minimum combined Hero level |
 | `roster_role` | Roster role |
-| `sort_by` | Sorting order of the roster member list<br/>[`Player Name`, `Discord Name`, `Discord Username`, `Town Hall Level`, `Hero Levels`, `TH + Hero Levels`, `Clan Name`, `Signup Time`, `Trophies`, `Leagues`] |
+| `sort_by` | Sorting order of the roster member list<details><summary>View Options</summary>`Player Name`, `Discord Name`, `Discord Username`, `Town Hall Level`, `Hero Levels`, `TH + Hero Levels`, `Clan Name`, `Signup Time`, `Trophies`, `Leagues`</details> |
 | `start_time` | Roster start time (YYYY-MM-DD HH:mm, in 24 hours format) |
 | `end_time` | Roster end time (YYYY-MM-DD HH:mm, in 24 hours format) |
 | `timezone` | Search timezone by city or country (e.g. London, Singapore, India, Sydney) |
