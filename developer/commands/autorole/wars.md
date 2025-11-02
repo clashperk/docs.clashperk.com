@@ -8,8 +8,8 @@ Set automatic war roles.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `role` | The war role. | `Role` |
-| `clan` | The clan for which to set the war role. | `String` |
+| Name | Description |
+|------|-------------|
+| `role` | The war role. |
+| `clan` | The clan for which to set the war role. |
 

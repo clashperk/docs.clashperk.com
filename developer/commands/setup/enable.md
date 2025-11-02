@@ -8,11 +8,11 @@ Enable a feature on the server (War Feed, Last Seen, Clan Games, Legend Log, Cap
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `action` | Select an option | `Link to Server`, `Link to Channel`, `Clan Embed` |
-| `clan` | Clan tag or name or alias. | `String` |
-| `category` | Category of the clan. (select from the menu or type your own) | `String` |
-| `channel` | Channel to send updates to (defaults to the current channel) | `Channel` |
-| `color` | Hex color code (only for donation log, clan games, last seen and clan embed) | `String` |
+| Name | Description |
+|------|-------------|
+| `action` | Select an option<br/>[`Link to Server`, `Link to Channel`, `Clan Embed`] |
+| `clan` | Clan tag or name or alias. |
+| `category` | Category of the clan. (select from the menu or type your own) |
+| `channel` | Channel to send updates to (defaults to the current channel) |
+| `color` | Hex color code (only for donation log, clan games, last seen and clan embed) |
 

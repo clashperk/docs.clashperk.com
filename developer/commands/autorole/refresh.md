@@ -8,9 +8,9 @@ Refresh roles manually. (Use this command if the roles are not updated automatic
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `user_or_role` | Refresh an individual user or a role. | `Mentionable` |
-| `is_test_run` | Test run to see the changes without applying. | `Boolean` |
-| `force_refresh` | Whether to bypass delays and force refresh roles. | `Boolean` |
+| Name | Description |
+|------|-------------|
+| `user_or_role` | Refresh an individual user or a role. |
+| `is_test_run` | Test run to see the changes without applying. |
+| `force_refresh` | Whether to bypass delays and force refresh roles. |
 

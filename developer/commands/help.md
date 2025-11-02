@@ -8,7 +8,7 @@ Get a list of commands or info about a specific command.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `command` | Name of the command. | `String` |
+| Name | Description |
+|------|-------------|
+| `command` | Name of the command. |
 

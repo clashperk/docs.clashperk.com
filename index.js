@@ -40,20 +40,10 @@ const getCommands = async () => {
     md += `# ${cmd.name}\n\n`;
     md += `${cmd.description_long || cmd.description}\n\n`;
 
-    // if (cmd.options && cmd.options.length > 0) {
-    //   md += `## Options\n\n`;
-    //   md += `| Name | Description |\n`;
-    //   md += `|------|-------------|\n`;
-    //   for (const opt of cmd.options) {
-    //     md += `| \`${opt.name}\` | ${opt.description} |\n`;
-    //   }
-    //   md += `\n`;
-    // }
-
     if (cmd.options && cmd.options.length > 0) {
       md += `## Options\n\n`;
-      md += `| Name | Type | Description |\n`;
-      md += `|------|------|-------------|\n`;
+      md += `| Name | Description |\n`;
+      md += `|------|-------------|\n`;
 
       for (const opt of cmd.options) {
         const choices =
@@ -61,7 +51,7 @@ const getCommands = async () => {
             ? `<br/>[${opt.choices.map((c) => `\`${c}\``).join(", ")}]`
             : "";
         const desc = opt.description;
-        md += `| \`${opt.name}\` | \`${opt.type}\` | ${desc}${choices} |\n`;
+        md += `| \`${opt.name}\` | ${desc}${choices} |\n`;
       }
       md += `\n`;
     }

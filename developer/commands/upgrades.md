@@ -8,8 +8,8 @@ Remaining upgrades of a player with upgrading cost.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `player` | Player tag or name. | `String` |
-| `user` | Player by @user mention or ID. | `User` |
+| Name | Description |
+|------|-------------|
+| `player` | Player tag or name. |
+| `user` | Player by @user mention or ID. |
 

@@ -8,7 +8,7 @@ Deletes a clan alias.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `alias` | Tag of a clan or name of an alias | `String` |
+| Name | Description |
+|------|-------------|
+| `alias` | Tag of a clan or name of an alias |
 

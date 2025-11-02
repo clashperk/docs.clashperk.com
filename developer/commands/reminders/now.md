@@ -8,9 +8,9 @@ Create an instant reminder to notify members.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `type` | Type of the reminder. | `Clan Wars`, `Capital Raids`, `Clan Games` |
-| `message` | Reminder message for the notification. | `String` |
-| `clans` | Clan tags or aliases to filter clans. | `String` |
+| Name | Description |
+|------|-------------|
+| `type` | Type of the reminder.<br/>[`Clan Wars`, `Capital Raids`, `Clan Games`] |
+| `message` | Reminder message for the notification. |
+| `clans` | Clan tags or aliases to filter clans. |
 

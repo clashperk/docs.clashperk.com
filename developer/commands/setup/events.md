@@ -8,7 +8,7 @@ Setup automatic events for the server.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `disable` | Disable the events schedular. | `Yes`, `No` |
+| Name | Description |
+|------|-------------|
+| `disable` | Disable the events schedular.<br/>[`Yes`, `No`] |
 

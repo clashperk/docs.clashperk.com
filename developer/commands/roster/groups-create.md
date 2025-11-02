@@ -8,9 +8,9 @@ Create a group
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `name` | Name of the group | `String` |
-| `group_role` | Role of the group | `Role` |
-| `selectable` | Whether to allow members to select this group | `Boolean` |
+| Name | Description |
+|------|-------------|
+| `name` | Name of the group |
+| `group_role` | Role of the group |
+| `selectable` | Whether to allow members to select this group |
 

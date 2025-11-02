@@ -8,7 +8,7 @@ Export clan capital weekends.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `clans` | Clan tags or aliases to filter clans. | `String` |
+| Name | Description |
+|------|-------------|
+| `clans` | Clan tags or aliases to filter clans. |
 

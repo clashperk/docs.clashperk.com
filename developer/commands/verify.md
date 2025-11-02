@@ -8,8 +8,8 @@ Verify and link a player account using an API token.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `player` | Tag of the player to verify. | `String` |
-| `token` | API token that can be found in the game settings. | `String` |
+| Name | Description |
+|------|-------------|
+| `player` | Tag of the player to verify. |
+| `token` | API token that can be found in the game settings. |
 

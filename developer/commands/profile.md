@@ -8,8 +8,8 @@ Shows linked accounts and clan of a user.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `user` | User ID or @user mention. | `User` |
-| `player` | Player tag or name. | `String` |
+| Name | Description |
+|------|-------------|
+| `user` | User ID or @user mention. |
+| `player` | Player tag or name. |
 

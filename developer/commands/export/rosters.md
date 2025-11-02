@@ -8,7 +8,7 @@ Export all rosters.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `category` | Roster category. | `CWL`, `WAR`, `E-SPORTS` |
+| Name | Description |
+|------|-------------|
+| `category` | Roster category.<br/>[`CWL`, `WAR`, `E-SPORTS`] |
 

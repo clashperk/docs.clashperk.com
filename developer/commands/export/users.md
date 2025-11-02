@@ -8,7 +8,7 @@ Export Discord members
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `role` | Role to filter users. | `Role` |
+| Name | Description |
+|------|-------------|
+| `role` | Role to filter users. |
 

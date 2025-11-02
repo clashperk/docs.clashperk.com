@@ -8,7 +8,7 @@ Set your timezone offset for /activity command.
 
 ## Options
 
-| Name | Description | Type/Options |
-|------|-------------|--------------|
-| `location` | Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney) | `String` |
+| Name | Description |
+|------|-------------|
+| `location` | Search timezone by city or country. (e.g. London, New York, Singapore, India, Sydney) |
 
