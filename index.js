@@ -52,17 +52,16 @@ const getCommands = async () => {
 
     if (cmd.options && cmd.options.length > 0) {
       md += `## Options\n\n`;
-      md += `| Name | Description | Type/Options |\n`;
-      md += `|------|-------------|--------------|\n`;
+      md += `| Name | Type | Description |\n`;
+      md += `|------|------|-------------|\n`;
 
       for (const opt of cmd.options) {
         const choices =
           Array.isArray(opt.choices) && opt.choices.length
-            ? `${opt.choices.map((c) => `\`${c}\``).join(", ")}`
+            ? `<br/>[${opt.choices.map((c) => `\`${c}\``).join(", ")}]`
             : "";
-        const type = choices || `\`${opt.type}\``;
-        const desc = opt.description || "_—_";
-        md += `| \`${opt.name}\` | ${desc} | ${type} |\n`;
+        const desc = opt.description;
+        md += `| \`${opt.name}\` | \`${opt.type}\` | ${desc}${choices} |\n`;
       }
       md += `\n`;
     }

@@ -8,7 +8,7 @@ Parse an army composition link.
 
 ## Options
 
-| Name | Description | Type/Options |
+| <div style="width: 100px;">Name</div> | Description | Type/Options |
 |------|-------------|--------------|
 | `link` | Army composition link. | `String` |
 | `army_name` | An optional name for this army. | `String` |
