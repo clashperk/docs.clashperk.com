@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "docs": [
+    {
+      "group": "General",
+      "pages": [
+        { "name": "Welcome!", "path": "README.md" },
+        { "name": "FAQ", "path": "faq.md" }
+      ]
+    },
+    {
+      "group": "Overview",
+      "pages": [
+        { "name": "Getting set up", "path": "overview/getting-set-up.md" },
+        { "name": "Link account", "path": "overview/link-account.md" }
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        {
+          "name": "Rosters",
+          "path": "features/rosters/README.md",
+          "pages": [
+            { "name": "Create, Edit, Delete and Clone Rosters", "path": "features/rosters/create-edit-delete-and-clone-rosters.md" },
+            { "name": "Button", "path": "features/rosters/button.md" },
+            { "name": "Roster Ping", "path": "features/rosters/roster-ping.md" },
+            { "name": "List Rosters and Groups", "path": "features/rosters/list-rosters-and-groups.md" },
+            { "name": "Managing Groups", "path": "features/rosters/managing-groups.md" },
+            { "name": "Exporting Rosters", "path": "features/rosters/exporting-rosters.md" }
+          ]
+        },
+        { "name": "Bot Personalizer", "path": "features/bot-personalizer.md" },
+        { "name": "Flags (Ban/Strike)", "path": "features/flags-ban-strike.md" },
+        { "name": "Auto Role", "path": "features/auto-role.md" },
+        { "name": "Logs", "path": "features/logs.md" },
+        { "name": "Clan Alias", "path": "features/clan-alias.md" }
+      ]
+    },
+    {
+      "group": "Others",
+      "pages": [
+        { "name": "Bot Manager", "path": "others/bot-manager.md" },
+        { "name": "Whitelist", "path": "others/whitelist.md" },
+        { "name": "Autocomplete", "path": "others/autocomplete.md" }
+      ]
+    },
+    {
+      "group": "Developer",
+      "pages": [
+        {
+          "name": "Commands",
+          "path": "developer/commands/README.md",
+          "pages": [
+            { "name": "/activity", "path": "developer/commands/activity.md" },
+            {
+              "name": "/alias",
+              "path": "developer/commands/alias/README.md",
+              "pages": [
+                { "name": "/alias create", "path": "developer/commands/alias/create.md" },
+                { "name": "/alias delete", "path": "developer/commands/alias/delete.md" },
+                { "name": "/alias list", "path": "developer/commands/alias/list.md" }
+              ]
+            },
+            { "name": "/army", "path": "developer/commands/army.md" },
+            { "name": "/attacks", "path": "developer/commands/attacks.md" },
+            {
+              "name": "/autorole",
+              "path": "developer/commands/autorole/README.md",
+              "pages": [
+                { "name": "/autorole builder-hall", "path": "developer/commands/autorole/builder-hall.md" },
+                { "name": "/autorole builder-leagues", "path": "developer/commands/autorole/builder-leagues.md" },
+                { "name": "/autorole clan-roles", "path": "developer/commands/autorole/clan-roles.md" },
+                { "name": "/autorole config", "path": "developer/commands/autorole/config.md" },
+                { "name": "/autorole disable", "path": "developer/commands/autorole/disable.md" },
+                { "name": "/autorole eos-push", "path": "developer/commands/autorole/eos-push.md" },
+                { "name": "/autorole family", "path": "developer/commands/autorole/family.md" },
+                { "name": "/autorole leagues", "path": "developer/commands/autorole/leagues.md" },
+                { "name": "/autorole list", "path": "developer/commands/autorole/list.md" },
+                { "name": "/autorole refresh", "path": "developer/commands/autorole/refresh.md" },
+                { "name": "/autorole town-hall", "path": "developer/commands/autorole/town-hall.md" },
+                { "name": "/autorole wars", "path": "developer/commands/autorole/wars.md" }
+              ]
+            },
+            { "name": "/boosts", "path": "developer/commands/boosts.md" },
+            { "name": "/bot-personalizer", "path": "developer/commands/bot-personalizer.md" },
+            {
+              "name": "/caller",
+              "path": "developer/commands/caller/README.md",
+              "pages": [
+                { "name": "/caller assign", "path": "developer/commands/caller/assign.md" },
+                { "name": "/caller clear", "path": "developer/commands/caller/clear.md" }
+              ]
+            },
+            {
+              "name": "/capital",
+              "path": "developer/commands/capital/README.md",
+              "pages": [
+                { "name": "/capital contribution", "path": "developer/commands/capital/contribution.md" },
+                { "name": "/capital raids", "path": "developer/commands/capital/raids.md" }
+              ]
+            },
+            {
+              "name": "/category",
+              "path": "developer/commands/category/README.md",
+              "pages": [
+                { "name": "/category create", "path": "developer/commands/category/create.md" },
+                { "name": "/category delete", "path": "developer/commands/category/delete.md" },
+                { "name": "/category edit", "path": "developer/commands/category/edit.md" },
+                { "name": "/category list", "path": "developer/commands/category/list.md" }
+              ]
+            },
+            { "name": "/clan", "path": "developer/commands/clan.md" },
+            { "name": "/clan-games", "path": "developer/commands/clan-games.md" },
+            { "name": "/clans", "path": "developer/commands/clans.md" },
+            { "name": "/compo", "path": "developer/commands/compo.md" },
+            { "name": "/config", "path": "developer/commands/config.md" },
+            {
+              "name": "/cwl",
+              "path": "developer/commands/cwl/README.md",
+              "pages": [
+                { "name": "/cwl attacks", "path": "developer/commands/cwl/attacks.md" },
+                { "name": "/cwl lineup", "path": "developer/commands/cwl/lineup.md" },
+                { "name": "/cwl members", "path": "developer/commands/cwl/members.md" },
+                { "name": "/cwl roster", "path": "developer/commands/cwl/roster.md" },
+                { "name": "/cwl round", "path": "developer/commands/cwl/round.md" },
+                { "name": "/cwl stars", "path": "developer/commands/cwl/stars.md" },
+                { "name": "/cwl stats", "path": "developer/commands/cwl/stats.md" }
+              ]
+            },
+            { "name": "/debug", "path": "developer/commands/debug.md" },
+            { "name": "/donations", "path": "developer/commands/donations.md" },
+            { "name": "/eval", "path": "developer/commands/eval.md" },
+            { "name": "/events", "path": "developer/commands/events.md" },
+            {
+              "name": "/export",
+              "path": "developer/commands/export/README.md",
+              "pages": [
+                { "name": "/export attack-log", "path": "developer/commands/export/attack-log.md" },
+                { "name": "/export capital", "path": "developer/commands/export/capital.md" },
+                { "name": "/export capital-raids", "path": "developer/commands/export/capital-raids.md" },
+                { "name": "/export clans", "path": "developer/commands/export/clans.md" },
+                { "name": "/export cwl", "path": "developer/commands/export/cwl.md" },
+                { "name": "/export last-wars", "path": "developer/commands/export/last-wars.md" },
+                { "name": "/export members", "path": "developer/commands/export/members.md" },
+                { "name": "/export missed", "path": "developer/commands/export/missed.md" },
+                { "name": "/export rosters", "path": "developer/commands/export/rosters.md" },
+                { "name": "/export season", "path": "developer/commands/export/season.md" },
+                { "name": "/export users", "path": "developer/commands/export/users.md" },
+                { "name": "/export wars", "path": "developer/commands/export/wars.md" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ClashPerk API",
+          "path": "developer/clashperk-api/README.md"
+        }
+      ]
+    },
+    {
+      "group": "Policies",
+      "pages": [
+        { "name": "Terms of Service", "path": "https://clashperk.com/terms" },
+        { "name": "Privacy Policy", "path": "https://clashperk.com/privacy" }
+      ]
+    }
+  ]
+}
