@@ -13,6 +13,7 @@ Create a player flag to mark the player as banned or flagged.
 | `flag_type` | The type of the flag (ban or strike)<details><summary>View Options</summary>`Ban`, `Strike`</details> |
 | `player` | The tag of a player to flag. |
 | `reason` | Reason for the flag. |
+| `dm_user` | Whether to DM the user about the flag |
 | `flag_expiry_days` | Flag expiry days (auto deletes the flag) |
 | `flag_impact` | Number of flags this should count as |
 

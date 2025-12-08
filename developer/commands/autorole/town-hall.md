@@ -27,5 +27,6 @@ Manage automatic role management for town hall levels.
 | `th_15` | Town Hall 15 role. |
 | `th_16` | Town Hall 16 role. |
 | `th_17` | Town Hall 17 role. |
+| `th_18` | Town Hall 18 role. |
 | `allow_non_family_accounts` | Whether to give roles to the members that are not in the family clans. |
 
