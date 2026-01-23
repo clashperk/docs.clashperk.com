@@ -43,7 +43,7 @@ Whenever the bot captures an activity (mentioned above), the player gets a +1 sc
 
 ## How does the clan games scoreboard work?
 
-Clan Games points can't be directly pulled from the API. Instead, we track the **Games Champion** achievement. At the start of Clan Games, we capture each player's progress, and then compare it every 10-15 minutes. The difference shows how many points they've earned during the event, and this updates the scoreboard.
+Clan Games points can't be directly pulled from the API. Instead, we track the **Games Champion** achievement. At the start of Clan Games, we capture each player's progress and then compare it every 10-15 minutes. The difference shows how many points they've earned during the event, and this updates the scoreboard.
 
 ## **Why is Gold/Elixir Looted 0 for Some Players?**
 
@@ -52,3 +52,21 @@ Once a player hits 2 billion in looted Gold or Elixir, the API stops increasing 
 ## Is my API token safe to share?
 
 Yes, your API token cannot be used to steal your account or gain access to any account-related data. It only verifies your identity with third-party services. The token resets periodically and becomes invalid after each use.
+
+## How does ClashPerk track game data?
+
+ClashPerk tracks game data using the official Clash of Clans API, which does not provide real-time events. The only way to observe changes is by polling the API at safe intervals.
+
+Polling simply means checking the API from time to time to see what the current data looks like, instead of being notified instantly when something changes.
+
+* The official API has rate limits and no push/webhook system, so continuous tracking isn’t possible.
+* ClashPerk tracks a large number of clans and players, and completing a full polling cycle takes time.
+* Some in-game updates take time to appear in the API itself.
+
+**Examples**
+
+* Trophy changes: A player gains trophies from an attack and loses them in a defense before the next poll. Only the final value is visible, so the intermediate change isn’t recorded.
+* War attacks: A war attack happens shortly after a poll and only appears on the next API check, making it seem delayed.
+* Clan join/leave: A player leaves a clan and rejoins before the next poll. Since the state briefly changed and reverted, ClashPerk may never observe the leave.
+
+These limitations apply to almost all tracked data. ClashPerk records snapshots based on what the API exposes, so short delays or missed short-lived changes are unavoidable.
