@@ -34,7 +34,7 @@ Due to API limitations, the bot can't directly see who is online or recently act
 * [x] Resources (gold/elixir/dark) looted
 * [x] Super Troops boosted
 * [x] Goblin stars earned
-* [x] Wttacked in war (CWL/Regular/Friendly)
+* [x] Attacked in war (CWL/Regular/Friendly)
 * [x] Artilleries, Monolith, Walls, Builder huts, Inferno towers, Mortars, Xbows, Spell towers, and Scattershots destroyed
 
 ## What is activity score?
