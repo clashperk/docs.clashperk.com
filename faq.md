@@ -59,6 +59,8 @@ ClashPerk tracks game data using the official Clash of Clans API, which does not
 
 Polling simply means checking the API from time to time to see what the current data looks like, instead of being notified instantly when something changes.
 
+**Why this can’t be real-time**
+
 * The official API has rate limits and no push/webhook system, so continuous tracking isn’t possible.
 * ClashPerk tracks a large number of clans and players, and completing a full polling cycle takes time.
 * Some in-game updates take time to appear in the API itself.
