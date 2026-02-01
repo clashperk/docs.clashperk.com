@@ -25,7 +25,7 @@ The following command allows you to quickly add your clan to the server, enablin
 
 Allows you to link a clan to a channel. (one clan per channel)
 
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Link to Channel`<mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
+<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Link to Channel` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
 
 * [x] This link enables you to run commands without entering or selecting a clan tag.
 * [x] You can repeat the process to link the clan in multiple channels.
