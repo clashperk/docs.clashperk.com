@@ -185,17 +185,6 @@
   * [/war](developer/commands/war.md)
   * [/warlog](developer/commands/warlog.md)
   * [/whitelist](developer/commands/whitelist.md)
-* [ClashPerk API](developer/clashperk-api/README.md)
-  * ```yaml
-    props:
-      models: false
-    type: builtin:openapi
-    dependencies:
-      spec:
-        ref:
-          kind: openapi
-          spec: clashperk-bot-api
-    ```
 
 ## Policies
 
