@@ -5,108 +5,131 @@ icon: scroll
 
 # Logs
 
-{% hint style="info" %}
-You can setup these Logs in a Forum Post, Thread or Channel to set them up to your liking! Check out the [Discord ](https://discord.com/invite/ppuppun)for examples!
-{% endhint %}
+Logs are automatic messages posted by ClashPerk.
 
-## Clan Logs
+You can enable them per clan. You can send each log to its own channel or thread.
 
-### Member Join/Leave Log
+### Set up logs
 
-Keeps a log of new members joining and leaving. It also shows some Information about the Player.&#x20;
-
-When <mark style="color:green;">Joining</mark> it shows you the Town Hall, Trophies, Hero Levels, War Stars, Rushed Percentage, Joined Clan, Amount of members in that Clan, and Time.
-
-When <mark style="color:red;">Leaving</mark> it shows you TownHall, Trophies, Donations at the point of leaving, and Joined Clan (If they joined directly).
-
-***
-
-### Role Change Log
-
-Keeps a log of who was <mark style="color:green;">promoted</mark>/<mark style="color:red;">demoted</mark> and when.
-
-***
-
-### Donation Log (<mark style="color:purple;">Instant</mark>/Daily/Weekly/Monthly)
-
-Keeps a log of Donations Daily/Weekly/Monthly. <mark style="color:purple;">Instant</mark> posts an update whenever someone donates or receives troops.
-
-***
-
-### Clan Games Embed Log
-
-Posts a leaderboard at the Clan Games's beginning and then <mark style="color:purple;">updates</mark> it throughout the week. Shows the amount of Points, Average and Tier.&#x20;
-
-***
-
-### Last Seen Embed Log
-
-Posts one post and updates it live. See [#how-does-last-seen-work](../faq.md#how-does-last-seen-work "mention")
-
-***
-
-### Legend Attacks Daily Summary Log
-
-Posts daily legend attack summary of the day. It shows how much was <mark style="color:green;">won</mark> in the offense and <mark style="color:red;">lost</mark> in the defense and shows the final placement.&#x20;
+Run <mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`&#x20;
 
 {% hint style="info" %}
-Data may be inaccurate as it is not possible to detect when an attack and defense happen at the same time.
+Logs are not truly real-time. ClashPerk polls the official API, so short delays can happen.
+
+[#how-does-clashperk-track-game-data](../faq.md#how-does-clashperk-track-game-data "mention")
 {% endhint %}
 
-***
+#### Member Join/Leave Log
 
-## Capital Logs
+Tracks members joining and leaving your clan.
 
-### Clan Capital Weekly Summary Log
+* **On join**: Town Hall, trophies, hero levels, war stars, rushed %, join source, member count, time.
+* **On leave**: Town Hall, trophies, donations at leave, and join source (if known).
 
-Posts Capital Raid and Contribution summary at the end of the Raid. Displays a graphic similar to the one in-game. Shows how much was looted and contributed.
+#### Role Change Log
 
-***
+Tracks in-game promotions and demotions.
 
-## War Logs
+* Shows who changed role, the old/new role, and when.
 
-### War / CWL Embed Log
+#### Donation Log
 
-Posts an Embed for each War and keeps <mark style="color:purple;">updating</mark> it throughout the War. Shows recent attacks, war state, size and stats. Also the breakdown of the town halls. It has also three buttons, which generate an ephemeral Embed.
+Tracks troop donations.
 
-* Attacks - Shows all attacks.
-* Defenses - Shows all defenses.
-* Open bases - Shows bases that aren't on 3 Star. Also shows the caller if someone calls it using the call command.
+{% tabs %}
+{% tab title="Instant" %}
+Posts whenever someone donates or receives troops.
+{% endtab %}
 
-***
+{% tab title="Daily" %}
+Posts a daily donation summary.
+{% endtab %}
 
-### War / CWL Missed Attacks Log
+{% tab title="Weekly" %}
+Posts every Monday.
+{% endtab %}
 
-Posts an Embed with the players that missed their attacks. Separates them into 2 and 1 Missed Attack.
+{% tab title="Monthly" %}
+Posts on the last Monday of each month.
+{% endtab %}
+{% endtabs %}
 
-***
+#### Clan Games Embed Log
 
-### CWL Lineup Change Log
+Posts a Clan Games leaderboard message. It updates itself throughout the event.
 
-Shows who was <mark style="color:green;">added</mark> and <mark style="color:red;">removed</mark> from the Lineup as soon as a change happens.
+* Shows points, average, and tier progress.
 
-***
+#### Last Seen Embed Log
 
-### CWL Monthly Summary Log
+Posts one message and keeps it updated. Updates run every \~30 minutes.
 
-Creates a Graphic for the Summary of the CWL placements.
+* Shows estimated activity / last-seen status.
+* Uses signals like donations, trophy changes, clan games, capital activity, etc.
 
-***
+See [How does last seen work?](../faq.md#how-does-last-seen-work).
 
-## Player Logs
+#### Legend Attacks Daily Summary Log
 
-### Name Change Log
+Posts a daily legend league recap.
 
-Posts whenever someone changes their name within the Clan.
+* Shows offense gained, defense lost, and final placement.
 
-***
+{% hint style="info" %}
+Data can be off when offense and defense happen between two API polls.
+{% endhint %}
 
-### Town Hall Upgrade Log
+#### Clan Capital Weekly Summary Log
 
-Posts when someone upgrades their Town Hall and shows how much percentage of troop upgrades were left.
+Posts after the raid weekend ends.
 
-***
+* Shows total raid loot and capital gold contribution.
+* Includes a graphic similar to the in-game summary.
 
-### War Preference Log
+#### War Embed Log
 
-Shows when someone opted <mark style="color:green;">in</mark>/<mark style="color:red;">out</mark> of war.
+Posts one embed per war and updates it during the war.
+
+* Shows recent attacks, war state, war size, and key stats.
+* Includes a Town Hall breakdown.
+
+#### War Missed Attacks Log
+
+Posts a list of players who missed attacks.
+
+* Splits players by 1 missed vs 2 missed.
+
+#### CWL Embed Log
+
+Posts one embed per CWL round and updates it.
+
+#### CWL Missed Attacks Log
+
+Posts a list of players who missed their CWL attacks.
+
+#### CWL Lineup Change Log
+
+Logs lineup changes as they happen.
+
+* Shows who was added and who was removed.
+
+#### CWL Monthly Summary Log
+
+Posts a graphic summarizing the CWL season placements.
+
+#### Name Change Log
+
+Posts when a member changes their in-game name.
+
+#### Town Hall Upgrade Log
+
+Posts when a member upgrades their Town Hall.
+
+* Also shows the % of troop upgrades remaining.
+* Optional: ping a role via `ping_role`.
+
+#### War Preference Log
+
+Posts when a member changes war preference.
+
+* Shows opt-in vs opt-out.
