@@ -13,7 +13,7 @@ icon: lightbulb
 
 The following command allows you to quickly add your clan to the server, enabling the bot to track it.
 
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Link to Server` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
+<mark style="color:blue;">**/setup clan**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
 
 </details>
 
@@ -25,7 +25,7 @@ The following command allows you to quickly add your clan to the server, enablin
 
 Allows you to link a clan to a channel. (one clan per channel)
 
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Link to Channel` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
+<mark style="color:blue;">**/setup clan**</mark>**&#x20;**<mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**clan\_channel:**</mark> `#general`
 
 * [x] This link enables you to run commands without entering or selecting a clan tag.
 * [x] You can repeat the process to link the clan in multiple channels.
@@ -40,7 +40,7 @@ Allows you to link a clan to a channel. (one clan per channel)
 
 Clan embed is for showcasing your clans in a public channel.
 
-<mark style="color:blue;">**/setup enable**</mark> <mark style="color:purple;">**option:**</mark> `Clan Embed` <mark style="color:purple;">**tag:**</mark> `#CLAN_TAG`
+<mark style="color:blue;">**/setup clan-embed**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
 
 </details>
 
