@@ -21,15 +21,15 @@ Logs are not truly real-time. ClashPerk polls the official API, so short delays 
 
 ***
 
-## Clan Logs
+## <mark style="color:green;">Clan Logs</mark>
 
-#### Clan Achievements Log
+#### <mark style="color:green;">Clan Achievements Log</mark>
 
 Posts when the clan reaches a milestone.
 
 * Clan level up, War League promotion/demotion, Capital League promotion/demotion, Capital Hall level up.
 
-#### Donation Log
+#### <mark style="color:green;">Donation Log</mark>
 
 Tracks troop donations.
 
@@ -51,13 +51,13 @@ Posts on the last Monday of each month.
 {% endtab %}
 {% endtabs %}
 
-#### Clan Games Embed Log
+#### <mark style="color:green;">Clan Games Embed Log</mark>
 
 Posts a Clan Games leaderboard message. It updates itself throughout the event.
 
 * Shows points, average, and tier progress.
 
-#### Last Seen Embed Log
+#### <mark style="color:green;">Last Seen Embed Log</mark>
 
 Posts one message and keeps it updated. Updates run approximately every 30 minutes.
 
@@ -66,7 +66,7 @@ Posts one message and keeps it updated. Updates run approximately every 30 minut
 
 See [How does last seen work?](../faq.md#how-does-last-seen-work).
 
-#### Legend Attacks Daily Summary Log
+#### <mark style="color:green;">Legend Attacks Daily Summary Log</mark>
 
 Posts a daily legend league recap.
 
@@ -78,101 +78,101 @@ Data can be off when offense and defense happen between two API polls.
 
 ***
 
-## Capital Logs
+## <mark style="color:purple;">Capital Logs</mark>
 
-#### Clan Capital Weekly Summary Log
+#### <mark style="color:purple;">Clan Capital Weekly Summary Log</mark>
 
 Posts after the raid weekend ends.
 
 * Shows total raid loot and capital gold contribution.
 * Includes a graphic similar to the in-game summary.
 
-#### Capital Gold Contribution Log
+#### <mark style="color:purple;">Capital Gold Contribution Log</mark>
 
 Posts each time a member contributes capital gold.
 
-#### Capital Gold Raid Log
+#### <mark style="color:purple;">Capital Gold Raid Log</mark>
 
 Posts each time a member completes a capital raid attack.
 
 ***
 
-## War Logs
+## <mark style="color:red;">War Logs</mark>
 
-#### War Attack Log
+#### <mark style="color:red;">War Attack Log</mark>
 
 Posts a message for every attack made during a Clan War.
 
-#### CWL Attack Log
+#### <mark style="color:red;">CWL Attack Log</mark>
 
 Posts a message for every attack made during CWL.
 
-#### War Embed Log
+#### <mark style="color:red;">War Embed Log</mark>
 
 Posts one embed per war and updates it during the war.
 
 * Shows recent attacks, war state, war size, and key stats.
 * Includes a Town Hall breakdown.
 
-#### War Missed Attacks Log
+#### <mark style="color:red;">War Missed Attacks Log</mark>
 
 Posts a list of players who missed attacks.
 
 * Splits players by 1 missed vs 2 missed.
 
-#### CWL Embed Log
+#### <mark style="color:red;">CWL Embed Log</mark>
 
 Posts one embed per CWL round and updates it.
 
-#### CWL Missed Attacks Log
+#### <mark style="color:red;">CWL Missed Attacks Log</mark>
 
 Posts a list of players who missed their CWL attacks.
 
-#### CWL Lineup Change Log
+#### <mark style="color:red;">CWL Lineup Change Log</mark>
 
 Logs lineup changes as they happen.
 
 * Shows who was added and who was removed.
 
-#### CWL Monthly Summary Log
+#### <mark style="color:red;">CWL Monthly Summary Log</mark>
 
 Posts a graphic summarizing the CWL season placements.
 
 ***
 
-## Player Logs
+## <mark style="color:blue;">Player Logs</mark>
 
-#### Member Join/Leave Log
+#### <mark style="color:blue;">Member Join/Leave Log</mark>
 
 Tracks members joining and leaving your clan.
 
 * **On join**: Town Hall, trophies, hero levels, war stars, rushed %, join source, member count, time.
 * **On leave**: Town Hall, trophies, donations at leave, and join source (if known).
 
-#### Role Change Log
+#### <mark style="color:blue;">Role Change Log</mark>
 
 Tracks in-game promotions and demotions.
 
 * Shows who changed role, the old/new role, and when.
 
-#### Name Change Log
+#### <mark style="color:blue;">Name Change Log</mark>
 
 Posts when a member changes their in-game name.
 
-#### Town Hall Upgrade Log
+#### <mark style="color:blue;">Town Hall Upgrade Log</mark>
 
 Posts when a member upgrades their Town Hall.
 
 * Also shows the % of troop upgrades remaining.
 * Optional: ping a role via `ping_role`.
 
-#### War Preference Log
+#### <mark style="color:blue;">War Preference Log</mark>
 
 Posts when a member changes war preference.
 
 * Shows opt-in vs opt-out.
 
-#### Ranked Battle League Change Log
+#### <mark style="color:blue;">Ranked Battle League Change Log</mark>
 
 Posts when a member's Builder Base league changes.
 
