@@ -7,6 +7,10 @@ description: Customize the identity of your bot on your Discord server.
 
 Give your bot a unique identity that matches your server's theme. You can either go for a **simple setup** (just change the avatar and nickname — no technical steps required) or a **full custom bot setup** using your own Discord bot token.
 
+{% hint style="info" %}
+**Patreon Required:** This feature requires an active [Gold tier Patreon subscription](https://www.patreon.com/clashperk).
+{% endhint %}
+
 ***
 
 ## Quick Customize (No Token Required)
