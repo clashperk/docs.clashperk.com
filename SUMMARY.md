@@ -22,6 +22,9 @@
 * [Auto Role](features/auto-role.md)
 * [Logs](features/logs.md)
 * [Reminders](features/reminders.md)
+* [Nickname](features/nickname.md)
+* [Discord Events](features/discord-events.md)
+* [Clan Categories](features/clan-categories.md)
 * [Clan Alias](features/clan-alias.md)
 
 ## Others
