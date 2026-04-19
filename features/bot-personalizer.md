@@ -9,31 +9,22 @@ Give your bot a unique identity that matches your server's theme. You can either
 
 ***
 
-## Simple Setup (No Token Required)
+## Quick Customize (No Token Required)
 
 Don't want to deal with the Discord Developer Portal? No problem. You can still give ClashPerk a personalized look on your server without creating a custom bot.
 
-### Change the Bot's Nickname
+1. Run the `/bot-personalizer` command in your server.
+2. Click the **Quick Customize** button.
+3. A modal will appear — upload an avatar image and/or enter a nickname.
+4. Submit the modal and the changes will apply instantly.
 
-1. Go to your Discord server and find ClashPerk in the member list.
-2. Right-click the bot and select **Edit Server Profile**.
-3. Enter a custom nickname (e.g., your clan name) and save.
-
-### Change the Bot's Avatar (Server-Specific)
-
-{% hint style="info" %}
-Server-specific avatars are a Discord feature available to servers that meet the [community guidelines](https://support.discord.com/hc/en-us/articles/360047132851). If your server is not eligible, you can still set a nickname.
-{% endhint %}
-
-1. Go to **Server Settings → Members**.
-2. Find ClashPerk and click the **Edit** icon.
-3. Upload a custom avatar image and save.
+**Avatar requirements:** PNG, GIF, JPG, or WEBP · 1024×1024 (1:1 aspect ratio) · Max 10MB
 
 This approach keeps things simple — no bot token, no emoji servers, and no technical setup needed.
 
 ***
 
-## Full Custom Bot Setup
+## Full Custom Bot Setup (Token Required)
 
 For a completely branded experience — your own bot name, avatar, and presence — you can connect a custom Discord bot using a token. This setup also requires inviting your bot to our 14 custom emoji servers so that game icons display correctly.
 
