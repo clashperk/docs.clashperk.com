@@ -19,18 +19,15 @@ Logs are not truly real-time. ClashPerk polls the official API, so short delays 
 [#how-does-clashperk-track-game-data](../faq.md#how-does-clashperk-track-game-data "mention")
 {% endhint %}
 
-#### Member Join/Leave Log
+***
 
-Tracks members joining and leaving your clan.
+## Clan Logs
 
-* **On join**: Town Hall, trophies, hero levels, war stars, rushed %, join source, member count, time.
-* **On leave**: Town Hall, trophies, donations at leave, and join source (if known).
+#### Clan Achievements Log
 
-#### Role Change Log
+Posts when the clan reaches a milestone.
 
-Tracks in-game promotions and demotions.
-
-* Shows who changed role, the old/new role, and when.
+* Clan level up, War League promotion/demotion, Capital League promotion/demotion, Capital Hall level up.
 
 #### Donation Log
 
@@ -79,12 +76,36 @@ Posts a daily legend league recap.
 Data can be off when offense and defense happen between two API polls.
 {% endhint %}
 
+***
+
+## Capital Logs
+
 #### Clan Capital Weekly Summary Log
 
 Posts after the raid weekend ends.
 
 * Shows total raid loot and capital gold contribution.
 * Includes a graphic similar to the in-game summary.
+
+#### Capital Gold Contribution Log
+
+Posts each time a member contributes capital gold.
+
+#### Capital Gold Raid Log
+
+Posts each time a member completes a capital raid attack.
+
+***
+
+## War Logs
+
+#### War Attack Log
+
+Posts a message for every attack made during a Clan War.
+
+#### CWL Attack Log
+
+Posts a message for every attack made during CWL.
 
 #### War Embed Log
 
@@ -117,6 +138,23 @@ Logs lineup changes as they happen.
 
 Posts a graphic summarizing the CWL season placements.
 
+***
+
+## Player Logs
+
+#### Member Join/Leave Log
+
+Tracks members joining and leaving your clan.
+
+* **On join**: Town Hall, trophies, hero levels, war stars, rushed %, join source, member count, time.
+* **On leave**: Town Hall, trophies, donations at leave, and join source (if known).
+
+#### Role Change Log
+
+Tracks in-game promotions and demotions.
+
+* Shows who changed role, the old/new role, and when.
+
 #### Name Change Log
 
 Posts when a member changes their in-game name.
@@ -133,3 +171,9 @@ Posts when a member upgrades their Town Hall.
 Posts when a member changes war preference.
 
 * Shows opt-in vs opt-out.
+
+#### Ranked Battle League Change Log
+
+Posts when a member's Builder Base league changes.
+
+* Shows the old and new league.
