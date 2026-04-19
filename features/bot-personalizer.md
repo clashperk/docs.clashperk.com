@@ -1,25 +1,47 @@
 ---
 icon: user-robot-xmarks
-description: Build your own Discord bot!
+description: Customize the identity of your bot on your Discord server.
 ---
 
 # Bot Personalizer
 
-Now, you have the power to customize the identity of your bot.
-
-With this feature, you can effortlessly tailor your bot's appearance to suit your server's theme or add a flair that sets it apart.
-
-## Caution
-
-The custom bot requires a bot token that you need to retrieve from the Discord Developer Portal. This token is a highly sensitive credential and you must not share it with anyone.
-
-With this token, anyone would be able to take control of the bot and could do serious damage to your server.
-
-If you suspect the token has been compromised, reset it immediately.
+Give your bot a unique identity that matches your server's theme. You can either go for a **simple setup** (just change the avatar and nickname — no technical steps required) or a **full custom bot setup** using your own Discord bot token.
 
 ***
 
-### How to create a bot?
+## Simple Setup (No Token Required)
+
+Don't want to deal with the Discord Developer Portal? No problem. You can still give ClashPerk a personalized look on your server without creating a custom bot.
+
+### Change the Bot's Nickname
+
+1. Go to your Discord server and find ClashPerk in the member list.
+2. Right-click the bot and select **Edit Server Profile**.
+3. Enter a custom nickname (e.g., your clan name) and save.
+
+### Change the Bot's Avatar (Server-Specific)
+
+{% hint style="info" %}
+Server-specific avatars are a Discord feature available to servers that meet the [community guidelines](https://support.discord.com/hc/en-us/articles/360047132851). If your server is not eligible, you can still set a nickname.
+{% endhint %}
+
+1. Go to **Server Settings → Members**.
+2. Find ClashPerk and click the **Edit** icon.
+3. Upload a custom avatar image and save.
+
+This approach keeps things simple — no bot token, no emoji servers, and no technical setup needed.
+
+***
+
+## Full Custom Bot Setup
+
+For a completely branded experience — your own bot name, avatar, and presence — you can connect a custom Discord bot using a token.
+
+{% hint style="warning" %}
+**Security Notice:** Your bot token is a highly sensitive credential. Never share it with anyone. If you suspect it has been compromised, reset it immediately from the Discord Developer Portal.
+{% endhint %}
+
+### How to Create and Set Up a Custom Bot
 
 <figure><img src="../.gitbook/assets/Step 1.png" alt=""><figcaption><p>Step 1</p></figcaption></figure>
 
@@ -53,4 +75,4 @@ If you suspect the token has been compromised, reset it immediately.
 
 <figure><img src="../.gitbook/assets/Step 15.png" alt=""><figcaption><p>Step 15</p></figcaption></figure>
 
-The last step is to invite the bot into our custom emoji servers. Join our support server to get the invite links to the emoji servers.
+Finally, invite your custom bot to our emoji servers so it can display game icons properly. Join our [support server](https://discord.gg/ppuppun) to get the invite links to the emoji servers.
