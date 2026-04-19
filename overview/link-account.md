@@ -23,7 +23,7 @@ You can link up to 25 villages to your Discord user account.
 {% tab title="LINK CLAN" %}
 You can link one clan to your Discord user account.
 
-<mark style="color:blue;">**/link create**</mark> <mark style="color:purple;">**clan\_tag:**</mark> `#PLAYER_TAG`
+<mark style="color:blue;">**/link create**</mark> <mark style="color:purple;">**clan\_tag:**</mark> `#CLAN_TAG`
 {% endtab %}
 {% endtabs %}
 

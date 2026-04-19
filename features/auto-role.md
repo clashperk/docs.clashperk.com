@@ -9,7 +9,7 @@ description: >-
 
 ### Clan Roles
 
-Roles will be given based on the roles in the Game (Lead/Co/Elder/Member/Everyone)
+Roles will be given based on the in-game roles (Lead/Co/Elder/Member/Everyone).
 
 <mark style="color:blue;">**/autorole clan-roles**</mark> [`[CLANS]`](#user-content-fn-1)[^1] `[CO/LEAD_ROLE]` `[MEMBER_ROLE]`
 
@@ -19,7 +19,7 @@ Roles will be given based on the roles in the Game (Lead/Co/Elder/Member/Everyon
 
 ### Town Hall Roles
 
-Roles will be given based on the Town Hall levels
+Roles will be given based on Town Hall levels.
 
 <mark style="color:blue;">**/autorole town-hall**</mark> `[TH8_ROLE]` `[TH10_ROLE]` `[MORE...]`
 
@@ -27,7 +27,7 @@ Roles will be given based on the Town Hall levels
 
 ### League Roles
 
-Roles will be given based on the Leagues
+Roles will be given based on the player's league.
 
 <mark style="color:blue;">**/autorole leagues**</mark> `[CHAMPION_ROLE]` `[TITAN_ROLE]` `[LEGEND_ROLE]`
 
@@ -85,7 +85,7 @@ This role will be given to the linked users.
 
 {% tabs %}
 {% tab title="Configure Token Verification" %}
-<mark style="color:yellow;">Token verification can be enabled to ensure that only legitimate users are getting the</mark> [#clan-roles](auto-role.md#clan-roles "mention") \ <mark style="color:yellow;">Verification can be performed using the</mark> <mark style="color:yellow;">**/verify**</mark> <mark style="color:yellow;">command with an in-game API token.</mark>\
+<mark style="color:yellow;">Token verification can be enabled to ensure that only legitimate users receive</mark> [#clan-roles](auto-role.md#clan-roles "mention")\ <mark style="color:yellow;">Verification is performed using the</mark> <mark style="color:yellow;">**/verify**</mark> <mark style="color:yellow;">command with an in-game API token.</mark>\
 \
 <mark style="color:blue;">**/autorole config**</mark> `verified_only_clan_roles: Yes/No`
 {% endtab %}
@@ -93,7 +93,7 @@ This role will be given to the linked users.
 
 {% tabs %}
 {% tab title="Toggle Auto Mode" %}
-<mark style="color:yellow;">Auto Role updates roles whenever changes are detected in the game. This behaviour can be disabled for manual control using the /autorole refresh command.</mark>\
+<mark style="color:yellow;">Auto Role updates roles whenever changes are detected in the game. This behavior can be disabled for manual control using the /autorole refresh command.</mark>\
 \
 <mark style="color:blue;">**/autorole config**</mark> `auto_update_roles: Yes/No`
 {% endtab %}

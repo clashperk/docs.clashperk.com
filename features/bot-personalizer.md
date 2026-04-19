@@ -22,7 +22,7 @@ Don't want to deal with the Discord Developer Portal? No problem. You can still 
 3. A modal will appear — upload an avatar image and/or enter a nickname.
 4. Submit the modal and the changes will apply instantly.
 
-**Avatar requirements:** PNG, GIF, JPG, or WEBP · 1024×1024 (1:1 aspect ratio) · Max 10MB
+**Avatar requirements:** PNG, GIF, JPG, or WEBP | 1024×1024 (1:1 aspect ratio) | Max 10MB
 
 This approach keeps things simple — no bot token, no emoji servers, and no technical setup needed.
 

@@ -9,4 +9,4 @@ icon: wand-sparkles
 
 User-linked or Server-linked clans or accounts are always prioritized and will always be at the top of the list. After that, your recently searched clans or accounts are suggested.
 
-> At this moment, there is no way to remove your recently searched clans or accounts.
+> Recently searched clans and accounts cannot currently be removed.

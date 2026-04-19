@@ -1,5 +1,5 @@
 ---
-description: allows you to manage the roster visually
+description: Manage roster buttons and actions visually.
 icon: gear
 ---
 
@@ -11,7 +11,7 @@ The following options are available:
 
 <summary>Roster Info/Export</summary>
 
-View Roster Info, Settings and allows you to Export the roster.
+View roster info and settings, or export the roster.
 
 See [exporting-rosters.md](exporting-rosters.md "mention") for more information!
 
@@ -21,7 +21,7 @@ See [exporting-rosters.md](exporting-rosters.md "mention") for more information!
 
 <summary>Close Roster</summary>
 
-Is like a soft delete. <mark style="color:red;">Recommended</mark> to use Hide Buttons to prevent signups etc.
+It is like a soft delete. <mark style="color:red;">Recommended</mark> to use Hide Buttons to prevent signups etc.
 
 You need to reopen the Roster to make any further changes.
 
@@ -69,7 +69,7 @@ Remove a user or players from the roster.
 
 <img src="../../.gitbook/assets/Remove User" alt="" data-size="original">
 
-Works similar to Add User
+Works similarly to Add User.
 
 </details>
 
@@ -92,7 +92,7 @@ Edit roster layout and sorting options.
 **Custom Layout using any **<mark style="color:purple;">**five**</mark>** of the following options:**
 
 * **Index** - The index of the player in the roster.
-* **Town Hall Level** - The Town level of the player.
+* **Town Hall Level** - The Town Hall level of the player.
 * **Discord Name** - The Discord display-name of the player.
 * **Discord Username** - The Discord username of the player.
 * **Discord User ID** - The Discord User ID of the player.

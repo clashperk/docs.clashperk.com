@@ -1,8 +1,8 @@
 ---
 icon: wrench
 description: >-
-  a detailed explanation how to manage Groups. Players will be able to sign up
-  with a group. This is used to separat players into different groups in a
+  A detailed explanation of how to manage Groups. Players will be able to sign up
+  with a group. This is used to separate players into different groups in a
   roster. For example Confirmed and Substitute.
 ---
 
@@ -34,5 +34,5 @@ description: >-
 * **delete\_group** - Whether to delete the Group. To delete set <mark style="color:purple;">True</mark>**.**
 
 {% hint style="info" %}
-See [#getting-all-rosters-and-groups](list-rosters-and-groups.md#getting-all-rosters-and-groups "mention")to list of the groups.
+See [#getting-all-rosters-and-groups](list-rosters-and-groups.md#getting-all-rosters-and-groups "mention") to view all groups.
 {% endhint %}

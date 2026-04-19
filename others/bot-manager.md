@@ -7,7 +7,7 @@ description: >-
 
 # Bot Manager
 
-It is a user-defined role that allows anyone to use all administrative commands without having Manage Server permission.
+A user-defined role that allows anyone to use all administrative commands without Manage Server permission.
 
 <mark style="color:blue;">**/config**</mark> <mark style="color:purple;">**manager\_role:**</mark> `@Bot Manager`
 

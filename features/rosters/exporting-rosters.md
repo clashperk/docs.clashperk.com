@@ -1,6 +1,6 @@
 ---
 icon: file-csv
-description: a detailed explanation how to export rosters to speadsheets.
+description: A detailed explanation of how to export rosters to spreadsheets.
 ---
 
 # Exporting Rosters
@@ -32,7 +32,7 @@ With the following Columns:
 
 ### All Members Sheet
 
-The same Columns and a Roster Column show all signed-up Players.
+Contains all the same columns as the Roster Sheet, plus an additional Roster column showing all signed-up players.
 
 ### Missing Members Sheet
 

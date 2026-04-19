@@ -21,6 +21,6 @@ Welcome to ClashPerk! These terms of service ("Terms") govern your use of the Cl
 5. **Termination**
    * ClashPerk may terminate or suspend your access to the Bot immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach these Terms.
 6. **Contact Us**
-   * If you have any questions about these Terms, please contact us at [discord.gg/clashperk](https://discord.gg/clashperk-support-509784317598105619)
+   * If you have any questions about these Terms, please contact us at [discord.gg/clashperk-support](https://discord.gg/clashperk-support-509784317598105619)
 
 By using the ClashPerk Discord bot, you agree to these Terms.

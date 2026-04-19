@@ -1,15 +1,15 @@
 ---
 description: >-
-  If you are already here that probably means you'd like to know how things
-  work.
+  Official documentation for ClashPerk, a Discord bot for Clash of Clans clan
+  management.
 icon: party-horn
 ---
 
 # Welcome!
 
-ClashPerk is a powerful Discord bot specifically for Clash of Clans. With its wide array of features and intuitive interface, ClashPerk brings convenience, efficiency, and enhanced coordination to your clan management.
+ClashPerk is a powerful Discord bot designed for Clash of Clans. With its wide array of features and intuitive interface, ClashPerk brings convenience, efficiency, and enhanced coordination to your clan management.
 
-Easy to set up and highly customizable, ClashPerk seamlessly integrates with your Discord server, allowing you to access its features with simple commands.
+Easy to set up and highly customizable, ClashPerk works with simple slash commands.
 
 ## Quick Links
 

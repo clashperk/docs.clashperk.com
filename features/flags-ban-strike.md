@@ -1,7 +1,7 @@
 ---
 description: >-
   A flag serves as a warning for breaking rules, alerting users to potential
-  consequences like bans or strikes. It's a mechanism to maintain order and
+  consequences like bans or strikes. It is a mechanism to maintain order and
   uphold community standards.
 icon: flag
 ---
@@ -24,6 +24,6 @@ When a banned player joins your clan or family, the bot can notify you in the Fl
 
 ## Strike
 
-A strike flag, also known as a soft warning, is a milder form of penalty compared to a ban. It serves as a notification to the user that their behaviour has been noted and is not acceptable according to the clan's rules. Warning flags are often used for minor infractions or as a first step in a progressive disciplinary system.
+A strike is a soft warning — a milder penalty than a ban. It serves as a notification to the user that their behavior has been noted and is not acceptable according to the clan's rules. Strikes are often used for minor infractions or as a first step in a progressive disciplinary system.
 
 <mark style="color:blue;">**/flag create**</mark> `[STRIKE]` `[PLAYER]` `[...REASON]` `[EXPIRY_DAYS]`

@@ -31,6 +31,6 @@ ClashPerk ("we", "us", "our") operates the ClashPerk Discord bot ("the Bot"). Th
 6. **Changes to This Privacy Policy**
    * We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
 7. **Contact Us**
-   * If you have any questions about this Privacy Policy, please contact us at [discord.gg/clashperk](https://discord.gg/clashperk-support-509784317598105619)
+   * If you have any questions about this Privacy Policy, please contact us at [discord.gg/clashperk-support](https://discord.gg/clashperk-support-509784317598105619)
 
 By using the ClashPerk Discord bot, you agree to the terms of this Privacy Policy.

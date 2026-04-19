@@ -1,5 +1,5 @@
 ---
-description: Let's setup the bot!
+description: Get started with the ClashPerk bot.
 icon: lightbulb
 ---
 
@@ -48,7 +48,7 @@ Clan embed is for showcasing your clans in a public channel.
 
 **Initiate Setup**
 
-If you don't select a channel, it defaults to the current channel
+If you don't select a channel, it defaults to the current channel.
 
 <mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`
 
@@ -81,7 +81,7 @@ Player Logs:
 * War Preference Log
 
 {% hint style="info" %}
-You can find more information here [logs.md](../features/logs.md "mention")
+For more information, see [logs.md](../features/logs.md "mention")
 {% endhint %}
 
 **Disable a Log**

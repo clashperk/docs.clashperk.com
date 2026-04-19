@@ -1,6 +1,6 @@
 ---
 icon: book-blank
-description: A detailed explanation how to List Rosters and Groups
+description: A detailed explanation of how to list rosters and groups
 ---
 
 # List Rosters and Groups
@@ -16,7 +16,7 @@ Shows Rosters with Index, Name, Clan and amount of Members/Max Members.
 Shows Groups with Index, Name, (Public/Private) Status and \[Order X]
 
 {% hint style="warning" %}
-Groups will only be shown when not running any options!
+Groups are only shown when running the command without filter options.
 {% endhint %}
 
 ### Options / Filter

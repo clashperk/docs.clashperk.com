@@ -7,7 +7,7 @@ icon: circle-info
 
 ## Is ClashPerk Legal / Fair Play?
 
-Yes, we always support Fair Play. ClashPerk collects all the data directly from Supercell API.
+Yes, we always support Fair Play. ClashPerk collects all data directly from the official Supercell API.
 
 ## Why is the bot not working on my server?
 
@@ -39,13 +39,13 @@ Due to API limitations, the bot can't directly see who is online or recently act
 
 ## What is activity score?
 
-Whenever the bot captures an activity (mentioned above), the player gets a +1 score. This score reflects the total number of activities the bot has seen for that player, helping us determine who are the most active or inactive members.
+Whenever the bot captures an activity (mentioned above), the player gets a +1 score. This score reflects the total number of activities the bot has seen for that player, helping us determine who the most active or inactive members are.
 
 ## How does the clan games scoreboard work?
 
 Clan Games points can't be directly pulled from the API. Instead, we track the **Games Champion** achievement. At the start of Clan Games, we capture each player's progress and then compare it every 10-15 minutes. The difference shows how many points they've earned during the event, and this updates the scoreboard.
 
-## **Why is Gold/Elixir Looted 0 for Some Players?**
+## Why is Gold/Elixir looted 0 for some players?
 
 Once a player hits 2 billion in looted Gold or Elixir, the API stops increasing the count. This is an API limitation that affects players who reach this cap.
 
@@ -59,13 +59,13 @@ ClashPerk tracks game data using the official Clash of Clans API, which does not
 
 Polling simply means checking the API from time to time to see what the current data looks like, instead of being notified instantly when something changes.
 
-**Why this can’t be real-time**
+### Why this can’t be real-time
 
 * The official API has rate limits and no push/webhook system, so continuous tracking isn’t possible.
 * ClashPerk tracks a large number of clans and players, and completing a full polling cycle takes time.
 * Some in-game updates take time to appear in the API itself.
 
-**Examples**
+### Examples
 
 * Trophy changes: A player gains trophies from an attack and loses them in a defense before the next poll. Only the final value is visible, so the intermediate change isn’t recorded.
 * War attacks: A war attack happens shortly after a poll and only appears on the next API check, making it seem delayed.

@@ -7,15 +7,13 @@ description: >-
 
 # Clan Alias
 
-The clan Alias feature allows users to set short, custom names for clans, making it quicker and easier to reference them in commands.
-
 Autocomplete is great, but it can sometimes take a moment to appear. Clan aliases solve this problem by offering a faster alternative. Instead of waiting for autocomplete to load, simply type the alias and hit Enter.
 
 Example:
 
-For a series of clans like Air Hounds, Air Hounds 2, and Air Hounds 3, you could assign aliases like AH, AH2, and AH3
+For a series of clans like Air Hounds, Air Hounds 2, and Air Hounds 3, you could assign aliases like AH, AH2, and AH3.
 
-You can use the following command to refer to Air Hounds directly.
+For example, to refer to Air Hounds directly:
 
 ```css
 /clan tag: AH

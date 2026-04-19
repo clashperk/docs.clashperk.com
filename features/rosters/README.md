@@ -7,7 +7,7 @@ description: >-
 
 # Rosters
 
-It is designed to streamline the process and prevent duplicate or multiple signups. It offers convenient features such as autocomplete to easily add individual players from your clan family, and the ability to add players in bulk while detecting player tags regardless of their format.
+Rosters are designed to streamline CWL/War signups and prevent duplicate registrations. It offers convenient features such as autocomplete to easily add individual players from your clan family, and the ability to add players in bulk while detecting player tags regardless of their format.
 
 The feature allows you to set the start and end times for the roster and provides a roster settings button for easy management. You can open or close the roster, hide or show signup buttons, enable archive mode, add or remove players, move players, change groups, edit settings and layout, export members, and clear the roster.
 
@@ -31,7 +31,7 @@ When you decide to close the sign-up period, it is preferred to hide the buttons
 
 #### Signing up
 
-Pressing the <mark style="color:green;">Signup</mark> allows a Player to signup. They need to select the Accounts they want to signup. They also may choose a Group. The default Groups are <mark style="color:purple;">Confirmed</mark> and <mark style="color:purple;">Substitue</mark>.  If none are selected it will default to the first Group.
+Pressing the <mark style="color:green;">Signup</mark> allows a Player to signup. They need to select the Accounts they want to signup. They also may choose a Group. The default Groups are <mark style="color:purple;">Confirmed</mark> and <mark style="color:purple;">Substitute</mark>.  If none are selected it will default to the first Group.
 
 #### Opting out
 

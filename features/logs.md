@@ -62,7 +62,7 @@ Posts a Clan Games leaderboard message. It updates itself throughout the event.
 
 #### Last Seen Embed Log
 
-Posts one message and keeps it updated. Updates run every \~30 minutes.
+Posts one message and keeps it updated. Updates run approximately every 30 minutes.
 
 * Shows estimated activity / last-seen status.
 * Uses signals like donations, trophy changes, clan games, capital activity, etc.
