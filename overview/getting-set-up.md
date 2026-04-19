@@ -54,8 +54,7 @@ If you don't select a channel, it defaults to the current channel.
 
 Clan Logs:
 
-* Member Join/Leave Log
-* Role Change Log
+* Clan Achievements Log
 * Donation Log (Instant/Daily/Weekly/Monthly)
 * Clan Games Embed Log
 * Last Seen Embed Log
@@ -64,9 +63,13 @@ Clan Logs:
 Capital Logs:
 
 * Clan Capital Weekly Summary Log
+* Capital Gold Contribution Log
+* Capital Gold Raid Log
 
 War Logs:
 
+* War Attack Log
+* CWL Attack Log
 * War Embed Log
 * War Missed Attacks Log
 * CWL Embed Log
@@ -76,9 +79,12 @@ War Logs:
 
 Player Logs:
 
+* Member Join/Leave Log
+* Role Change Log
 * Name Change Log
 * Town Hall Upgrade Log
 * War Preference Log
+* Ranked Battle League Change Log
 
 {% hint style="info" %}
 For more information, see [logs.md](../features/logs.md "mention")
