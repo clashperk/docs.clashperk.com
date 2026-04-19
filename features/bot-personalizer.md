@@ -35,7 +35,7 @@ This approach keeps things simple — no bot token, no emoji servers, and no tec
 
 ## Full Custom Bot Setup
 
-For a completely branded experience — your own bot name, avatar, and presence — you can connect a custom Discord bot using a token.
+For a completely branded experience — your own bot name, avatar, and presence — you can connect a custom Discord bot using a token. This setup also requires inviting your bot to our 14 custom emoji servers so that game icons display correctly.
 
 {% hint style="warning" %}
 **Security Notice:** Your bot token is a highly sensitive credential. Never share it with anyone. If you suspect it has been compromised, reset it immediately from the Discord Developer Portal.
