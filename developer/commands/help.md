@@ -11,4 +11,5 @@ Get a list of commands or info about a specific command.
 | Name | Description |
 |------|-------------|
 | `command` | Name of the command. |
+| `ask` | Find answers with AI. |
 

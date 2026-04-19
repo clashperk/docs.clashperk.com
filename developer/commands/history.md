@@ -14,4 +14,5 @@ Clan Games, Capital Raids, Donations, and CWL attacks history.
 | `clans` | Select clans for the history. |
 | `player` | Select a player for the history. |
 | `user` | Select a user for the history. |
+| `roster` | Select a roster for the history. |
 

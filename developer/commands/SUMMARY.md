@@ -117,6 +117,8 @@
   * [search](developer/commands/search.md)
   * [setup](developer/commands/setup/README.md)
     * [setup buttons](developer/commands/setup/buttons.md)
+    * [setup clan](developer/commands/setup/clan.md)
+    * [setup clan-embed](developer/commands/setup/clan-embed.md)
     * [setup clan-logs](developer/commands/setup/clan-logs.md)
     * [setup disable](developer/commands/setup/disable.md)
     * [setup enable](developer/commands/setup/enable.md)

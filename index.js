@@ -6,7 +6,7 @@ const outputDir = path.resolve(`./${pathPrefix}`);
 
 const getCommands = async () => {
   return await fetch(
-    "https://raw.githubusercontent.com/clashperk/clashperk/refs/heads/main/scripts/commands_export.json"
+    "https://raw.githubusercontent.com/clashperk/clashperk/refs/heads/main/scripts/assets/commands_export.json"
   ).then((res) => res.json());
 };
 

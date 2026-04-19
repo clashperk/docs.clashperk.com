@@ -11,5 +11,5 @@ Shows information about capital raids.
 | Name | Description |
 |------|-------------|
 | `clans` | Clan tag or name or alias. |
-| `week` | Retrieve data for the specified raid weekend.<details><summary>View Options</summary>`21 Nov, 2025`, `14 Nov, 2025`, `07 Nov, 2025`, `31 Oct, 2025`, `24 Oct, 2025`, `17 Oct, 2025`</details> |
+| `week` | Retrieve data for the specified raid weekend.<details><summary>View Options</summary>`27 Mar, 2026`, `20 Mar, 2026`, `13 Mar, 2026`, `06 Mar, 2026`, `27 Feb, 2026`, `20 Feb, 2026`</details> |
 
