@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const pathPrefix = "developer/commands";
+const pathPrefix = "others/commands";
 const outputDir = path.resolve(`./${pathPrefix}`);
 
 const getCommands = async () => {
@@ -60,13 +60,13 @@ const getCommands = async () => {
     fs.writeFileSync(filePath, md, "utf8");
 
     if (!sub) {
-      summary += `  * [${parent}](${pathPrefix}/${toFileName(parent)}.md)\n`;
+      summary += `  * [/${parent}](${pathPrefix}/${toFileName(parent)}.md)\n`;
     } else {
-      const parentSection = `  * [${parent}](${pathPrefix}/${toFileName(
+      const parentSection = `  * [/${parent}](${pathPrefix}/${toFileName(
         parent
       )}/README.md)\n`;
       if (!summary.includes(parentSection)) summary += parentSection;
-      summary += `    * [${cmd.name}](${pathPrefix}/${toFileName(
+      summary += `    * [/${cmd.name}](${pathPrefix}/${toFileName(
         parent
       )}/${toFileName(sub)}.md)\n`;
     }
