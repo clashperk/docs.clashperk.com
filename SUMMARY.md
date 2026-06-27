@@ -26,6 +26,7 @@
 * [Discord Events](features/discord-events.md)
 * [Clan Categories](features/clan-categories.md)
 * [Clan Alias](features/clan-alias.md)
+* [Ticket System](features/tickets.md)
 
 ## Others
 

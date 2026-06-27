@@ -34,7 +34,8 @@
         { "name": "Flags (Ban/Strike)", "path": "features/flags-ban-strike.md" },
         { "name": "Auto Role", "path": "features/auto-role.md" },
         { "name": "Logs", "path": "features/logs.md" },
-        { "name": "Clan Alias", "path": "features/clan-alias.md" }
+        { "name": "Clan Alias", "path": "features/clan-alias.md" },
+        { "name": "Ticket System", "path": "features/tickets.md" }
       ]
     },
     {
