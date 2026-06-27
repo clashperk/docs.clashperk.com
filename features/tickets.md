@@ -7,8 +7,8 @@ description: >-
 
 # Ticket System
 
-{% hint style="warning" %}
-🚧 **Coming Soon** — The Ticket System is currently in development and will be available shortly.
+{% hint style="info" %}
+🧪 **Beta** — The Ticket System is available in beta. Some features may still change as we refine it.
 {% endhint %}
 
 The Ticket System lets you create **panels** — Discord messages with a button that members click to open a private ticket channel. Each panel supports multiple **application types**, each with its own staff roles, questions, account requirements, and channel settings.
