@@ -1,6 +1,6 @@
 ---
-icon: user-robot-xmarks
 description: Customize the identity of your bot on your Discord server.
+icon: user-robot-xmarks
 ---
 
 # Bot Personalizer
@@ -107,8 +107,9 @@ A token will be displayed — **copy it immediately**, as it will not be shown a
 **Step 12 — Configure bot settings**
 
 Scroll down on the Bot page and do the following:
-- **Disable** the **Public Bot** toggle so only you can add it to servers.
-- **Enable** all three Privileged Gateway Intents: **Presence Intent**, **Server Members Intent**, and **Message Content Intent**.
+
+* **Disable** the **Public Bot** toggle so only you can add it to servers.
+* **Enable** all three Privileged Gateway Intents: **Presence Intent**, **Server Members Intent**, and **Message Content Intent**.
 
 Click **Save Changes**.
 
@@ -118,7 +119,7 @@ Click **Save Changes**.
 
 Navigate to the **Installation** section in the left sidebar. Make sure both **User Install** and **Guild Install** are checked under Installation Contexts, and set the **Install Link** to **None**.
 
-<figure><img src="../.gitbook/assets/Step 13.png" alt=""><figcaption><p>Step 12.5 — Enable both installation contexts and set Install Link to None</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 13 (1).png" alt=""><figcaption><p>Step 12.5 — Enable both installation contexts and set Install Link to None</p></figcaption></figure>
 
 **Step 13 — Return to Discord and click Let's begin**
 
