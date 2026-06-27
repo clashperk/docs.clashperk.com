@@ -103,7 +103,7 @@ Controls what the ticket channel is called. Available tokens:
 |---|---|---|
 | `{count}` | `0042` | Sequential ticket number (zero-padded) |
 | `{user}` | `johndoe` | Creator's Discord username |
-| `{account_name}` | `playerone` | Linked CoC account name |
+| `{account_name}` | `playerone` | Linked Clash of Clans account name |
 | `{account_th}` | `15` | Linked account Town Hall level |
 
 **Default:** `ticket-{count}` → `ticket-0001`
@@ -124,7 +124,7 @@ Templates support these variables. Any unknown variable prompts a fill-in form w
 |---|---|
 | `{user_mention}` | Mention of the ticket creator |
 | `{user_name}` | Creator's Discord username |
-| `{account_name}` | Linked CoC account name |
+| `{account_name}` | Linked Clash of Clans account name |
 | `{account_th}` | Linked account Town Hall level |
 | `{account_heroes}` | Linked account hero levels |
 | `{clan_name}` | Attached clan name |
@@ -165,7 +165,7 @@ Add extra utility buttons to the panel post alongside the Create Ticket button. 
 
 | Preset | What it does |
 |---|---|
-| **Link Account** | Opens the account linking flow so members can link their CoC account |
+| **Link Account** | Opens the account linking flow so members can link their Clash of Clans account |
 
 **Options per button:** Label, Emoji, Style (Primary / Secondary / Success / Danger — command buttons only). Up to **10 extra buttons** per panel.
 
@@ -211,7 +211,7 @@ Every ticket channel contains a summary card with action buttons.
 | **Notify Me** | Anyone | Toggle DM notifications when the ticket status changes |
 | **Claim 🔒** | Staff *(if enabled)* | Claim exclusive ownership — all other staff and viewer roles lose access |
 | **Unclaim 🔓** | Claimer only | Release the claim and restore all staff access |
-| **View Account** | Anyone | Show linked CoC account stats |
+| **View Account** | Anyone | Show linked Clash of Clans account stats |
 | **Delete Ticket** | Anyone with access | Close and delete the ticket (asks for confirmation first) |
 
 > The **Claim** button only appears on application types where **Allow claiming** is enabled.
