@@ -8,23 +8,22 @@ This is the official documentation site for **ClashPerk**, a Discord bot for Cla
 
 ## Generating Developer Command Docs
 
-The `index.js` script auto-generates all documentation under `developer/commands/` by fetching the live command definitions from the main ClashPerk bot repository:
+The `index.js` script auto-generates all documentation under `others/commands/` by fetching the live command definitions from the main ClashPerk bot repository:
 
 ```bash
 node index.js
 ```
 
-This fetches `commands_export.json` from `https://raw.githubusercontent.com/clashperk/clashperk/refs/heads/main/scripts/assets/commands_export.json`, writes one Markdown file per command, and regenerates `developer/commands/SUMMARY.md`. **Do not manually edit files in `developer/commands/`** — they will be overwritten on the next run.
+This fetches `commands_export.json` from `https://raw.githubusercontent.com/clashperk/clashperk/refs/heads/main/scripts/assets/commands_export.json`, writes one Markdown file per command, and regenerates `others/commands/SUMMARY.md`. **Do not manually edit files in `others/commands/`** — they will be overwritten on the next run.
 
 ## Content Structure
 
-- **`SUMMARY.md`** — GitBook table of contents; must be updated when adding or removing pages
-- **`docs.json`** — Structured documentation configuration for GitBook API/integration
+- **`SUMMARY.md`** — GitBook table of contents (the single source of nav); must be updated when adding or removing pages
 - **`README.md`** — Site welcome page
 - **`overview/`** — Onboarding guides (getting set up, linking accounts)
 - **`features/`** — End-user feature documentation (rosters, auto-role, logs, etc.)
 - **`others/`** — Admin features (bot manager, whitelist, autocomplete)
-- **`developer/commands/`** — Auto-generated command reference (do not edit manually)
+- **`others/commands/`** — Auto-generated command reference (do not edit manually)
 - **`.gitbook/assets/`** — Images and icons used in pages
 
 ## GitBook Conventions
@@ -46,4 +45,4 @@ Cross-page references use GitBook's content-ref syntax:
 {% endcontent-ref %}
 ```
 
-When adding a new page, add a corresponding entry to **`SUMMARY.md`** (and `docs.json` if it belongs in a structured group) — GitBook derives its navigation from these files.
+When adding a new page, add a corresponding entry to **`SUMMARY.md`** — GitBook derives its navigation from that file.
