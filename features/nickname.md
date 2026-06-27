@@ -38,7 +38,7 @@ Set either format to `none` to disable it.
 | `{NAME}` or `{PLAYER_NAME}` | In-game player name |
 | `{TH}` or `{TOWN_HALL}` | Town Hall level |
 | `{TH_SMALL}` or `{TOWN_HALL_SMALL}` | Town Hall level (smaller format) |
-| `{ROLE}` or `{CLAN_ROLE}` | In-game clan role (Lead, Co-Lead, Elder, Member) |
+| `{ROLE}` or `{CLAN_ROLE}` | In-game clan role (default labels: `Lead`, `Co-Lead`, `Eld`, `Mem` — customizable, see Role Labels below) |
 | `{ALIAS}` or `{CLAN_ALIAS}` | Clan alias |
 | `{ALIASES}` or `{CLAN_ALIASES}` | All clan aliases |
 | `{CLAN}` or `{CLAN_NAME}` | Clan name |

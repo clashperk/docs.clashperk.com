@@ -22,6 +22,8 @@ Requires the bot to have **Create Events** and **Manage Events** permissions.
 | CWL | Created when CWL battle days begin |
 | CWL (Ending) | Created as CWL approaches the end |
 | CWL Signup (Ending) | Created as CWL signup window closes |
+| Raid Weekend | Created when the Capital Raid weekend starts |
+| Raid Weekend (Ending) | Created as the Raid weekend approaches the end |
 | Season Reset | Created before the season trophy reset |
 
 You can toggle each event type individually and set a custom image and location per type.

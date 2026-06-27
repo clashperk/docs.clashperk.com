@@ -9,11 +9,9 @@ description: >-
 
 ### Clan Roles
 
-Roles will be given based on the in-game roles (Lead/Co/Elder/Member/Everyone).
+Roles will be given based on the in-game clan role. `/autorole clan-roles` is a single command with a named option for each role:
 
-<mark style="color:blue;">**/autorole clan-roles**</mark> [`[CLANS]`](#user-content-fn-1)[^1] `[CO/LEAD_ROLE]` `[MEMBER_ROLE]`
-
-<mark style="color:blue;">**/autorole clan-roles**</mark> `[CLAN_TAG]` `[EVERYONE_ROLE]` [`[ONLY_VERIFIED]`](#user-content-fn-2)[^2]
+<mark style="color:blue;">**/autorole clan-roles**</mark> <mark style="color:purple;">**clans:**</mark> [`#CLAN_TAG`](#user-content-fn-1)[^1] <mark style="color:purple;">**leader\_role:**</mark> `@role` <mark style="color:purple;">**co\_leader\_role:**</mark> `@role` <mark style="color:purple;">**elder\_role:**</mark> `@role` <mark style="color:purple;">**member\_role:**</mark> `@role` <mark style="color:purple;">**everyone\_role:**</mark> `@role` <mark style="color:purple;">**only\_verified:**</mark> [`True/False`](#user-content-fn-2)[^2]
 
 ***
 
@@ -69,41 +67,18 @@ A role given to members who are participating in an End-of-Season push for selec
 
 ### Family Roles
 
-The role will be given if they are in the family. <mark style="color:yellow;">(any account within the family)</mark>
+`/autorole family` is a single command — set any combination of the named options below in one call.
 
-<mark style="color:blue;">**/autorole family**</mark> `[FAMILY_ROLE]`
+<mark style="color:blue;">**/autorole family**</mark> <mark style="color:purple;">**family\_role:**</mark> `@role` <mark style="color:purple;">**exclusive\_family\_role:**</mark> `@role` <mark style="color:purple;">**guest\_role:**</mark> `@role` <mark style="color:purple;">**verified\_role:**</mark> `@role` <mark style="color:purple;">**account\_linked\_role:**</mark> `@role` <mark style="color:purple;">**family\_leaders\_role:**</mark> `@role`
 
-***
-
-### Exclusive Family Roles
-
-The role will be given if they are in the family. <mark style="color:yellow;">(all accounts are in the family)</mark>
-
-<mark style="color:blue;">**/autorole family**</mark> `[EXCLUSIVE_FAMILY_ROLE]`
-
-***
-
-### Guest Role
-
-The role will be given if they are not in the family.
-
-<mark style="color:blue;">**/autorole family**</mark> `[GUEST_ROLE]`
-
-***
-
-### Verified Role
-
-The role will be given to the verified players. <mark style="color:yellow;">(who verified them using the /verify command)</mark>
-
-<mark style="color:blue;">**/autorole family**</mark> `[VERIFIED_ROLE]`
-
-***
-
-### Account Linked Role
-
-This role will be given to the linked users.
-
-<mark style="color:blue;">**/autorole family**</mark> `[ACCOUNT_LINKED_ROLE]`
+| Option | Role is given when… |
+|--------|---------------------|
+| `family_role` | Any of their linked accounts is in the family |
+| `exclusive_family_role` | All of their linked accounts are in the family |
+| `guest_role` | None of their accounts are in the family |
+| `verified_role` | They verified an account with the `/verify` command |
+| `account_linked_role` | They have at least one linked account |
+| `family_leaders_role` | They are a Leader or Co-Leader of a family clan (supports selecting multiple roles) |
 
 ***
 

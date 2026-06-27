@@ -6,6 +6,8 @@ description: Terms of Service for ClashPerk Discord Bot
 
 **Terms of Service for ClashPerk Discord Bot**
 
+Effective Date: 22 July 2024
+
 Welcome to ClashPerk! These terms of service ("Terms") govern your use of the ClashPerk Discord bot ("the Bot"). By using the Bot, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the Bot.
 
 1. **Use of the Bot**

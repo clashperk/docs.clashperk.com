@@ -19,7 +19,7 @@ Don't want to deal with the Discord Developer Portal? No problem. You can still 
 
 1. Run the `/bot-personalizer` command in your server.
 2. Click the **Quick Customize** button.
-3. A modal will appear — upload an avatar image and/or enter a nickname.
+3. A modal will appear — upload an avatar image and enter a nickname (both are required).
 4. Submit the modal and the changes will apply instantly.
 
 **Avatar requirements:** PNG, GIF, JPG, or WEBP | 1024×1024 (1:1 aspect ratio) | Max 10MB
@@ -121,11 +121,11 @@ Navigate to the **Installation** section in the left sidebar. Make sure both **U
 
 <figure><img src="../.gitbook/assets/Step 13.png" alt=""><figcaption><p>Step 12.5 — Enable both installation contexts and set Install Link to None</p></figcaption></figure>
 
-**Step 13 — Return to Discord and click Let's begin**
+**Step 13 — Return to Discord and click Let's start!**
 
-Go back to your Discord server where you ran `/bot-personalizer` and click the **Let's begin** button in the ClashPerk message.
+Go back to your Discord server where you ran `/bot-personalizer` and click the **Let's start!** button in the ClashPerk message.
 
-<figure><img src="../.gitbook/assets/Step 14.png" alt=""><figcaption><p>Step 13 — Click Let's begin in your Discord server</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 14.png" alt=""><figcaption><p>Step 13 — Click Let's start! in your Discord server</p></figcaption></figure>
 
 **Step 14 — Submit your bot token**
 

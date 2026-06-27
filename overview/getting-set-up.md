@@ -5,6 +5,20 @@ icon: lightbulb
 
 # Getting set up
 
+#### Invite the bot to your server (do this first)
+
+<details>
+
+<summary>Add ClashPerk</summary>
+
+Before you can run any command, ClashPerk needs to be in your server. Head to [clashperk.com](https://clashperk.com) and use the **Add to Discord / Invite** link, then pick your server and approve the requested permissions.
+
+{% hint style="info" %}
+Already have ClashPerk in another server? You can also run <mark style="color:blue;">**/invite**</mark> from any server where the bot is present to get the invite link.
+{% endhint %}
+
+</details>
+
 #### Link a clan to your Discord Server (required)
 
 <details>

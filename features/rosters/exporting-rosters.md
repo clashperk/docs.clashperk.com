@@ -13,7 +13,7 @@ Exports the Rosters to a Google Spreadsheet, allows you to view this on the Web 
 
 ## Sheets
 
-It generates a Google Spreadsheet for each Roster with  2 sheets, "All members" and "Missing Members"
+It generates a single Google Spreadsheet containing one sheet per Roster (titled with the roster name), plus an "All Members" sheet and a "Missing Members" sheet.
 
 ### Roster Sheet
 
@@ -32,7 +32,7 @@ With the following Columns:
 
 ### All Members Sheet
 
-Contains all the same columns as the Roster Sheet, plus an additional Roster column showing all signed-up players.
+Aggregates every roster's signed-up players. Contains all the same columns as the Roster Sheet, plus two additional columns: **Roster** (the roster name) and **Roster Clan**.
 
 ### Missing Members Sheet
 

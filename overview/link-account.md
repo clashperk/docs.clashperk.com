@@ -33,7 +33,7 @@ You need the API token from the in-game settings to verify an account.
 
 {% tabs %}
 {% tab title="VERIFY AND LINK" %}
-<mark style="color:blue;">**/verify**</mark> <mark style="color:purple;">**player\_tag:**</mark> `#PLAYER_TAG` <mark style="color:purple;">**token:**</mark> `API_TOKEN`&#x20;
+<mark style="color:blue;">**/verify**</mark> <mark style="color:purple;">**player:**</mark> `#PLAYER_TAG` <mark style="color:purple;">**token:**</mark> `API_TOKEN`&#x20;
 {% endtab %}
 {% endtabs %}
 

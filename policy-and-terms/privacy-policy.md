@@ -6,7 +6,7 @@ description: Privacy Policy for ClashPerk Discord Bot
 
 **Privacy Policy for ClashPerk Discord Bot**
 
-Effective Date: 22 July 2024&#x20;
+Effective Date: 22 July 2024
 
 ClashPerk ("we", "us", "our") operates the ClashPerk Discord bot ("the Bot"). This Privacy Policy outlines how we collect, use, and disclose information from users ("you", "your") of the Bot.
 

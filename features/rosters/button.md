@@ -31,6 +31,14 @@ You need to reopen the Roster to make any further changes.
 
 <details>
 
+<summary>Clear Roster</summary>
+
+Removes all members from the roster at once, leaving the roster itself intact.
+
+</details>
+
+<details>
+
 <summary>Hide Buttons</summary>
 
 Hide the <mark style="color:green;">signup</mark> and <mark style="color:red;">opt-out</mark> buttons from the message.
@@ -42,6 +50,14 @@ Hide the <mark style="color:green;">signup</mark> and <mark style="color:red;">o
 <summary>Archive Mode</summary>
 
 Remove action buttons from the message. The Embed will become unchangeable.
+
+</details>
+
+<details>
+
+<summary>Manage Roster on the Web</summary>
+
+Opens a link to manage this roster from the ClashPerk web dashboard.
 
 </details>
 
@@ -85,14 +101,23 @@ Move a user or players to another roster.
 
 <details>
 
+<summary>Change Group</summary>
+
+Move a user or players to another group within the roster.
+
+</details>
+
+<details>
+
 <summary>Edit Roster</summary>
 
 Edit roster layout and sorting options.
 
-**Custom Layout using any **<mark style="color:purple;">**five**</mark>** of the following options:**
+**Custom Layout using **<mark style="color:purple;">**3 to 5**</mark>** of the following options:**
 
 * **Index** - The index of the player in the roster.
 * **Town Hall Level** - The Town Hall level of the player.
+* **Town Hall Icon** - The Town Hall icon of the player.
 * **Discord Name** - The Discord display-name of the player.
 * **Discord Username** - The Discord username of the player.
 * **Discord User ID** - The Discord User ID of the player.
@@ -103,6 +128,7 @@ Edit roster layout and sorting options.
 * **Role** - The role of the player in the clan.
 * **War Preference** - The war preference of the player in the clan.
 * **Trophies** - The trophies of the player.
+* **League Icon** - The league icon of the player.
 
 **Sort the roster by **<mark style="color:purple;">**one**</mark>** of the following options:**
 
@@ -115,6 +141,7 @@ Edit roster layout and sorting options.
 * Clan Name
 * Signup Time
 * Trophies
+* Leagues
 
 </details>
 

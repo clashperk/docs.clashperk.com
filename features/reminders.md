@@ -17,14 +17,14 @@ Supported event types:
 
 ### Create a Reminder
 
-<mark style="color:blue;">**/reminders create**</mark> <mark style="color:purple;">**type:**</mark> `Clan Wars` <mark style="color:purple;">**duration:**</mark> `6h` <mark style="color:purple;">**clans:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`
+<mark style="color:blue;">**/reminders create**</mark> <mark style="color:purple;">**type:**</mark> `Clan Wars` <mark style="color:purple;">**duration:**</mark> `6h` <mark style="color:purple;">**clans:**</mark> `#CLAN_TAG` <mark style="color:purple;">**message:**</mark> `Attack now!` <mark style="color:purple;">**channel:**</mark> `#channel`
 
 | Option | Description |
 |--------|-------------|
-| `type` | `Clan Wars`, `Capital Raids`, or `Clan Games` |
-| `duration` | Time remaining when the ping fires — e.g. `1h`, `6h`, `12h`, `1d`, `48h`. Use `0h` to fire at war end, `48h` to fire at war start. Must be a multiple of 15 minutes; max `48h`. |
-| `clans` | Clan tags or aliases to target (leave blank for all clans) |
-| `message` | Custom message included in the reminder notification |
+| `type` *(required)* | `Clan Wars`, `Capital Raids`, or `Clan Games` |
+| `duration` *(required)* | Time remaining when the ping fires — e.g. `1h`, `6h`, `12h`, `1d`. Minimum 15 minutes. Maximum depends on type: **Clan Wars** `48h` (and must be a multiple of 15 minutes), **Capital Raids** `3d`, **Clan Games** `6d`. |
+| `clans` *(required)* | Clan tags or aliases to target |
+| `message` *(required)* | Custom message included in the reminder notification |
 | `channel` | Channel to post the reminder in (defaults to current channel) |
 | `exclude_participant_list` | *(Clan Wars only)* Send only the message without listing missing attackers |
 
@@ -65,9 +65,9 @@ Use `/reminders list` to get the reminder ID.
 
 ### Send an Instant Reminder
 
-<mark style="color:blue;">**/reminders now**</mark> <mark style="color:purple;">**type:**</mark> `Clan Wars` <mark style="color:purple;">**clans:**</mark> `#CLAN_TAG`
+<mark style="color:blue;">**/reminders now**</mark> <mark style="color:purple;">**type:**</mark> `Clan Wars` <mark style="color:purple;">**clans:**</mark> `#CLAN_TAG` <mark style="color:purple;">**message:**</mark> `Last call!`
 
-Sends a one-off reminder immediately without waiting for a scheduled trigger. Useful for manually pinging before an important deadline.
+Sends a one-off reminder immediately without waiting for a scheduled trigger. The `message` option is required. Useful for manually pinging before an important deadline.
 
 ***
 

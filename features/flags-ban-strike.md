@@ -27,3 +27,13 @@ When a banned player joins your clan or family, the bot can notify you in the Fl
 A strike is a soft warning — a milder penalty than a ban. It serves as a notification to the user that their behavior has been noted and is not acceptable according to the clan's rules. Strikes are often used for minor infractions or as a first step in a progressive disciplinary system.
 
 <mark style="color:blue;">**/flag create**</mark> `[STRIKE]` `[PLAYER]` `[...REASON]` `[EXPIRY_DAYS]`
+
+***
+
+### Other options
+
+These options work on any flag type (`/flag create`):
+
+* **flag\_expiry\_days** - Number of days after which the flag automatically expires. Applies to both bans and strikes (most useful for strikes).
+* **flag\_impact** - The weight/severity of the flag.
+* **dm\_user** - Whether to DM the player when the flag is added.
