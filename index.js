@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const pathPrefix = "developer/commands";
+const pathPrefix = "others/commands";
 const outputDir = path.resolve(`./${pathPrefix}`);
 
 const getCommands = async () => {
