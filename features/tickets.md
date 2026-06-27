@@ -7,6 +7,10 @@ description: >-
 
 # Ticket System
 
+{% hint style="warning" %}
+🚧 **Coming Soon** — The Ticket System is currently in development and will be available shortly.
+{% endhint %}
+
 The Ticket System lets you create **panels** — Discord messages with a button that members click to open a private ticket channel. Each panel supports multiple **application types**, each with its own staff roles, questions, account requirements, and channel settings.
 
 ***
@@ -110,7 +114,43 @@ When 2 or more types exist, a **Reorder** button appears. Click it to open a sel
 
 ***
 
-### Step 4 — Extra Buttons
+### Step 4 — Saved Replies
+
+Pre-written message templates that staff can send inside any ticket with the **Reply** button. Configured at server level and shared across all panels.
+
+Templates support these variables. Any unknown variable prompts a fill-in form when the reply is sent.
+
+| Variable | Resolves to |
+|---|---|
+| `{user_mention}` | Mention of the ticket creator |
+| `{user_name}` | Creator's Discord username |
+| `{account_name}` | Linked CoC account name |
+| `{account_th}` | Linked account Town Hall level |
+| `{account_heroes}` | Linked account hero levels |
+| `{clan_name}` | Attached clan name |
+| `{clan_tag}` | Attached clan tag |
+| `{clan_link}` | Clan profile deep link |
+| `{clan_leader}` | Clan leader name |
+| `{clan_leader_mention}` | Clan leader mention |
+| `{ticket_count}` | Ticket number |
+| `{ticket_status}` | Current ticket status |
+| `{server_name}` | Discord server name |
+
+***
+
+### Step 5 — Logging
+
+Send events to specific channels for record-keeping.
+
+| Event | When it fires |
+|---|---|
+| **Button click** | A member clicks the Create Ticket button |
+| **Status change** | A ticket is opened, closed, put to sleep, reopened, claimed, or unclaimed |
+| **Ticket close** | A ticket channel is deleted (transcript attached) |
+
+***
+
+### Step 6 — Extra Buttons
 
 Add extra utility buttons to the panel post alongside the Create Ticket button. Members can click these without opening a ticket first.
 
@@ -132,26 +172,6 @@ Add extra utility buttons to the panel post alongside the Create Ticket button. 
 **Placement:** Toggle between **Same Row** (extra buttons join the Create Ticket row, spilling to the next row when > 5) and **New Row** (extra buttons always start on a separate row below the Create Ticket button).
 
 > After adding or editing extra buttons, run `/ticket-post` again to refresh the live panel message.
-
-***
-
-### Step 6 — Saved Replies
-
-Pre-written message templates that staff can send inside any ticket with the **Reply** button. Configured at server level and shared across all panels.
-
-Templates support variables like `{user_mention}`, `{account_name}`, `{clan_name}`, and more. Unknown variables prompt a fill-in form when the reply is sent.
-
-***
-
-### Step 7 — Logging
-
-Send events to specific channels for record-keeping.
-
-| Event | When it fires |
-|---|---|
-| **Button click** | A member clicks the Create Ticket button |
-| **Status change** | A ticket is opened, closed, put to sleep, reopened, claimed, or unclaimed |
-| **Ticket close** | A ticket channel is deleted (transcript attached) |
 
 ***
 
