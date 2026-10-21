@@ -22,6 +22,8 @@ Manage automatic role management for leagues.
 | `titan` | Titan league role. |
 | `dragon` | Dragon league role. |
 | `electro` | Electro league role. |
+| `legend_3` | Legend 3 league role. |
+| `legend_2` | Legend 2 league role. |
 | `legend` | Legend league role. |
 | `5200_5249` | Trophy range 5200 - 5249 role. |
 | `5250_5499` | Trophy range 5250 - 5499 role. |
