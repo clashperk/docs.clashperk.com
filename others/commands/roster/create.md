@@ -26,6 +26,8 @@ Create a roster
 | `end_time` | Roster end time (YYYY-MM-DD HH:mm, in 24 hours format) |
 | `timezone` | Search timezone by city or country (e.g. London, Singapore, India, Sydney) |
 | `allow_group_selection` | Whether to allow members to select group |
+| `require_group_selection` | Whether to require members to select group |
+| `group_selection_text` | Custom text shown to members when they select a roster group |
 | `allow_multi_signup` | Whether to allow multiple roster signups |
 | `use_clan_alias` | Whether to use clan alias in the roster (created by /alias command) |
 | `roster_image_url` | Image to be used in the roster embed |

@@ -47,7 +47,7 @@ Posts every Monday.
 {% endtab %}
 
 {% tab title="Monthly" %}
-Posts on the last Monday of each month.
+Posts when the league season ends, every 28 days on a Monday at 05:00 UTC.
 {% endtab %}
 {% endtabs %}
 
