@@ -21,6 +21,8 @@ The Ticket System lets you create **panels** — Discord messages with a button 
 
 If a panel with that name doesn't exist, one is created automatically. A dashboard opens with **Edit** buttons for every section. Click **Done** when finished, or run `/ticket-setup` again at any time to reopen it.
 
+Prefer a bigger screen? **Open in dashboard** next to **Done** opens the same panel on the [web dashboard](https://app.clashperk.com) (sign in with Discord).
+
 > You can have multiple panels per server — one for clan applications, one for support, etc.
 
 ***
