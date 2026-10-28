@@ -262,9 +262,3 @@ Server logs track ClashPerk's own actions on your Discord server rather than in-
 | **Welcome Log** | A new member is welcomed after linking their account. |
 
 Run the command with `disable` to turn a server log off.
-
-***
-
-## Related
-
-<table data-view="cards"><thead><tr><th>Topic</th><th data-card-target data-type="content-ref">Link</th></tr></thead><tbody><tr><td>Flag players and get alerts</td><td><a href="flags-ban-strike.md">flags-ban-strike.md</a></td></tr><tr><td>Ping members before events end</td><td><a href="reminders.md">reminders.md</a></td></tr><tr><td><code>/setup clan-logs</code> reference</td><td><a href="../others/commands/setup/clan-logs.md">clan-logs.md</a></td></tr><tr><td><code>/setup server-logs</code> reference</td><td><a href="../others/commands/setup/server-logs.md">server-logs.md</a></td></tr></tbody></table>
