@@ -244,7 +244,7 @@ Posts when a member changes their war preference — opt-in vs opt-out.
 
 #### <mark style="color:blue;">Ranked Battle League Change Log</mark>
 
-Posts when a member's Builder Base league changes — the old and new league.
+Posts when a member's Home Village ranked league changes — the old and new league.
 
 ***
 

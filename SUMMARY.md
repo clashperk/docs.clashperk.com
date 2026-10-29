@@ -199,6 +199,14 @@
   * [/warlog](others/commands/warlog.md)
   * [/whitelist](others/commands/whitelist.md)
 
+## Links
+
+* [Website](https://clashperk.com)
+* [Dashboard](https://app.clashperk.com)
+* [Wiki](https://wiki.clashperk.com)
+* [Support Server](https://discord.gg/ppuppun)
+* [Status](https://status.clashperk.com)
+
 ## Policies
 
 * [Terms of Service](https://clashperk.com/terms)

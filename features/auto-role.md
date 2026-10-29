@@ -33,9 +33,9 @@ Roles will be given based on Builder Hall levels (BH1–BH10).
 
 ### League Roles
 
-Roles will be given based on the player's Home Village league.
+Roles will be given based on the player's Home Village league (Unranked, Skeleton, Barbarian, Archer, Wizard, Valkyrie, Witch, Golem, P.E.K.K.A, Titan, Dragon, Electro, Legend 3, Legend 2, Legend), with optional roles for Legend trophy ranges.
 
-<mark style="color:blue;">**/autorole leagues**</mark> `[CHAMPION_ROLE]` `[TITAN_ROLE]` `[LEGEND_ROLE]`
+<mark style="color:blue;">**/autorole leagues**</mark> `[ELECTRO_ROLE]` `[LEGEND_ROLE]` `[5500_5749_ROLE]` `[MORE...]`
 
 ***
 
@@ -102,7 +102,7 @@ Manually trigger a role refresh for all members.
 
 Remove the configuration for a specific role type without affecting other settings.
 
-<mark style="color:blue;">**/autorole disable**</mark> <mark style="color:purple;">**type:**</mark> `town-hall`
+<mark style="color:blue;">**/autorole disable**</mark> <mark style="color:purple;">**type:**</mark> `Town Hall Roles`
 
 ***
 
@@ -124,7 +124,7 @@ Remove the configuration for a specific role type without affecting other settin
 {% tab title="Delay Exclusion" %}
 <mark style="color:yellow;">Certain role types can be excluded from the removal delay — for example, guest roles or league roles can still be removed instantly even when a global delay is active.</mark>\
 \
-<mark style="color:blue;">**/autorole config**</mark> `delay_exclusion_roles: town-hall-roles / league-roles / guest-role / ...`
+<mark style="color:blue;">**/autorole config**</mark> `delay_exclusion_roles: Town Hall Roles / League Roles / Guest Role / ...`
 {% endtab %}
 {% endtabs %}
 

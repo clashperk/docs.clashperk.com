@@ -5,7 +5,7 @@ description: A detailed explanation of how to export rosters to spreadsheets.
 
 # Exporting Rosters
 
-<mark style="color:blue;">**/export rosters**</mark>**&#x20;**<mark style="color:purple;">**category:**</mark> `WAR or CWL`
+<mark style="color:blue;">**/export rosters**</mark>**&#x20;**<mark style="color:purple;">**category:**</mark> `CWL`, `WAR` or `E-SPORTS`
 
 Category is optional!
 

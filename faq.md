@@ -23,8 +23,8 @@ Due to API limitations, the bot can't directly see who is online or recently act
 
 * [x] Player name changed
 * [x] Troops donated
-* [x] Trophies gained in the Legend league
-* [x] Versus trophies gained
+* [x] Trophies gained in Legend League
+* [x] Builder Base trophies gained
 * [x] Switch clans (leave the current clan and join another)
 * [x] Multiplayer attacks won
 * [x] War preference changed

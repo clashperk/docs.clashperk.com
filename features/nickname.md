@@ -66,6 +66,14 @@ The `{ROLE}` variable uses short labels. You can customize them from the `/nickn
 
 ***
 
+### Which Account Is Used
+
+For members with several linked accounts, choose which account the nickname is built from.
+
+<mark style="color:blue;">**/nickname config**</mark> <mark style="color:purple;">**account\_preference\_for\_naming:**</mark> `Default Account / Best Account / Default or Best Account`
+
+***
+
 ### Auto Updates
 
 <mark style="color:blue;">**/nickname config**</mark> <mark style="color:purple;">**change\_nicknames:**</mark> `Yes`

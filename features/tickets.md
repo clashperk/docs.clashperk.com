@@ -17,9 +17,9 @@ The Ticket System lets you create **panels** — Discord messages with a button 
 
 ## Setting Up a Panel
 
-<mark style="color:blue;">**/ticket-setup**</mark> <mark style="color:purple;">**panel\_name:**</mark> `Applications`
+<mark style="color:blue;">**/ticket setup**</mark> <mark style="color:purple;">**panel\_name:**</mark> `Applications`
 
-If a panel with that name doesn't exist, one is created automatically. A dashboard opens with **Edit** buttons for every section. Click **Done** when finished, or run `/ticket-setup` again at any time to reopen it.
+If a panel with that name doesn't exist, one is created automatically. A dashboard opens with **Edit** buttons for every section. Click **Done** when finished, or run `/ticket setup` again at any time to reopen it.
 
 Prefer a bigger screen? **Open in dashboard** next to **Done** opens the same panel on the [web dashboard](https://app.clashperk.com) (sign in with Discord).
 
@@ -75,7 +75,7 @@ Gates checked before the ticket channel is created. **Require linked account** m
 
 | Rule | Description |
 |---|---|
-| **Require linked account** | Member must have a Clash of Clans account linked via `/link add` |
+| **Require linked account** | Member must have a Clash of Clans account linked via `/link create` |
 | **TH minimum** | Linked account must be at least this Town Hall level |
 | **Min trophies** | Linked account must have at least this many trophies |
 | **Min league tier** | Linked account must be in this league or higher |
@@ -173,17 +173,15 @@ Add extra utility buttons to the panel post alongside the Create Ticket button. 
 
 **Placement:** Toggle between **Same Row** (extra buttons join the Create Ticket row, spilling to the next row when > 5) and **New Row** (extra buttons always start on a separate row below the Create Ticket button).
 
-> After adding or editing extra buttons, run `/ticket-post` again to refresh the live panel message.
+> After adding or editing extra buttons, run `/ticket post` again to refresh the live panel message.
 
 ***
 
 ## Posting a Panel
 
-<mark style="color:blue;">**/ticket-post**</mark> <mark style="color:purple;">**panel\_name:**</mark> `Applications`
+<mark style="color:blue;">**/ticket post**</mark> <mark style="color:purple;">**panel\_name:**</mark> `Applications`
 
-<mark style="color:blue;">**/ticket-post**</mark> <mark style="color:purple;">**panel\_name:**</mark> `Applications` <mark style="color:purple;">**channel:**</mark> `#apply`
-
-Posts the panel embed and button to the target channel. Run it again any time to refresh the panel message after making changes.
+Run it in the channel where the panel should appear — it posts the panel embed and button there. Run it again any time to refresh the panel message after making changes.
 
 ***
 
@@ -193,12 +191,12 @@ Use these commands inside a ticket channel:
 
 | Command | Description |
 |---|---|
-| <mark style="color:blue;">**/ticket-sleep**</mark> | Put the ticket to sleep — restricts creator from sending messages, moves to sleep category |
-| <mark style="color:blue;">**/ticket-reopen**</mark> | Reopen a sleeping ticket — restores creator access, moves back to open category |
-| <mark style="color:blue;">**/ticket-close**</mark> | Close the ticket — moves to closed category |
-| <mark style="color:blue;">**/ticket-delete**</mark> | Permanently delete the ticket channel (generates a transcript first) |
-| <mark style="color:blue;">**/ticket-info**</mark> | Show ticket details: creator, linked account, status, panel, type, trophies, league |
-| <mark style="color:blue;">**/ticket-add**</mark> `[member]` | Add a Discord member to the ticket channel |
+| <mark style="color:blue;">**/ticket sleep**</mark> | Put the ticket to sleep — restricts creator from sending messages, moves to sleep category |
+| <mark style="color:blue;">**/ticket reopen**</mark> | Reopen a sleeping ticket — restores creator access, moves back to open category |
+| <mark style="color:blue;">**/ticket close**</mark> | Close the ticket — moves to closed category |
+| <mark style="color:blue;">**/ticket delete**</mark> | Permanently delete the ticket channel (generates a transcript first) |
+| <mark style="color:blue;">**/ticket info**</mark> | Show ticket details: creator, linked account, status, panel, type, trophies, league |
+| <mark style="color:blue;">**/ticket add**</mark> `[member]` | Add a Discord member to the ticket channel |
 
 ***
 
