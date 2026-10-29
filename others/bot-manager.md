@@ -9,7 +9,7 @@ description: >-
 
 A user-defined role that allows anyone to use all administrative commands without Manage Server permission.
 
-<mark style="color:blue;">**/config**</mark> <mark style="color:purple;">**manager\_role:**</mark> `@Bot Manager`
+<mark style="color:blue;">**/config**</mark> <mark style="color:purple;">**bot\_manager\_role:**</mark> `@Bot Manager`
 
 ***
 

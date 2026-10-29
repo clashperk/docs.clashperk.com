@@ -64,44 +64,12 @@ Clan embed is for showcasing your clans in a public channel.
 
 If you don't select a channel, it defaults to the current channel.
 
-<mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**channel:**</mark> `#channel`
+<mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**action:**</mark> `Enable` <mark style="color:purple;">**channel:**</mark> `#channel`
 
-Clan Logs:
-
-* Clan Achievements Log
-* Donation Log (Instant/Daily/Weekly/Monthly)
-* Clan Games Embed Log
-* Last Seen Embed Log
-* Legend Attacks Daily Summary Log
-
-Capital Logs:
-
-* Clan Capital Weekly Summary Log
-* Capital Gold Contribution Log
-* Capital Gold Raid Log
-
-War Logs:
-
-* War Attack Log
-* CWL Attack Log
-* War Embed Log
-* War Missed Attacks Log
-* CWL Embed Log
-* CWL Missed Attacks Log
-* CWL Lineup Change Log
-* CWL Monthly Summary Log
-
-Player Logs:
-
-* Member Join/Leave Log
-* Role Change Log
-* Name Change Log
-* Town Hall Upgrade Log
-* War Preference Log
-* Ranked Battle League Change Log
+Pick the logs you want from the menu that appears — clan, capital, war, and player logs are all available.
 
 {% hint style="info" %}
-For more information, see [logs.md](../features/logs.md "mention")
+For every log and what it posts, see [logs.md](../features/logs.md "mention")
 {% endhint %}
 
 **Disable a Log**

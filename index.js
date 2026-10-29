@@ -34,7 +34,12 @@ const getCommands = async () => {
       ? path.join(parentDir, `${toFileName(sub)}.md`)
       : path.join(outputDir, `${toFileName(parent)}.md`);
 
-    if (sub) fs.mkdirSync(parentDir, { recursive: true });
+    if (sub) {
+      fs.mkdirSync(parentDir, { recursive: true });
+      // Group READMEs may carry hand-added GitBook layout, so only create missing ones.
+      const readmePath = path.join(parentDir, "README.md");
+      if (!fs.existsSync(readmePath)) fs.writeFileSync(readmePath, `# /${parent}\n`, "utf8");
+    }
 
     let md = `---\ndescription: ${cmd.description}\n---\n\n`;
     md += `# ${cmd.name}\n\n`;

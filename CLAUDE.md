@@ -14,7 +14,7 @@ The `index.js` script auto-generates all documentation under `others/commands/` 
 node index.js
 ```
 
-This fetches `commands_export.json` from `https://raw.githubusercontent.com/clashperk/clashperk/refs/heads/main/scripts/assets/commands_export.json`, writes one Markdown file per command, and regenerates `others/commands/SUMMARY.md`. **Do not manually edit files in `others/commands/`** — they will be overwritten on the next run.
+This fetches `commands_export.json` from `https://raw.githubusercontent.com/clashperk/clashperk/refs/heads/main/scripts/assets/commands_export.json`, writes one Markdown file per command, creates a `README.md` for any new command group, and regenerates `others/commands/SUMMARY.md`. **Do not manually edit files in `others/commands/`** — they will be overwritten on the next run.
 
 ## Content Structure
 

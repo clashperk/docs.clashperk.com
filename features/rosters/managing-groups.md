@@ -30,7 +30,7 @@ description: >-
 * **order** - Change the order of the Group using the <mark style="color:purple;">number</mark> 1 as the lowest.
 * **group\_role** - Give the Group a Role.
 * **selectable** - Whether to allow Members to select this Group. Sets it to <mark style="color:purple;">Public</mark> or <mark style="color:purple;">Private</mark>. If Private only Roster Managers will be able to move players to that Group.
-* **delete\_role** - Where to delete the Role of the Group. To delete set <mark style="color:purple;">True</mark>.
+* **delete\_role** - Whether to delete the Role of the Group. To delete set <mark style="color:purple;">True</mark>.
 * **delete\_group** - Whether to delete the Group. To delete set <mark style="color:purple;">True</mark>**.**
 
 {% hint style="info" %}

@@ -5,7 +5,11 @@ description: Ping members in the roster
 
 # Roster Ping
 
-<mark style="color:blue;">**/roster ping**</mark>**&#x20;**<mark style="color:purple;">**message:**</mark>`Message`<mark style="color:purple;">**ping\_option:**</mark>`Option`<mark style="color:purple;">**group:**</mark>`Group`
+<mark style="color:blue;">**/roster ping**</mark> <mark style="color:purple;">**roster:**</mark> `Roster` <mark style="color:purple;">**message:**</mark> `Message` <mark style="color:purple;">**ping\_option:**</mark> `Option` <mark style="color:purple;">**group:**</mark> `Group`
+
+### Roster
+
+The roster whose members should be pinged.
 
 ### Message
 
@@ -25,4 +29,8 @@ After submitting the Command it will ask to Confirm before pinging!
 
 ### Group
 
-Restrict the pings to a certain Group. Leave empty to ignore.
+Restrict the pings to a certain Group. Leave empty to ignore. When set, it overrides **ping\_option**.
+
+### Compact
+
+Set **compact** to send the member pings in a compact inline format.
