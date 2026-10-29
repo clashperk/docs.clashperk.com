@@ -203,7 +203,7 @@
 
 * [Website](https://clashperk.com)
 * [Dashboard](https://app.clashperk.com)
-* [Wiki](https://wiki.clashperk.com)
+* [Clash of Clans Wiki](https://wiki.clashperk.com)
 * [Support Server](https://discord.gg/ppuppun)
 * [Status](https://status.clashperk.com)
 
