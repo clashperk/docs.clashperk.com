@@ -1,7 +1,7 @@
 ---
 icon: pen
 description: >-
-  detailed explanation of the /roster create, /roster edit, /roster delete and
+  Detailed explanation of the /roster create, /roster edit, /roster delete and
   /roster clone
 ---
 
@@ -40,7 +40,7 @@ When setting a Timezone ClashPerk will remember that Timezone for you! (It links
 
 ## Editing a Roster
 
-<mark style="color:blue;">**/roster edit**</mark>`[roster] [...options]`
+<mark style="color:blue;">**/roster edit**</mark> `[roster] [...options]`
 
 * **clan** - change which clan it is connected to
 * **name** - change the name of the roster
@@ -51,7 +51,7 @@ When setting a Timezone ClashPerk will remember that Timezone for you! (It links
 
 ## Deleting a Roster
 
-<mark style="color:blue;">**/roster delete**</mark>`[roster]`
+<mark style="color:blue;">**/roster delete**</mark> `[roster]`
 
 {% hint style="danger" %}
 Completely deletes the roster.
@@ -59,6 +59,6 @@ Completely deletes the roster.
 
 ## Cloning a Roster
 
-<mark style="color:blue;">**/roster clone**</mark>**&#x20;**<mark style="color:purple;">**roster:**</mark>`Roster`<mark style="color:purple;">**name:**</mark>`Name`
+<mark style="color:blue;">**/roster clone**</mark> <mark style="color:purple;">**roster:**</mark> `Roster` <mark style="color:purple;">**name:**</mark> `Name`
 
 Clones the Roster settings to a new Roster without importing the Members from the Source Roster.

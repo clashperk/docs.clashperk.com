@@ -115,28 +115,28 @@ Click **Save Changes**.
 
 <figure><img src="../.gitbook/assets/Step 12.png" alt=""><figcaption><p>Step 12 — Disable Public Bot and enable all three intents</p></figcaption></figure>
 
-**Step 12.5 — Configure Installation settings**
+**Step 13 — Configure Installation settings**
 
 Navigate to the **Installation** section in the left sidebar. Make sure both **User Install** and **Guild Install** are checked under Installation Contexts, and set the **Install Link** to **None**.
 
-<figure><img src="../.gitbook/assets/Step 13.png" alt=""><figcaption><p>Step 12.5 — Enable both installation contexts and set Install Link to None</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 13.png" alt=""><figcaption><p>Step 13 — Enable both installation contexts and set Install Link to None</p></figcaption></figure>
 
-**Step 13 — Return to Discord and click Let's start!**
+**Step 14 — Return to Discord and click Let's start!**
 
 Go back to your Discord server where you ran `/bot-personalizer` and click the **Let's start!** button in the ClashPerk message.
 
-<figure><img src="../.gitbook/assets/Step 14.png" alt=""><figcaption><p>Step 13 — Click Let's start! in your Discord server</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 14.png" alt=""><figcaption><p>Step 14 — Click Let's start! in your Discord server</p></figcaption></figure>
 
-**Step 14 — Submit your bot token**
+**Step 15 — Submit your bot token**
 
 A **Bot Personalizer** modal will appear. Paste the token you copied in Step 11 into the **Bot Token** field and click **Submit**.
 
-<figure><img src="../.gitbook/assets/Step 15.png" alt=""><figcaption><p>Step 14 — Paste the bot token and click Submit</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 15.png" alt=""><figcaption><p>Step 15 — Paste the bot token and click Submit</p></figcaption></figure>
 
-**Step 15 — Your bot is live!**
+**Step 16 — Your bot is live!**
 
 ClashPerk will set up your custom bot within a few minutes. Once deployed, your bot will appear online in your server with its own name and avatar.
 
-<figure><img src="../.gitbook/assets/Step 16.png" alt=""><figcaption><p>Step 15 — Your custom bot is now online</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 16.png" alt=""><figcaption><p>Step 16 — Your custom bot is now online</p></figcaption></figure>
 
 Finally, invite your custom bot to our emoji servers so it can display game icons properly. Join our [support server](https://discord.gg/ppuppun) to get the invite links to the emoji servers.
