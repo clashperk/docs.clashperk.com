@@ -19,7 +19,7 @@ Easy to set up and highly customizable, ClashPerk works with simple slash comman
 | [**Dashboard**](https://app.clashperk.com) | Sign in with Discord to manage your clans, rosters, logs, and tickets from the browser. |
 | [**Clash of Clans Wiki**](https://wiki.clashperk.com) | Every troop, spell, hero, and building in the game, level by level — stats, costs, and upgrade times. |
 | [**Support server**](https://discord.gg/ppuppun) | Ask questions, report bugs, and get help from the team. |
-| [**Status**](https://status.clashperk.com) | Live status of the bot and its services. |
+| [**Status Page**](https://status.clashperk.com) | Live status of the bot and its services. |
 
 ## Quick Links
 
