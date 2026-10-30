@@ -41,6 +41,15 @@ Due to API limitations, the bot can't directly see who is online or recently act
 
 Whenever the bot captures an activity (mentioned above), the player gets a +1 score. This score reflects the total number of activities the bot has seen for that player, helping us determine who the most active or inactive members are.
 
+## How is the donation list calculated?
+
+<mark style="color:blue;">**/donations**</mark> shows each current member's troops donated and received **in that clan** for the selected league season. Seasons last 28 days and end on a Monday at 05:00 UTC.
+
+* **Starts from the in-game count.** The game's own donation counter is the baseline, so for the current season the list never shows less than what you see in-game.
+* **Survives leaving and rejoining.** The game resets a player's donations when they leave a clan. ClashPerk keeps the running total, so donations made before they left still count when they come back.
+* **Per clan.** Donations made in a different clan are not added.
+* **Past seasons and custom dates.** Pick an older season with `season`, or use `start_date` and `end_date` for any date range. Both only include what ClashPerk recorded while it was tracking the clan.
+
 ## How does the clan games scoreboard work?
 
 Clan Games points can't be directly pulled from the API. Instead, we track the **Games Champion** achievement. At the start of Clan Games, we capture each player's progress and then compare it every 10-15 minutes. The difference shows how many points they've earned during the event, and this updates the scoreboard.
