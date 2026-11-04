@@ -132,11 +132,13 @@ Templates support these variables. Any unknown variable prompts a fill-in form w
 | `{clan_name}` | Attached clan name |
 | `{clan_tag}` | Attached clan tag |
 | `{clan_link}` | Clan profile deep link |
-| `{clan_leader}` | Clan leader name |
-| `{clan_leader_mention}` | Clan leader mention |
+| `{clan_leader}` | Leader of the attached clan |
+| `{clan_leader_mention}` | Mention of the attached clan's leader, if they linked their account |
 | `{ticket_count}` | Ticket number |
 | `{ticket_status}` | Current ticket status |
 | `{server_name}` | Discord server name |
+
+When a variable has no value, like `{clan_leader}` on a ticket with no clan set, ClashPerk asks you to fill it in before the reply is sent.
 
 ***
 
@@ -215,6 +217,14 @@ Every ticket channel contains a summary card with action buttons.
 | **Delete Ticket** | Anyone with access | Close and delete the ticket (asks for confirmation first) |
 
 > The **Claim** button only appears on application types where **Allow claiming** is enabled.
+
+***
+
+## Tickets on the Dashboard
+
+**View tickets** on the Tickets page of the [web dashboard](https://app.clashperk.com) lists every ticket in your server, newest first. Filter by **Open**, **Sleeping** or **Closed**. Each ticket shows who opened it, its panel and type, when it was opened, who claimed it, and links to its channel and staff thread in Discord.
+
+**Close** on an open or sleeping ticket works like the **Delete Ticket** button. ClashPerk posts a transcript to the panel's ticket close log, then deletes the channel.
 
 ***
 
