@@ -64,10 +64,10 @@ Each type is a separate option shown when a member clicks the ticket button. If 
 
 | Role type | What it does |
 |---|---|
-| **Ping roles** | Notified when the ticket opens; get full channel access including Manage Messages |
+| **Ping roles** | Notified when the ticket opens. They get full channel access, including Manage Messages and Manage Channels |
 | **Viewer roles** | Can see and send messages in the ticket but cannot manage it |
-| **Add roles** | Automatically added to the ticket creator when the ticket opens |
-| **Remove roles** | Automatically removed from the ticket creator when the ticket opens |
+| **Add roles** | Added to the ticket creator when the ticket opens, and removed again when it closes |
+| **Remove roles** | Removed from the ticket creator when the ticket opens, and given back when it closes |
 
 #### Apply Rules
 
@@ -79,7 +79,7 @@ Gates checked before the ticket channel is created. **Require linked account** m
 | **TH minimum** | Linked account must be at least this Town Hall level |
 | **Min trophies** | Linked account must have at least this many trophies |
 | **Min league tier** | Linked account must be in this league or higher |
-| **Create staff thread** | Opens a private thread for staff when the ticket is created |
+| **Create staff thread** | Opens a private thread in the ticket for the ping roles. The member who opened the ticket can't see it |
 | **Auto-sleep after inactivity** | Automatically puts the ticket to sleep after N hours with no reply from the creator |
 | **Allow claiming** | Staff can claim exclusive ownership — once claimed, all other staff and viewer roles lose access until unclaimed |
 
@@ -89,13 +89,14 @@ Up to **5** questions shown in a pop-up modal before the ticket opens. Each can 
 
 #### Categories
 
-Discord categories the ticket channel is moved to as its status changes.
+Discord categories the ticket channel is moved to as its status changes. A closed ticket's channel is deleted, so there's no closed category.
 
 | Category | When used |
 |---|---|
-| **Open** | Channel is placed here when first created |
+| **Open** | Channel is placed here when first created, and moves back here when reopened |
 | **Sleep** | Channel moves here when put to sleep |
-| **Closed** | Channel moves here when closed |
+
+> A Discord category holds at most 50 channels. When the open category is full, new tickets can't be created and the member sees an error.
 
 #### Channel Naming
 
@@ -150,7 +151,7 @@ Send events to specific channels for record-keeping.
 |---|---|
 | **Button click** | A member clicks the Create Ticket button |
 | **Status change** | A ticket is opened, closed, put to sleep, reopened, claimed, or unclaimed |
-| **Ticket close** | A ticket channel is deleted (transcript attached) |
+| **Ticket close** | Staff close a ticket (transcript of the last 100 messages attached) |
 
 ***
 
@@ -194,11 +195,16 @@ Use these commands inside a ticket channel:
 | Command | Description |
 |---|---|
 | <mark style="color:blue;">**/ticket sleep**</mark> | Put the ticket to sleep — restricts creator from sending messages, moves to sleep category |
-| <mark style="color:blue;">**/ticket reopen**</mark> | Reopen a sleeping ticket — restores creator access, moves back to open category |
-| <mark style="color:blue;">**/ticket close**</mark> | Close the ticket — moves to closed category |
-| <mark style="color:blue;">**/ticket delete**</mark> | Permanently delete the ticket channel (generates a transcript first) |
-| <mark style="color:blue;">**/ticket info**</mark> | Show ticket details: creator, linked account, status, panel, type, trophies, league |
+| <mark style="color:blue;">**/ticket reopen**</mark> | Reopen a sleeping ticket — restores creator access, moves back to open category, restarts auto-sleep |
+| <mark style="color:blue;">**/ticket close**</mark> | Close the ticket — posts a transcript to the ticket close log, then deletes the channel |
 | <mark style="color:blue;">**/ticket add**</mark> `[member]` | Add a Discord member to the ticket channel |
+
+These manage panels and work in any channel:
+
+| Command | Description |
+|---|---|
+| <mark style="color:blue;">**/ticket info**</mark> <mark style="color:purple;">**panel\_name**</mark> | Show a panel's settings, ticket counts and setup warnings |
+| <mark style="color:blue;">**/ticket delete**</mark> <mark style="color:purple;">**panel\_name**</mark> | Delete a panel. Its past tickets stay on the dashboard |
 
 ***
 
@@ -210,11 +216,11 @@ Every ticket channel contains a summary card with action buttons.
 |---|---|---|
 | **Reply** | Staff | Send a saved reply template — supports variable fill-in |
 | **Set Clan** | Staff | Attach a clan to the ticket from the server's configured clans |
-| **Notify Me** | Anyone | Toggle DM notifications when the ticket status changes |
+| **Notify Me** | Anyone | Get a DM when the ticket is put to sleep, reopened or closed. Click again to stop |
 | **Claim 🔒** | Staff *(if enabled)* | Claim exclusive ownership — all other staff and viewer roles lose access |
-| **Unclaim 🔓** | Claimer only | Release the claim and restore all staff access |
+| **Unclaim 🔓** | Claimer only | Release the claim and restore all staff access. Reopening a sleeping ticket also releases it |
 | **View Account** | Anyone | Show linked Clash of Clans account stats |
-| **Delete Ticket** | Anyone with access | Close and delete the ticket (asks for confirmation first) |
+| **Delete Ticket** | Staff | Close the ticket like `/ticket close` (asks for confirmation first) |
 
 > The **Claim** button only appears on application types where **Allow claiming** is enabled.
 
@@ -230,4 +236,10 @@ Every ticket channel contains a summary card with action buttons.
 
 ## Auto-Sleep
 
-When **Auto-sleep after inactivity** is configured on an application type, the bot automatically puts the ticket to sleep after the set number of hours if the ticket creator hasn't replied. The timer resets each time the creator sends a message. A notification is posted in the ticket channel when it is put to sleep.
+When **Auto-sleep after inactivity** is configured on an application type, the bot automatically puts the ticket to sleep after the set number of hours if the ticket creator hasn't replied. The timer resets each time the creator sends a message. A notification is posted in the ticket channel when it is put to sleep. Reopening the ticket starts the timer again.
+
+***
+
+## Deleted Ticket Channels
+
+If someone deletes a ticket channel in Discord instead of closing it, ClashPerk marks the ticket closed and undoes its role changes. The member can then open a new ticket of that type.
