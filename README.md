@@ -16,7 +16,7 @@ New here? Start with [Getting set up](overview/getting-set-up.md), then [link yo
 
 | | |
 | --- | --- |
-| [**Website**](https://clashperk.com) | Add ClashPerk to your server and see what it can do. |
+| [**Clash of Clans Bot for Discord**](https://clashperk.com) | Add ClashPerk to your server and see what it can do. |
 | [**Dashboard**](https://app.clashperk.com) | Sign in with Discord to manage your clans, rosters, logs, and tickets from the browser. |
 | [**Clash of Clans Wiki**](https://wiki.clashperk.com) | Every troop, spell, hero, and building in the game, level by level — stats, costs, and upgrade times. |
 | [**Support Discord**](https://discord.gg/ppuppun) | Ask questions, report bugs, and get help from the team. |
