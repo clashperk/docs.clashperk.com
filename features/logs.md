@@ -1,15 +1,18 @@
 ---
-description: A detailed explanation of every automatic log ClashPerk can post.
+description: >-
+  Every Clash of Clans log ClashPerk can post to Discord: member joins and
+  leaves, war and CWL attacks, capital raids, donations, Town Hall upgrades and
+  more.
 icon: scroll
 ---
 
-# Logs
+# Clan, War and Capital Logs
 
 Logs are automatic messages ClashPerk posts to Discord whenever something happens in your clan or server — a member joins, a war attack lands, a raid weekend ends, and much more.
 
 * **Enabled per clan.** Turn on only the logs you want, for each clan separately.
 * **Routed anywhere.** Send each log to its own channel or thread.
-* **Two families.** [**Clan logs**](#clan-logs-setup) track in-game activity; [**server logs**](#server-logs) track ClashPerk actions on your Discord server.
+* **Two families.** [**Clan logs**](#clan-logs-setup) track in-game activity. [**Server logs**](#server-logs) track ClashPerk actions on your Discord server.
 
 {% hint style="info" %}
 Logs are **not** truly real-time. ClashPerk polls the official Clash of Clans API, so a short delay between the in-game event and the posted message is normal.

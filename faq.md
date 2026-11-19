@@ -1,9 +1,11 @@
 ---
-description: Frequently Asked Questions
+description: >-
+  How ClashPerk tracks last seen, activity, donations and Clan Games, why logs
+  lag a little, when clan verification is needed and if your API token is safe.
 icon: circle-info
 ---
 
-# FAQ
+# ClashPerk FAQ
 
 ## Is ClashPerk Legal / Fair Play?
 
@@ -15,7 +17,20 @@ Make sure that ClashPerk has all the required permissions in your Discord. Run t
 
 ## What is clan verification?
 
-To prevent abuse, the bot verifies that you're a leader or co-leader of the clan. This ensures you're not tracking clans you don't own or adding the same clan to multiple servers.
+When you link a clan with <mark style="color:blue;">**/setup clan**</mark>, ClashPerk sometimes checks that you're a leader or co-leader of it, so nobody tracks clans they don't run. It asks only when:
+
+* the clan is already linked in more than 10 other servers, or
+* your server has reached its clan limit: 5 clans for servers under 50 members, 20 under 100, otherwise 100.
+
+Subscribed servers and clans that are already verified skip the check. To pass it, verify a leader or co-leader account with <mark style="color:blue;">**/verify**</mark> (see [Link account](overview/link-account.md)), then run the command again.
+
+## What does a Clash of Clans player tag look like?
+
+It starts with `#` and uses only the characters `0 2 8 9 P Y L Q G R J C U V`. There's no letter O: it's always the number zero. Clan tags use the same characters. [Link account](overview/link-account.md) shows how to link yours.
+
+## How do I change my war preference?
+
+In the game, open your profile and tap the war preference toggle to switch between **In** and **Out**. ClashPerk can post every change to a channel with the war preference log (see [Clan, War and Capital Logs](features/logs.md)).
 
 ## How does last seen work?
 

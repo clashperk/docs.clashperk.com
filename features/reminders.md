@@ -1,9 +1,11 @@
 ---
-description: Automatically ping members when time is running out for Clan Wars, Capital Raids, or Clan Games.
+description: >-
+  Ping Clash of Clans members on Discord who still have war attacks, raid
+  attacks or Clan Games points left before time runs out.
 icon: bell
 ---
 
-# Reminders
+# War, Raid and Clan Games Reminders
 
 Reminders automatically notify members in a Discord channel when there is limited time left in an event. You can set up multiple reminders per event type, each at a different time threshold.
 
