@@ -1,9 +1,11 @@
 ---
-description: Customize the identity of your bot on your Discord server.
+description: >-
+  Give ClashPerk your own name and avatar on your Discord server, or run it as
+  your own custom bot with its own token.
 icon: user-robot-xmarks
 ---
 
-# Bot Personalizer
+# Custom Bot Name and Avatar
 
 Give your bot a unique identity that matches your server's theme. You can either go for a **simple setup** (just change the avatar and nickname — no technical steps required) or a **full custom bot setup** using your own Discord bot token.
 

@@ -1,27 +1,27 @@
 # Table of contents
 
-* [Welcome!](README.md)
-* [FAQ](faq.md)
+* [ClashPerk Bot Guide for Clash of Clans](README.md)
+* [ClashPerk FAQ](faq.md)
 
 ## Overview
 
-* [Getting set up](overview/getting-set-up.md)
-* [Link account](overview/link-account.md)
+* [How to Set Up ClashPerk on Discord](overview/getting-set-up.md)
+* [Link and Verify Clash of Clans Accounts](overview/link-account.md)
 
 ## Features
 
-* [Rosters](features/rosters/README.md)
+* [CWL and War Rosters](features/rosters/README.md)
   * [Create, Edit, Delete and Clone Rosters](features/rosters/create-edit-delete-and-clone-rosters.md)
   * [Button](features/rosters/button.md)
   * [Roster Ping](features/rosters/roster-ping.md)
   * [List Rosters and Groups](features/rosters/list-rosters-and-groups.md)
   * [Managing Groups](features/rosters/managing-groups.md)
   * [Exporting Rosters](features/rosters/exporting-rosters.md)
-* [Bot Personalizer](features/bot-personalizer.md)
+* [Custom Bot Name and Avatar](features/bot-personalizer.md)
 * [Flags (Ban/Strike)](features/flags-ban-strike.md)
-* [Auto Role](features/auto-role.md)
-* [Logs](features/logs.md)
-* [Reminders](features/reminders.md)
+* [Auto Roles for Clan Role, Town Hall and League](features/auto-role.md)
+* [Clan, War and Capital Logs](features/logs.md)
+* [War, Raid and Clan Games Reminders](features/reminders.md)
 * [Nickname](features/nickname.md)
 * [Discord Events](features/discord-events.md)
 * [Clan Categories](features/clan-categories.md)
@@ -31,7 +31,7 @@
 
 ## Others
 
-* [Bot Manager](others/bot-manager.md)
+* [Bot Manager Role](others/bot-manager.md)
 * [Whitelist](others/whitelist.md)
 * [Autocomplete](others/autocomplete.md)
 * [Commands](others/commands/README.md)
