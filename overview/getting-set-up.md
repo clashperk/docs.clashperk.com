@@ -7,7 +7,7 @@ icon: lightbulb
 
 # How to Set Up ClashPerk on Discord
 
-Add ClashPerk to your server from [clashperk.com](https://clashperk.com), then run <mark style="color:blue;">**/setup clan**</mark> with your clan tag. That's all ClashPerk needs to start tracking your clan. A default clan per channel, a clan embed and logs are optional.
+Add [ClashPerk, the Clash of Clans bot for Discord](https://clashperk.com) to your server, then run <mark style="color:blue;">**/setup clan**</mark> with your clan tag. That's all ClashPerk needs to start tracking your clan. A default clan per channel, a clan embed and logs are optional.
 
 ## 1. Invite the bot to your server
 

@@ -27,7 +27,7 @@ This will generate an Embed which can be posted using:
 
 <mark style="color:blue;">**/roster post**</mark> <mark style="color:purple;">**roster:**</mark> `CWL`
 
-<figure><img src="../../.gitbook/assets/Roster Embed" alt=""><figcaption><p>Roster Embed</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Roster Embed" alt="A CWL roster posted in Discord with its confirmed players and Signup and Opt-out buttons"><figcaption><p>Roster Embed</p></figcaption></figure>
 
 When you decide to close the sign-up period, it is preferred to hide the buttons via the :gear:[button.md](button.md "mention").&#x20;
 
