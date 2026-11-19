@@ -1,15 +1,15 @@
 ---
-description: Shows home village and builder base units of a player (with max/min levels)
+description: "Shows home village and builder base units of a player (with max/min levels) Options for /units in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# units
+# /units
 
 Shows home village and builder base units of a player (with max/min levels)
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `player` | Player tag or name. |
-| `user` | Player by @user mention or ID. |
+| Name | Type | Description |
+|------|------|-------------|
+| `player` | Text | Player tag or name. |
+| `user` | User | Player by @user mention or ID. |
 

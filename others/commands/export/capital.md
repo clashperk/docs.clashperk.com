@@ -1,14 +1,28 @@
 ---
-description: Export clan capital weekends.
+description: "Export clan capital weekends. Options for /export capital in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# export capital
+# /export capital
 
 Export clan capital weekends.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `clans` | Clan tags or aliases to filter clans. |
+| Name | Type | Description |
+|------|------|-------------|
+| `clans` | Text | Clan tags or aliases to filter clans. |
+
+## Related commands
+
+* [/export attack-log](attack-log.md): Export war attack history.
+* [/export capital-raids](capital-raids.md): Export capital raid attack stats.
+* [/export clans](clans.md): Export all linked clans.
+* [/export cwl](cwl.md): Export CWL stats to Excel.
+* [/export last-wars](last-wars.md): Export participation history (last played wars)
+* [/export members](members.md): Export a comprehensive version of clan member stats.
+* [/export missed](missed.md): Export missed attack history.
+* [/export rosters](rosters.md): Export all rosters.
+* [/export season](season.md): Export comprehensive seasonal stats of clan members.
+* [/export users](users.md): Export Discord members.
+* [/export wars](wars.md): Export War stats to Excel.
 

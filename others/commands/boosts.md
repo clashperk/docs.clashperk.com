@@ -1,14 +1,14 @@
 ---
-description: Displays active super troops of clan members.
+description: "Displays active super troops of clan members. Options for /boosts in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# boosts
+# /boosts
 
 Displays active super troops of clan members.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `clan` | Clan tag or name or alias. |
+| Name | Type | Description |
+|------|------|-------------|
+| `clan` | Text | Clan tag or name or alias. |
 

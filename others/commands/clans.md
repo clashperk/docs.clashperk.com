@@ -1,14 +1,14 @@
 ---
-description: Show all linked clans.
+description: "Show all linked clans. Options for /clans in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# clans
+# /clans
 
 Show all linked clans.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `category` | Filter clans by category. |
+| Name | Type | Description |
+|------|------|-------------|
+| `category` | Text | Filter clans by category. |
 

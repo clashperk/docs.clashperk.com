@@ -14,7 +14,13 @@ The `index.js` script auto-generates all documentation under `others/commands/` 
 node index.js
 ```
 
-This fetches `commands_export.json` from `https://raw.githubusercontent.com/clashperk/clashperk/refs/heads/main/scripts/assets/commands_export.json`, writes one Markdown file per command, creates a `README.md` for any new command group, and regenerates `others/commands/SUMMARY.md`. **Do not manually edit files in `others/commands/`** — they will be overwritten on the next run.
+This fetches `commands_export.json` from the bot repo (`clashperk/clashperk-bot`, `main`) and writes:
+
+- one page per command: description, a guide hint, options with types, and related commands in the same group
+- each group's `README.md` (intro from `GROUPS`, kept `layout` frontmatter) and the commands hub `others/commands/README.md`
+- the commands block of the root `SUMMARY.md`
+
+`SKIP` lists commands that get no page (owner-only or replaced). `GUIDES` maps a command or group to its feature guide, and the guide's title comes from its `SUMMARY.md` label. When you add a command group, add its intro to `GROUPS`. **Do not manually edit files in `others/commands/`**: they are overwritten on the next run.
 
 ## Content Structure
 

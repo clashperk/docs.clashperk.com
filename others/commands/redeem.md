@@ -1,14 +1,14 @@
 ---
-description: Redeem or manage a Patreon subscription. (if you wish to support us)
+description: "Redeem or manage a Patreon subscription. (if you wish to support us) Options for /redeem in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# redeem
+# /redeem
 
 Redeem or manage a Patreon subscription. (if you wish to support us)
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `disable` | Disable subscription for a server (if subscribed) |
+| Name | Type | Description |
+|------|------|-------------|
+| `disable` | Text | Disable subscription for a server (if subscribed) |
 

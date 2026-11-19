@@ -1,15 +1,33 @@
 ---
-description: Set automatic war roles.
+description: "Set automatic war roles. Options for /autorole wars in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# autorole wars
+# /autorole wars
 
 Set automatic war roles.
 
+{% hint style="info" %}
+For setup steps and examples, read [Auto Roles for Clan Role, Town Hall and League](../../../features/auto-role.md).
+{% endhint %}
+
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `role` | The war role. |
-| `clan` | The clan for which to set the war role. |
+| Name | Type | Description |
+|------|------|-------------|
+| `role` | Role | The war role. |
+| `clan` | Text | The clan for which to set the war role. |
+
+## Related commands
+
+* [/autorole builder-hall](builder-hall.md): Manage automatic Builder Hall roles.
+* [/autorole builder-leagues](builder-leagues.md): Set builder base league roles.
+* [/autorole clan-roles](clan-roles.md): Manage automatic role management for clan roles.
+* [/autorole config](config.md): Manage automatic roles settings.
+* [/autorole disable](disable.md): Disable automatic clan roles.
+* [/autorole eos-push](eos-push.md): Set end of season push roles.
+* [/autorole family](family.md): Set family roles.
+* [/autorole leagues](leagues.md): Manage automatic role management for leagues.
+* [/autorole list](list.md): List all auto roles and settings.
+* [/autorole refresh](refresh.md): Refresh roles manually.
+* [/autorole town-hall](town-hall.md): Manage automatic role management for town hall levels.
 

@@ -1,17 +1,23 @@
 ---
-description: Shows legend leaderboard.
+description: "Shows legend leaderboard. Options for /legend leaderboard in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# legend leaderboard
+# /legend leaderboard
 
 Shows legend leaderboard.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `clans` | Clan tags or aliases to filter clans. |
-| `limit` | Limit the number of results. |
-| `season` | Retrieve data for the specified season.<details><summary>View Options</summary>`2 Nov – 30 Nov 2026`, `5 Oct – 2 Nov 2026`, `7 Sep – 5 Oct 2026`, `10 Aug – 7 Sep 2026`, `13 Jul – 10 Aug 2026`, `15 Jun – 13 Jul 2026`, `18 May – 15 Jun 2026`, `20 Apr – 18 May 2026`, `23 Mar – 20 Apr 2026`, `23 Feb – 23 Mar 2026`, `26 Jan – 23 Feb 2026`, `29 Dec 2025 – 26 Jan 2026`, `1 Dec – 29 Dec 2025`, `3 Nov – 1 Dec 2025`, `6 Oct – 3 Nov 2025`, `25 Aug – 6 Oct 2025`, `28 Jul – 25 Aug 2025`, `30 Jun – 28 Jul 2025`</details> |
-| `enable_auto_updating` | Enable auto updating (every 30-60 mins)<details><summary>View Options</summary>`Legend Trophies`, `Builder Trophies`</details> |
+| Name | Type | Description |
+|------|------|-------------|
+| `clans` | Text | Clan tags or aliases to filter clans. |
+| `limit` | Number | Limit the number of results. |
+| `season` | Text | Retrieve data for the specified season.<details><summary>View Options</summary>`2 Nov – 30 Nov 2026`, `5 Oct – 2 Nov 2026`, `7 Sep – 5 Oct 2026`, `10 Aug – 7 Sep 2026`, `13 Jul – 10 Aug 2026`, `15 Jun – 13 Jul 2026`, `18 May – 15 Jun 2026`, `20 Apr – 18 May 2026`, `23 Mar – 20 Apr 2026`, `23 Feb – 23 Mar 2026`, `26 Jan – 23 Feb 2026`, `29 Dec 2025 – 26 Jan 2026`, `1 Dec – 29 Dec 2025`, `3 Nov – 1 Dec 2025`, `6 Oct – 3 Nov 2025`, `25 Aug – 6 Oct 2025`, `28 Jul – 25 Aug 2025`, `30 Jun – 28 Jul 2025`</details> |
+| `enable_auto_updating` | Text | Enable auto updating (every 30-60 mins)<details><summary>View Options</summary>`Legend Trophies`, `Builder Trophies`</details> |
+
+## Related commands
+
+* [/legend attacks](attacks.md): Shows per-day legend attacks for a clan.
+* [/legend days](days.md): Shows per-day legend attacks for a player.
+* [/legend stats](stats.md): Shows statistics of legend ranks and trophies.
 
