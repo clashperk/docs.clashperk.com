@@ -1,15 +1,15 @@
 ---
-description: Remaining upgrades of a player with upgrading cost.
+description: "Remaining upgrades of a player with upgrading cost. Options for /upgrades in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# upgrades
+# /upgrades
 
 Remaining upgrades of a player with upgrading cost.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `player` | Player tag or name. |
-| `user` | Player by @user mention or ID. |
+| Name | Type | Description |
+|------|------|-------------|
+| `player` | Text | Player tag or name. |
+| `user` | User | Player by @user mention or ID. |
 
