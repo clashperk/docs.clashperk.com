@@ -1,36 +1,37 @@
 # Table of contents
 
-* [Welcome!](README.md)
-* [FAQ](faq.md)
+* [ClashPerk Bot Guide for Clash of Clans](README.md)
+* [ClashPerk FAQ](faq.md)
 
 ## Overview
 
-* [Getting set up](overview/getting-set-up.md)
-* [Link account](overview/link-account.md)
+* [How to Set Up ClashPerk on Discord](overview/getting-set-up.md)
+* [Link and Verify Clash of Clans Accounts](overview/link-account.md)
 
 ## Features
 
-* [Rosters](features/rosters/README.md)
+* [CWL and War Rosters](features/rosters/README.md)
   * [Create, Edit, Delete and Clone Rosters](features/rosters/create-edit-delete-and-clone-rosters.md)
   * [Button](features/rosters/button.md)
   * [Roster Ping](features/rosters/roster-ping.md)
   * [List Rosters and Groups](features/rosters/list-rosters-and-groups.md)
   * [Managing Groups](features/rosters/managing-groups.md)
   * [Exporting Rosters](features/rosters/exporting-rosters.md)
-* [Bot Personalizer](features/bot-personalizer.md)
+* [Custom Bot Name and Avatar](features/bot-personalizer.md)
 * [Flags (Ban/Strike)](features/flags-ban-strike.md)
-* [Auto Role](features/auto-role.md)
-* [Logs](features/logs.md)
-* [Reminders](features/reminders.md)
+* [Auto Roles for Clan Role, Town Hall and League](features/auto-role.md)
+* [Clan, War and Capital Logs](features/logs.md)
+* [War, Raid and Clan Games Reminders](features/reminders.md)
 * [Nickname](features/nickname.md)
 * [Discord Events](features/discord-events.md)
 * [Clan Categories](features/clan-categories.md)
 * [Clan Alias](features/clan-alias.md)
+* [Giveaways](features/giveaways.md)
 * [Ticket System](features/tickets.md)
 
 ## Others
 
-* [Bot Manager](others/bot-manager.md)
+* [Bot Manager Role](others/bot-manager.md)
 * [Whitelist](others/whitelist.md)
 * [Autocomplete](others/autocomplete.md)
 * [Commands](others/commands/README.md)
@@ -82,7 +83,6 @@
     * [/cwl stats](others/commands/cwl/stats.md)
   * [/debug](others/commands/debug.md)
   * [/donations](others/commands/donations.md)
-  * [/eval](others/commands/eval.md)
   * [/events](others/commands/events.md)
   * [/export](others/commands/export/README.md)
     * [/export attack-log](others/commands/export/attack-log.md)
@@ -101,6 +101,12 @@
     * [/flag create](others/commands/flag/create.md)
     * [/flag delete](others/commands/flag/delete.md)
     * [/flag list](others/commands/flag/list.md)
+  * [/giveaway](others/commands/giveaway/README.md)
+    * [/giveaway cancel](others/commands/giveaway/cancel.md)
+    * [/giveaway create](others/commands/giveaway/create.md)
+    * [/giveaway end](others/commands/giveaway/end.md)
+    * [/giveaway list](others/commands/giveaway/list.md)
+    * [/giveaway reroll](others/commands/giveaway/reroll.md)
   * [/help](others/commands/help.md)
   * [/history](others/commands/history.md)
   * [/invite](others/commands/invite.md)
@@ -155,8 +161,6 @@
     * [/setup clan](others/commands/setup/clan.md)
     * [/setup clan-embed](others/commands/setup/clan-embed.md)
     * [/setup clan-logs](others/commands/setup/clan-logs.md)
-    * [/setup disable](others/commands/setup/disable.md)
-    * [/setup enable](others/commands/setup/enable.md)
     * [/setup events](others/commands/setup/events.md)
     * [/setup list](others/commands/setup/list.md)
     * [/setup server-logs](others/commands/setup/server-logs.md)
@@ -193,7 +197,6 @@
   * [/timezone](others/commands/timezone.md)
   * [/units](others/commands/units.md)
   * [/upgrades](others/commands/upgrades.md)
-  * [/usage](others/commands/usage.md)
   * [/verify](others/commands/verify.md)
   * [/war](others/commands/war.md)
   * [/warlog](others/commands/warlog.md)
@@ -201,7 +204,7 @@
 
 ## Links
 
-* [Website](https://clashperk.com)
+* [ClashPerk Bot Website](https://clashperk.com)
 * [Dashboard](https://app.clashperk.com)
 * [Clash of Clans Wiki](https://wiki.clashperk.com)
 * [Support Discord](https://discord.gg/ppuppun)

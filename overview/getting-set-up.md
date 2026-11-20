@@ -1,77 +1,59 @@
 ---
-description: Get started with the ClashPerk bot.
+description: >-
+  Add ClashPerk to your Discord server, link your Clash of Clans clan with
+  /setup clan, then turn on war, clan and capital logs for it.
 icon: lightbulb
 ---
 
-# Getting set up
+# How to Set Up ClashPerk on Discord
 
-#### Invite the bot to your server (do this first)
+Add [ClashPerk, the Clash of Clans bot for Discord](https://clashperk.com) to your server, then run <mark style="color:blue;">**/setup clan**</mark> with your clan tag. That's all ClashPerk needs to start tracking your clan. A default clan per channel, a clan embed and logs are optional.
 
-<details>
+## 1. Invite the bot to your server
 
-<summary>Add ClashPerk</summary>
-
-Before you can run any command, ClashPerk needs to be in your server. Head to [clashperk.com](https://clashperk.com) and use the **Add to Discord / Invite** link, then pick your server and approve the requested permissions.
+Before you can run any command, ClashPerk needs to be in your server. Head to [clashperk.com](https://clashperk.com) and use **Add to Discord**, then pick your server and approve the requested permissions. You need the Manage Server permission in that server.
 
 {% hint style="info" %}
-Already have ClashPerk in another server? You can also run <mark style="color:blue;">**/invite**</mark> from any server where the bot is present to get the invite link.
+Already have ClashPerk in another server? Run <mark style="color:blue;">**/invite**</mark> from any server where the bot is present to get the invite link.
 {% endhint %}
 
-</details>
+## 2. Link a clan to your server (required)
 
-#### Link a clan to your Discord Server (required)
-
-<details>
-
-<summary>Link to Server</summary>
-
-The following command allows you to quickly add your clan to the server, enabling the bot to track it.
+This adds your clan to the server, so the bot starts tracking it.
 
 <mark style="color:blue;">**/setup clan**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
 
-</details>
+{% hint style="info" %}
+If the bot asks you to verify, the clan is already linked in many other servers or your server has reached its clan limit. Verify a leader or co-leader account with <mark style="color:blue;">**/verify**</mark> (see [Link account](link-account.md)), then run the command again. [Clan verification](../faq.md#what-is-clan-verification) explains when it's needed.
+{% endhint %}
 
-#### Set a default clan for a channel (optional)
+## 3. Set a default clan for a channel (optional)
 
-<details>
+Link a clan to a channel, one clan per channel. Commands run in that channel then use the clan without you entering or picking its tag. Repeat it to link the clan in more channels.
 
-<summary>Link to Channel</summary>
+<mark style="color:blue;">**/setup clan**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**clan\_channel:**</mark> `#general`
 
-Allows you to link a clan to a channel. (one clan per channel)
+## 4. Create a clan embed (optional)
 
-<mark style="color:blue;">**/setup clan**</mark>**&#x20;**<mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**clan\_channel:**</mark> `#general`
-
-* [x] This link enables you to run commands without entering or selecting a clan tag.
-* [x] You can repeat the process to link the clan in multiple channels.
-
-</details>
-
-#### Create a Clan Embed (optional)
-
-<details>
-
-<summary>Clan Embed</summary>
-
-Clan embed is for showcasing your clans in a public channel.
+A clan embed showcases your clan in a public channel.
 
 <mark style="color:blue;">**/setup clan-embed**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
 
-</details>
+## 5. Turn on logs (optional)
 
-#### Enable Logs (optional)
-
-**Initiate Setup**
-
-If you don't select a channel, it defaults to the current channel.
+If you don't pick a channel, logs go to the current channel.
 
 <mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG` <mark style="color:purple;">**action:**</mark> `Enable` <mark style="color:purple;">**channel:**</mark> `#channel`
 
-Pick the logs you want from the menu that appears — clan, capital, war, and player logs are all available.
+Pick the logs you want from the menu that appears. Clan, capital, war and player logs are all available. For every log and what it posts, see [Clan, War and Capital Logs](../features/logs.md).
 
-{% hint style="info" %}
-For every log and what it posts, see [logs.md](../features/logs.md "mention")
-{% endhint %}
+To turn a log off:
 
-**Disable a Log**
+<mark style="color:blue;">**/setup clan-logs**</mark> <mark style="color:purple;">**action:**</mark> `Disable` <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
 
-<mark style="color:blue;">**/setup clan-logs**</mark>**&#x20;**<mark style="color:purple;">**action:**</mark> `Disable` <mark style="color:purple;">**clan:**</mark> `#CLAN_TAG`
+## Next steps
+
+* [Link your Clash of Clans account](link-account.md) so commands know who you are.
+* [Auto Roles](../features/auto-role.md) give members Discord roles from their clan role, Town Hall and league.
+* [Reminders](../features/reminders.md) ping members who still have attacks left.
+* [CWL and War Rosters](../features/rosters/README.md) run signups with a button.

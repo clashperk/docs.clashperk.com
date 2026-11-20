@@ -1,11 +1,11 @@
 ---
 icon: robot
 description: >-
-  Let trusted members run ClashPerk's admin commands without giving them
-  Manage Server permission on Discord.
+  Give clan leaders the Bot Manager role so they can run ClashPerk admin
+  commands like logs, rosters and auto roles without Manage Server permission.
 ---
 
-# Bot Manager
+# Bot Manager Role
 
 Most ClashPerk setup commands — clan logs, auto-roles, reminders, linking players for other people — need the **Manage Server** permission on Discord. That permission also lets someone change your whole server, so you may not want to hand it to every clan leader or co-leader.
 

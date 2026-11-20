@@ -67,7 +67,7 @@ Opens a link to manage this roster from the ClashPerk web dashboard.
 
 Add a user or player to the roster.
 
-<img src="../../.gitbook/assets/Add User" alt="" data-size="original">
+<img src="../../.gitbook/assets/Add User" alt="The roster Add User menu for picking a player or user to add" data-size="original">
 
 * You can select an account to add all connected accounts or select which accounts to add
 * <mark style="color:purple;">Bulk Add</mark> takes in any form of in-game IDs to bulk add those accounts to the roster
@@ -83,7 +83,7 @@ To apply the changes press <mark style="color:blue;">Confirm</mark>
 
 Remove a user or players from the roster.
 
-<img src="../../.gitbook/assets/Remove User" alt="" data-size="original">
+<img src="../../.gitbook/assets/Remove User" alt="The roster Remove User menu for picking players to remove" data-size="original">
 
 Works similarly to Add User.
 
@@ -95,7 +95,7 @@ Works similarly to Add User.
 
 Move a user or players to another roster.
 
-<img src="../../.gitbook/assets/Change Roster" alt="" data-size="original">
+<img src="../../.gitbook/assets/Change Roster" alt="The roster Change Roster menu for moving players to another roster" data-size="original">
 
 </details>
 

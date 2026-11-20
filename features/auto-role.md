@@ -1,11 +1,13 @@
 ---
 icon: diagram-nested
 description: >-
-  Automatically add Roles in Discord based on the in-game Roles, Leagues, Town
-  Halls, etc.
+  Give Discord roles automatically from each member's Clash of Clans clan role,
+  Town Hall, Builder Hall and league. ClashPerk keeps them up to date.
 ---
 
-# Auto Role
+# Auto Roles for Clan Role, Town Hall and League
+
+ClashPerk auto roles give members Discord roles from their linked Clash of Clans accounts: their clan role, Town Hall, Builder Hall, league and more. Roles update on their own as members get promoted, upgrade or leave. Members need [linked accounts](../overview/link-account.md) for auto roles to find them.
 
 ### Clan Roles
 
@@ -17,9 +19,11 @@ Roles will be given based on the in-game clan role. `/autorole clan-roles` is a 
 
 ### Town Hall Roles
 
-Roles will be given based on Town Hall levels.
+Roles will be given based on Town Hall levels. There's one option per level, from `th_1` to `th_19`. Set only the levels you want.
 
-<mark style="color:blue;">**/autorole town-hall**</mark> `[TH8_ROLE]` `[TH10_ROLE]` `[MORE...]`
+<mark style="color:blue;">**/autorole town-hall**</mark> <mark style="color:purple;">**th\_17:**</mark> `@TH17` <mark style="color:purple;">**th\_18:**</mark> `@TH18` <mark style="color:purple;">**th\_19:**</mark> `@TH19` <mark style="color:purple;">**allow\_non\_family\_accounts:**</mark> `True/False`
+
+Set <mark style="color:purple;">**allow\_non\_family\_accounts**</mark> to `True` to also give roles for linked accounts that aren't in your clans.
 
 ***
 
@@ -27,7 +31,7 @@ Roles will be given based on Town Hall levels.
 
 Roles will be given based on Builder Hall levels (BH1–BH10).
 
-<mark style="color:blue;">**/autorole builder-hall**</mark> `[BH5_ROLE]` `[BH8_ROLE]` `[MORE...]`
+<mark style="color:blue;">**/autorole builder-hall**</mark> <mark style="color:purple;">**bh\_9:**</mark> `@BH9` <mark style="color:purple;">**bh\_10:**</mark> `@BH10`
 
 ***
 

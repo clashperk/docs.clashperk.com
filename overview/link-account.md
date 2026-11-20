@@ -1,13 +1,21 @@
 ---
-description: Link and verify accounts!
+description: >-
+  Link up to 25 Clash of Clans accounts to Discord with /link create. Verify one
+  with /verify and the API token from the game's settings.
 icon: link
 ---
 
-# Link account
+# Link and Verify Clash of Clans Accounts
 
-## Link yourself!
+Link your Clash of Clans accounts to your Discord user with <mark style="color:blue;">**/link create**</mark> and your player tag. ClashPerk commands then use your accounts without you entering a tag each time, and auto roles can find you. Verify an account with <mark style="color:blue;">**/verify**</mark> to prove it's yours.
 
-Why bother entering your clan/player tag again and again? Link your accounts and use commands without entering the clan/player tag.
+## What does a player tag look like?
+
+A Clash of Clans player tag starts with `#` and uses only these characters: `0 2 8 9 P Y L Q G R J C U V`. There's no letter O: it's always the number zero. Find your tag under your name on your profile in the game. The `#` is optional in commands, and an O you type is read as a zero.
+
+Clan tags use the same characters.
+
+## Link yourself
 
 {% tabs %}
 {% tab title="LINK PLAYER" %}

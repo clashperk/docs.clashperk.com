@@ -1,9 +1,11 @@
 ---
-description: Customize the identity of your bot on your Discord server.
+description: >-
+  Give ClashPerk your own name and avatar on your Discord server, or run it as
+  your own custom bot with its own token.
 icon: user-robot-xmarks
 ---
 
-# Bot Personalizer
+# Custom Bot Name and Avatar
 
 Give your bot a unique identity that matches your server's theme. You can either go for a **simple setup** (just change the avatar and nickname — no technical steps required) or a **full custom bot setup** using your own Discord bot token.
 
@@ -42,67 +44,67 @@ For a completely branded experience — your own bot name, avatar, and presence 
 
 Run `/bot-personalizer` in your Discord server and click the **Developer Portal** button to open the Discord Developer Portal in your browser.
 
-<figure><img src="../.gitbook/assets/Step 1.png" alt=""><figcaption><p>Step 1 — Run /bot-personalizer and click Developer Portal</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 1.png" alt="The ClashPerk bot-personalizer message in Discord with a Developer Portal button"><figcaption><p>Step 1 — Run /bot-personalizer and click Developer Portal</p></figcaption></figure>
 
 **Step 2 — Create a new application**
 
 On the Discord Developer Portal Applications page, click **New Application** in the top-right corner.
 
-<figure><img src="../.gitbook/assets/Step 2.png" alt=""><figcaption><p>Step 2 — Click New Application</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 2.png" alt="Discord Developer Portal Applications page with the New Application button"><figcaption><p>Step 2 — Click New Application</p></figcaption></figure>
 
 **Step 3 — Name your bot**
 
 Enter a name for your bot (you can change it later), tick the **Terms of Service** checkbox, then click **Create**.
 
-<figure><img src="../.gitbook/assets/Step 3.png" alt=""><figcaption><p>Step 3 — Enter a name, accept ToS, and click Create</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 3.png" alt="Create an application dialog with a name field and the Terms of Service checkbox"><figcaption><p>Step 3 — Enter a name, accept ToS, and click Create</p></figcaption></figure>
 
 **Step 4 — Your application is created**
 
 Your application is now created. You can optionally set an avatar image here. Make note of your **Application ID** — you may need it later.
 
-<figure><img src="../.gitbook/assets/Step 4.png" alt=""><figcaption><p>Step 4 — Application created (optionally set an avatar)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 4.png" alt="A new application's General Information page showing the Application ID and avatar"><figcaption><p>Step 4 — Application created (optionally set an avatar)</p></figcaption></figure>
 
 **Step 5 — Navigate to OAuth2**
 
 After setting your avatar (if desired), click **Save Changes**, then navigate to the **OAuth2** section in the left sidebar.
 
-<figure><img src="../.gitbook/assets/Step 5.png" alt=""><figcaption><p>Step 5 — Navigate to the OAuth2 section</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 5.png" alt="Developer Portal sidebar with the OAuth2 section"><figcaption><p>Step 5 — Navigate to the OAuth2 section</p></figcaption></figure>
 
 **Step 6 — Open the URL Generator**
 
 Under OAuth2, click **URL Generator** in the left sidebar.
 
-<figure><img src="../.gitbook/assets/Step 6.png" alt=""><figcaption><p>Step 6 — Open OAuth2 → URL Generator</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 6.png" alt="OAuth2 section with URL Generator selected in the sidebar"><figcaption><p>Step 6 — Open OAuth2 → URL Generator</p></figcaption></figure>
 
 **Step 7 — Generate an invite URL**
 
 Under **Scopes**, select **bot**. Under **Bot Permissions**, select **Administrator**. Copy the generated URL at the bottom of the page.
 
-<figure><img src="../.gitbook/assets/Step 7.png" alt=""><figcaption><p>Step 7 — Select bot scope + Administrator permission, copy the URL</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 7.png" alt="OAuth2 URL Generator with the bot scope and Administrator permission selected, and the generated URL"><figcaption><p>Step 7 — Select bot scope + Administrator permission, copy the URL</p></figcaption></figure>
 
 **Step 8 — Open the invite URL**
 
 Open a **new browser tab** and paste the copied URL into the address bar.
 
-<figure><img src="../.gitbook/assets/Step 8.png" alt=""><figcaption><p>Step 8 — Open a new tab and paste the URL</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 8.png" alt="A new browser tab with the invite URL pasted in the address bar"><figcaption><p>Step 8 — Open a new tab and paste the URL</p></figcaption></figure>
 
 **Step 9 — Add the bot to your server**
 
 Select your Discord server from the dropdown, click **Continue**, then **Authorize**. Once done, close this tab and return to the Developer Portal.
 
-<figure><img src="../.gitbook/assets/Step 9.png" alt=""><figcaption><p>Step 9 — Select your server, authorize, then close the tab</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 9.png" alt="Discord's add-to-server screen with a server selected and the Authorize button"><figcaption><p>Step 9 — Select your server, authorize, then close the tab</p></figcaption></figure>
 
 **Step 10 — Navigate to the Bot tab and reset the token**
 
 In the Developer Portal, go to the **Bot** section in the left sidebar and click **Reset Token**. Confirm when prompted.
 
-<figure><img src="../.gitbook/assets/Step 10.png" alt=""><figcaption><p>Step 10 — Go to Bot tab and click Reset Token</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 10.png" alt="The Bot page in the Developer Portal with the Reset Token button"><figcaption><p>Step 10 — Go to Bot tab and click Reset Token</p></figcaption></figure>
 
 **Step 11 — Copy the bot token**
 
 A token will be displayed — **copy it immediately**, as it will not be shown again. Scroll down to configure additional bot settings.
 
-<figure><img src="../.gitbook/assets/Step 11.png" alt=""><figcaption><p>Step 11 — Copy the token (it won't be shown again)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 11.png" alt="The Bot page showing the new token with Copy and Reset Token buttons"><figcaption><p>Step 11 — Copy the token (it won't be shown again)</p></figcaption></figure>
 
 **Step 12 — Configure bot settings**
 
@@ -113,30 +115,30 @@ Scroll down on the Bot page and do the following:
 
 Click **Save Changes**.
 
-<figure><img src="../.gitbook/assets/Step 12.png" alt=""><figcaption><p>Step 12 — Disable Public Bot and enable all three intents</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 12.png" alt="Bot page settings with Public Bot turned off and all three privileged intents turned on"><figcaption><p>Step 12 — Disable Public Bot and enable all three intents</p></figcaption></figure>
 
 **Step 13 — Configure Installation settings**
 
 Navigate to the **Installation** section in the left sidebar. Make sure both **User Install** and **Guild Install** are checked under Installation Contexts, and set the **Install Link** to **None**.
 
-<figure><img src="../.gitbook/assets/Step 13.png" alt=""><figcaption><p>Step 13 — Enable both installation contexts and set Install Link to None</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 13.png" alt="Installation page with User Install and Guild Install checked and Install Link set to None"><figcaption><p>Step 13 — Enable both installation contexts and set Install Link to None</p></figcaption></figure>
 
 **Step 14 — Return to Discord and click Let's start!**
 
 Go back to your Discord server where you ran `/bot-personalizer` and click the **Let's start!** button in the ClashPerk message.
 
-<figure><img src="../.gitbook/assets/Step 14.png" alt=""><figcaption><p>Step 14 — Click Let's start! in your Discord server</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 14.png" alt="The ClashPerk message in Discord with the Let's start! button"><figcaption><p>Step 14 — Click Let's start! in your Discord server</p></figcaption></figure>
 
 **Step 15 — Submit your bot token**
 
 A **Bot Personalizer** modal will appear. Paste the token you copied in Step 11 into the **Bot Token** field and click **Submit**.
 
-<figure><img src="../.gitbook/assets/Step 15.png" alt=""><figcaption><p>Step 15 — Paste the bot token and click Submit</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 15.png" alt="The Bot Personalizer form with the Bot Token field and Submit button"><figcaption><p>Step 15 — Paste the bot token and click Submit</p></figcaption></figure>
 
 **Step 16 — Your bot is live!**
 
 ClashPerk will set up your custom bot within a few minutes. Once deployed, your bot will appear online in your server with its own name and avatar.
 
-<figure><img src="../.gitbook/assets/Step 16.png" alt=""><figcaption><p>Step 16 — Your custom bot is now online</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 16.png" alt="ClashPerk confirming the custom bot is set up and deployed, with the new bot online in the member list"><figcaption><p>Step 16 — Your custom bot is now online</p></figcaption></figure>
 
 Finally, invite your custom bot to our emoji servers so it can display game icons properly. Join our [support server](https://discord.gg/ppuppun) to get the invite links to the emoji servers.

@@ -260,3 +260,17 @@ When **Auto-sleep after inactivity** is configured on an application type, the b
 ## Deleted Ticket Channels
 
 If someone deletes a ticket channel in Discord instead of closing it, ClashPerk marks the ticket closed and undoes its role changes. The member can then open a new ticket of that type.
+
+***
+
+## Troubleshooting
+
+#### "Only ticket staff can do this."
+
+The Claim, Unclaim, Reply, Set Clan and Delete buttons work only for ticket staff. You count as staff if you have any of these:
+
+* the **Manage Server** permission
+* the [Bot Manager role](../others/bot-manager.md)
+* the **Manage Channels** permission in the ticket channel. Ping roles get it when the ticket opens.
+
+To let a role handle tickets, add it to the application type's **Ping roles**.

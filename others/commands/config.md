@@ -1,19 +1,19 @@
 ---
-description: Configure server settings.
+description: "Configure server settings. Options for /config in ClashPerk, the Clash of Clans bot for Discord."
 ---
 
-# config
+# /config
 
 Configure server settings.
 
 ## Options
 
-| Name | Description |
-|------|-------------|
-| `bot_manager_role` | Role that can manage the bot. |
-| `roster_manager_role` | Role that can manage the roster members. |
-| `flags_manager_role` | Role that can manage the flags. |
-| `links_manager_role` | Role that can manage the Discord links. |
-| `color_code` | Hex color code (e.g #ed4245) |
-| `webhook_limit` | The maximum number of webhooks that can be created in a channel. |
+| Name | Type | Description |
+|------|------|-------------|
+| `bot_manager_role` | Role | Role that can manage the bot. |
+| `roster_manager_role` | Role | Role that can manage the roster members. |
+| `flags_manager_role` | Role | Role that can manage the flags. |
+| `links_manager_role` | Role | Role that can manage the Discord links. |
+| `color_code` | Text | Hex color code (e.g #ed4245) |
+| `webhook_limit` | Whole number | The maximum number of webhooks that can be created in a channel. |
 

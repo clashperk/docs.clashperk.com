@@ -1,11 +1,13 @@
 ---
 icon: memo
 description: >-
-  The roster management feature provides a comprehensive solution for efficient
-  and organized management of CWL/War events.
+  Run Clash of Clans CWL and war signups in Discord with ClashPerk rosters.
+  Members sign up with a button, and duplicate signups are blocked.
 ---
 
-# Rosters
+# CWL and War Rosters
+
+ClashPerk rosters run Clash of Clans CWL and war signups inside Discord. Post a roster, members sign up with one button, and the bot blocks the same account from signing up twice. Start with [creating a roster](create-edit-delete-and-clone-rosters.md).
 
 Rosters are designed to streamline CWL/War signups and prevent duplicate registrations. It offers convenient features such as autocomplete to easily add individual players from your clan family, and the ability to add players in bulk while detecting player tags regardless of their format.
 
@@ -25,7 +27,7 @@ This will generate an Embed which can be posted using:
 
 <mark style="color:blue;">**/roster post**</mark> <mark style="color:purple;">**roster:**</mark> `CWL`
 
-<figure><img src="../../.gitbook/assets/Roster Embed" alt=""><figcaption><p>Roster Embed</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Roster Embed" alt="A CWL roster posted in Discord with its confirmed players and Signup and Opt-out buttons"><figcaption><p>Roster Embed</p></figcaption></figure>
 
 When you decide to close the sign-up period, it is preferred to hide the buttons via the :gear:[button.md](button.md "mention").&#x20;
 
