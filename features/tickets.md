@@ -151,7 +151,24 @@ Send events to specific channels for record-keeping.
 |---|---|
 | **Button click** | A member clicks the Create Ticket button |
 | **Status change** | A ticket is opened, closed, put to sleep, reopened, claimed, or unclaimed |
-| **Ticket close** | Staff close a ticket (transcript of the last 100 messages attached) |
+| **Ticket close** | Staff close a ticket (transcript attached, see [Transcripts](#transcripts)) |
+
+#### Transcripts
+
+When a ticket closes, ClashPerk posts its transcript to the **Ticket close** log channel as two files:
+
+* **HTML file:** open it in a browser to read the ticket laid out like the Discord channel.
+* **Text file:** easy to search.
+
+The transcript has every message in the ticket, then the private staff thread in its own section. Each message shows who sent it and when, replies and edits, embeds and the names and sizes of attached files. Very long tickets keep their newest 5,000 messages.
+
+Transcripts are only posted to your log channel. ClashPerk doesn't keep a copy. Attached files are listed by name, not saved, so download anything you need before closing.
+
+The ticket header tells members that a transcript is saved. To stop saving transcripts for a panel, turn off **Save transcripts** in the panel's settings on the [web dashboard](https://app.clashperk.com).
+
+{% hint style="info" %}
+Members' messages show up in transcripts once Discord approves ClashPerk's access to message content. Until then, transcripts include ClashPerk's own messages and messages that mention ClashPerk.
+{% endhint %}
 
 ***
 
@@ -230,7 +247,7 @@ Every ticket channel contains a summary card with action buttons.
 
 **View tickets** on the Tickets page of the [web dashboard](https://app.clashperk.com) lists every ticket in your server, newest first. Filter by **Open**, **Sleeping** or **Closed**. Each ticket shows who opened it, its panel and type, when it was opened, who claimed it, and links to its channel and staff thread in Discord.
 
-**Close** on an open or sleeping ticket works like the **Delete Ticket** button. ClashPerk posts a transcript to the panel's ticket close log, then deletes the channel.
+**Close** on an open or sleeping ticket works like the **Delete Ticket** button. ClashPerk posts a [transcript](#transcripts) to the panel's ticket close log, then deletes the channel.
 
 ***
 
