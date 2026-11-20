@@ -8,7 +8,7 @@ icon: party-horn
 
 # ClashPerk Bot Guide for Clash of Clans
 
-ClashPerk is a Clash of Clans bot for Discord, used in more than 40,000 servers since 2019. It tracks your clans and players through Supercell's official API and posts war and CWL logs, legend days, reminders, rosters, auto roles and clan stats inside your server.
+ClashPerk is a Clash of Clans bot for Discord. It tracks your clans and players through Supercell's official API and posts war and CWL logs, legend days, reminders, rosters, auto roles and clan stats inside your server.
 
 New here? Start with [Getting set up](overview/getting-set-up.md), then [link your account](overview/link-account.md). Every command is listed under [Commands](others/commands/README.md).
 
