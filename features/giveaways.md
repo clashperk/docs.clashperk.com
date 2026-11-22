@@ -23,7 +23,7 @@ You need the **Manage Server** permission to create and manage giveaways.
 
 ClashPerk shows you a preview that only you can see. Click **Post giveaway** to send it, or **Cancel** to throw it away.
 
-Click **Edit message** in the preview to change the message's **Title** and **Description**. The description can use Discord Markdown, up to 1000 characters. Leave a field empty to keep the default ("🎉 Giveaway · prize" and "Click the button below to enter. Good luck!"). The winners, end time, entry rules and Enter button always show.
+Click **Edit message** in the preview to change the message's **Heading** and **Description**. The description can use Discord Markdown, up to 1000 characters. Leave a field empty to keep the default ("🎉 Giveaway · prize" and "Click the button below to enter. Good luck!"). The winners, end time, entry rules and Enter button always show.
 
 | Option | Description |
 |---|---|
@@ -41,7 +41,7 @@ Open **Giveaways** on the [web dashboard](https://app.clashperk.com) and click *
 
 The dashboard also lists every giveaway on your server, with its entrants and winners, and lets you end, reroll or cancel it. A Boosted or Restricted giveaway's page lists the clans that count.
 
-To change a running giveaway, open it and click **Edit**. You can change the title, the description, the clans that count and the boost. The mode can't change. ClashPerk updates the message in Discord within a few seconds.
+To change a running giveaway, open it and click **Edit**. You can change the prize, the winners, the end time, the heading, the description, the clans that count and the boost. The mode, channel and banner can't change. ClashPerk updates the message in Discord within a few seconds.
 
 ***
 
