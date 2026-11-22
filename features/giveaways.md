@@ -23,6 +23,8 @@ You need the **Manage Server** permission to create and manage giveaways.
 
 ClashPerk shows you a preview that only you can see. Click **Post giveaway** to send it, or **Cancel** to throw it away.
 
+Click **Edit message** in the preview to change the message's **Title** and **Description**. The description can use Discord Markdown, up to 1000 characters. Leave a field empty to keep the default ("🎉 Giveaway · prize" and "Click the button below to enter. Good luck!"). The winners, end time, entry rules and Enter button always show.
+
 | Option | Description |
 |---|---|
 | **prize** | What members can win (max 256 chars) |
@@ -37,7 +39,9 @@ ClashPerk shows you a preview that only you can see. Click **Post giveaway** to 
 
 Open **Giveaways** on the [web dashboard](https://app.clashperk.com) and click **New giveaway**. The form has the same settings, with an exact end date and time. For the banner, paste a public link to an image. A live preview shows how the message will look in Discord.
 
-The dashboard also lists every giveaway on your server, with its entrants and winners, and lets you end, reroll or cancel it.
+The dashboard also lists every giveaway on your server, with its entrants and winners, and lets you end, reroll or cancel it. A Boosted or Restricted giveaway's page lists the clans that count.
+
+To change a running giveaway, open it and click **Edit**. You can change the title, the description, the clans that count and the boost. The mode can't change. ClashPerk updates the message in Discord within a few seconds.
 
 ***
 
@@ -52,6 +56,8 @@ The dashboard also lists every giveaway on your server, with its entrants and wi
 A **clan member** is someone with a Clash of Clans account linked to ClashPerk that is in one of the chosen clans. Link an account with `/link create`.
 
 For Boosted and Restricted giveaways, pick **Clans that count** in the preview. It starts as **All server clans**, which means every clan connected to the server, including clans you add later. You can pick specific clans instead.
+
+The menu in Discord lists up to 24 clans. If your server has more, ClashPerk links you to the dashboard, where you can pick from all of them.
 
 {% hint style="warning" %}
 The server needs at least one clan for Boosted and Restricted giveaways. Add one with `/setup clan`.
