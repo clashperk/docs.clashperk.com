@@ -19,9 +19,9 @@ The Ticket System lets you create **panels** — Discord messages with a button 
 
 <mark style="color:blue;">**/ticket setup**</mark> <mark style="color:purple;">**panel\_name:**</mark> `Applications`
 
-If a panel with that name doesn't exist, one is created automatically. A dashboard opens with **Edit** buttons for every section. Click **Done** when finished, or run `/ticket setup` again at any time to reopen it.
+If a panel with that name doesn't exist, one is created automatically. A setup panel opens with **Edit** buttons for every section. Click **Done** when finished, or run `/ticket setup` again at any time to reopen it.
 
-Prefer a bigger screen? **Open in dashboard** next to **Done** opens the same panel on the [web dashboard](https://app.clashperk.com) (sign in with Discord).
+Prefer a bigger screen? **Open in dashboard** next to **Done** opens the same panel on the [server dashboard](https://app.clashperk.com) (sign in with Discord).
 
 > You can have multiple panels per server — one for clan applications, one for support, etc.
 
@@ -164,7 +164,7 @@ The transcript has every message in the ticket, then the private staff thread in
 
 Transcripts are only posted to your log channel. ClashPerk doesn't keep a copy. Attached files are listed by name, not saved, so download anything you need before closing.
 
-The ticket header tells members that a transcript is saved. To stop saving transcripts for a panel, turn off **Save transcripts** in the panel's settings on the [web dashboard](https://app.clashperk.com).
+The ticket header tells members that a transcript is saved. To stop saving transcripts for a panel, turn off **Save transcripts** in the panel's settings on the [server dashboard](https://app.clashperk.com).
 
 {% hint style="info" %}
 Members' messages show up in transcripts once Discord approves ClashPerk's access to message content. Until then, transcripts include ClashPerk's own messages and messages that mention ClashPerk.
@@ -221,7 +221,7 @@ These manage panels and work in any channel:
 | Command | Description |
 |---|---|
 | <mark style="color:blue;">**/ticket info**</mark> <mark style="color:purple;">**panel\_name**</mark> | Show a panel's settings, ticket counts and setup warnings |
-| <mark style="color:blue;">**/ticket delete**</mark> <mark style="color:purple;">**panel\_name**</mark> | Delete a panel. Its past tickets stay on the dashboard |
+| <mark style="color:blue;">**/ticket delete**</mark> <mark style="color:purple;">**panel\_name**</mark> | Delete a panel. Its past tickets stay on the server dashboard |
 
 ***
 
@@ -243,9 +243,9 @@ Every ticket channel contains a summary card with action buttons.
 
 ***
 
-## Tickets on the Dashboard
+## Tickets on the Server Dashboard
 
-**View tickets** on the Tickets page of the [web dashboard](https://app.clashperk.com) lists every ticket in your server, newest first. Filter by **Open**, **Sleeping** or **Closed**. Each ticket shows who opened it, its panel and type, when it was opened, who claimed it, and links to its channel and staff thread in Discord.
+**View tickets** on the Tickets page of the [server dashboard](https://app.clashperk.com) lists every ticket in your server, newest first. Filter by **Open**, **Sleeping** or **Closed**. Each ticket shows who opened it, its panel and type, when it was opened, who claimed it, and links to its channel and staff thread in Discord.
 
 **Close** on an open or sleeping ticket works like the **Delete Ticket** button. ClashPerk posts a [transcript](#transcripts) to the panel's ticket close log, then deletes the channel.
 
