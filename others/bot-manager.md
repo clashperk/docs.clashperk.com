@@ -31,7 +31,7 @@ You need **Manage Server** or an existing Bot Manager role to run it, so only ha
 
 Run <mark style="color:blue;">**/config**</mark> on its own and press **Manage Permissions**. Pick the role type, then choose one or more roles. Clear the selection to remove them all.
 
-You can also change these from the dashboard's server settings.
+You can also change these from the server dashboard's settings.
 {% endstep %}
 {% endstepper %}
 

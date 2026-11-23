@@ -205,7 +205,7 @@
 ## Links
 
 * [ClashPerk Bot Website](https://clashperk.com)
-* [Dashboard](https://app.clashperk.com)
+* [ClashPerk App](https://app.clashperk.com)
 * [Clash of Clans Wiki](https://wiki.clashperk.com)
 * [Support Discord](https://discord.gg/ppuppun)
 * [Status Page](https://status.clashperk.com)
