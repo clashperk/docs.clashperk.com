@@ -13,7 +13,7 @@ Categories let you group clans into named sections (e.g. "Main", "Farm", "ESPORT
 
 <mark style="color:blue;">**/category create**</mark> <mark style="color:purple;">**category\_name:**</mark> `Main`
 
-New categories are added at the end of the list. Reorder them on the server dashboard (see below).
+New categories are added at the end of the list. Reorder them on the dashboard (see below).
 
 ***
 
@@ -39,4 +39,4 @@ Use `/category list` to find the category ID.
 
 ### Reorder Clans and Categories
 
-Fine-grained reordering of clans within categories is available on the server dashboard at [app.clashperk.com/clans](https://app.clashperk.com/clans).
+Fine-grained reordering of clans within categories is available on the dashboard at [app.clashperk.com/clans](https://app.clashperk.com/clans).

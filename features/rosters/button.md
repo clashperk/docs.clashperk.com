@@ -57,7 +57,7 @@ Remove action buttons from the message. The Embed will become unchangeable.
 
 <summary>Manage Roster on the Web</summary>
 
-Opens a link to manage this roster from the ClashPerk server dashboard.
+Opens a link to manage this roster from the ClashPerk web dashboard.
 
 </details>
 
