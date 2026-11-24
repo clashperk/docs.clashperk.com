@@ -28,6 +28,7 @@
 * [Clan Alias](features/clan-alias.md)
 * [Giveaways](features/giveaways.md)
 * [Ticket System](features/tickets.md)
+* [Link Parsing](features/link-parsing.md)
 
 ## Others
 
