@@ -33,15 +33,15 @@ Click **Edit message** in the preview to change the message's **Heading** and **
 | **channel** | Where to post it. Defaults to the current channel |
 | **mode** | Who can enter and how the odds work. Default **Open**. See [Modes](#modes) |
 | **boost\_factor** | For **Boosted** mode only. How many times better the odds are for clan members, 2 to 100. Default 2 |
-| **image** | A banner image shown in the giveaway |
+| **image** | A banner shown in the giveaway (PNG, JPEG, GIF or WebP). It keeps its shape, and a GIF shows as a still image |
 
 ### On the Dashboard
 
-Open **Giveaways** on the [web dashboard](https://app.clashperk.com) and click **New giveaway**. The form has the same settings, with an exact end date and time. For the banner, paste a public link to an image. A live preview shows how the message will look in Discord.
+Open **Giveaways** on the [web dashboard](https://app.clashperk.com) and click **New giveaway**. The form has the same settings, with an exact end date and time. For the banner, upload a PNG, JPEG, GIF or WebP up to 8 MB. A live preview shows how the message will look in Discord.
 
 The dashboard also lists every giveaway on your server, with its entrants and winners, and lets you end, reroll or cancel it. A Boosted or Restricted giveaway's page lists the clans that count.
 
-To change a running giveaway, open it and click **Edit**. You can change the prize, the winners, the end time, the heading, the description, the clans that count and the boost. The mode, channel and banner can't change. ClashPerk updates the message in Discord within a few seconds.
+To change a running giveaway, open it and click **Edit**. You can change the prize, the winners, the end time, the heading, the description, the banner, the clans that count and the boost. The mode and channel can't change. ClashPerk updates the message in Discord within a few seconds.
 
 ***
 
