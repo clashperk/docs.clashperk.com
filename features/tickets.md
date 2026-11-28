@@ -134,7 +134,7 @@ Templates support these variables. Any unknown variable prompts a fill-in form w
 | `{clan_tag}` | Attached clan tag |
 | `{clan_link}` | Clan profile deep link |
 | `{clan_leader}` | Leader of the attached clan |
-| `{clan_leader_mention}` | Mention of the attached clan's leader, if they linked their account |
+| `{clan_leader_mention}` | Mention of the attached clan's leader, if they linked their account to Discord |
 | `{ticket_count}` | Ticket number |
 | `{ticket_status}` | Current ticket status |
 | `{server_name}` | Discord server name |
